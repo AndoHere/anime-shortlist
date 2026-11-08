@@ -1,0 +1,112 @@
+# Catalog TODO
+
+Generated 2026-11-06 by build.py. Fill these in in catalog/data/curated/<company>.json (keyed by the title's page URL), then rebuild.
+
+## No trailer found (set "trailer": "<youtube id>" or false) (76)
+
+- [Night Head Genesis](https://www.gaga.co.jp/intls/night-head-genesis-2/) — NIGHT HEAD GENESIS
+- [Yuagari Sketch](https://www.production-ig.co.jp/works/yuagari-sketch/) — 湯あがりスケッチ
+- [Pikaia!! (Season 2)](https://www.production-ig.co.jp/works/pikaia-2nd/) — ピカイア!!（第2期）
+- [Haikyu!! Karasuno High vs. Shiratorizawa Academy](https://www.production-ig.co.jp/works/haikyu-3rd/) — ハイキュー!! 烏野高校 VS 白鳥沢学園高校
+- [Kuroko's Basketball Season 3](https://www.production-ig.co.jp/works/kurobas-3rd/) — 黒子のバスケ 第３期
+- [Pikaia!](https://www.production-ig.co.jp/works/pikaia/) — ピカイア！
+- [Haikyu!! Second Season](https://www.production-ig.co.jp/works/haikyu-2nd/) — ハイキュー!! セカンドシーズン
+- [Imadoki! Doukyuusei (animated part of the film 'Mugiko-san to')](https://www.production-ig.co.jp/works/mugiko/) — 今ドキッ！同級生（映画「麦子さんと」内アニメーション）
+- [My Sweet Umadonna 2](https://www.production-ig.co.jp/works/umadonna2/) — My sweet ウマドンナ2～ウマすぐKiss Me～
+- [Li'l Spider Girl](https://www.production-ig.co.jp/works/wasurenagumo) — わすれなぐも
+- [The New Prince of Tennis](https://www.production-ig.co.jp/works/shin-tenipuri/) — 新テニスの王子様
+- [Yondemasuyo, Azazel-san. (OVA: Lucifer arc)](https://www.production-ig.co.jp/works/azazel-annex3/) — よんでますよ、アザゼルさん。（第8巻特別限定BOX）
+- [Blood-C](https://www.production-ig.co.jp/works/blood-c/) — BLOOD-C
+- [Bunny Drop](https://www.production-ig.co.jp/works/usagi-drop/) — うさぎドロップ
+- [Moshidora](https://www.production-ig.co.jp/works/moshi-dora/) — もしドラ
+- [Tansu Warashi](https://www.production-ig.co.jp/works/tansu-warashi/) — たんすわらし。
+- [Kimi ni Todoke: From Me to You 2nd Season](https://www.production-ig.co.jp/works/kimini-todoke-second/) — 君に届け 2ND SEASON
+- [Yondemasuyo, Azazel-san. (OVA: Seiya arc)](https://www.production-ig.co.jp/works/azazel-annex2/) — よんでますよ、アザゼルさん。（第5巻特別限定BOX）
+- [xxxHOLiC Rō](https://www.production-ig.co.jp/works/xxxholic-row/) — xxxHOLiC・籠
+- [Yondemasuyo, Azazel-san. (OVA: Crying Cow)](https://www.production-ig.co.jp/works/azazel-annex/) — よんでますよ、アザゼルさん。（第4巻特別限定BOX）
+- [Shoka: The Calligraphers](https://www.production-ig.co.jp/works/shoka/) — 書家
+- [Kimi ni Todoke: From Me to You](https://www.production-ig.co.jp/works/kimini-todoke/) — 君に届け
+- [Phone Braver 7 NEXT](https://www.production-ig.co.jp/works/k-tai7-next/) — ケータイ捜査官７ NEXT（ネクスト）
+- [Tsubasa: Spring Thunder Chronicles](https://www.production-ig.co.jp/works/tsubasa-movie-shunraiki/) — ツバサ 春雷記
+- [The Beast Player Erin](https://www.production-ig.co.jp/works/erin/) — 獣の奏者エリン
+- [World Destruction](https://www.production-ig.co.jp/works/world-destruction/) — ワールド・デストラクション 〜世界撲滅の六人〜
+- [Real Drive](https://www.production-ig.co.jp/works/rd/) — RD 潜脳調査室
+- [xxxHOLiC: Kei](https://www.production-ig.co.jp/works/xxxholic-kei/) — xxxHOLiC継
+- [Ghost Hound](https://www.production-ig.co.jp/works/ghost-hound/) — 神霊狩/GHOST HOUND
+- [Yumedamaya: The Strange Tale of the Dreamball Dealer](https://www.production-ig.co.jp/works/yumedamaya/) — ゆめだまや奇談
+- [Tachikomatic Days](https://www.production-ig.co.jp/works/tachikoma/) — タチコマな日々
+- [Sisters of Wellber](https://www.production-ig.co.jp/works/sisters-of-wellber/) — ウエルベールの物語 ～Sisters of Wellber～
+- [The Prince of Tennis: National Championship](https://www.production-ig.co.jp/works/tenipuri-zenkokutaikai/) — テニスの王子様 全国大会篇
+- [The King of Fighters: Another Day](https://www.production-ig.co.jp/works/the-kof-ad/) — The King of Fighters：Another Day
+- [Ghost in the Shell: S.A.C. 2nd GIG – Individual Eleven](https://www.production-ig.co.jp/works/ghost-in-the-shell-sac-2ndgig-individual-eleven/) — 攻殻機動隊 S.A.C. 2nd GIG Individual Eleven
+- [Idaten Jump](https://www.production-ig.co.jp/works/idaten/) — 韋駄天翔
+- [xxxHOLiC the Movie: A Midsummer Night's Dream](https://www.production-ig.co.jp/works/xxxholic-movie-manatsu/) — 劇場版 ×××HOLiC 真夏ノ夜ノ夢
+- [Tsubasa Reservoir Chronicle the Movie: The Princess in the Birdcage Kingdom](https://www.production-ig.co.jp/works/tsubasa-movie-torikago/) — 劇場版 ツバサ・クロニクル 鳥カゴの国の姫君
+- [Oval x Over](https://www.production-ig.co.jp/works/oval-over/) — OVAL×OVER
+- [Ghost in the Shell: S.A.C. – The Laughing Man](https://www.production-ig.co.jp/works/ghost-in-the-shell-sac-the-laughing-man/) — 攻殻機動隊 S.A.C. The Laughing Man
+- [Windy Tales](https://www.production-ig.co.jp/works/fuujin-monogatari/) — 風人物語
+- [Cyber Team in Akihabara: Summer Vacation of 2011](https://www.production-ig.co.jp/works/index.html) — アキハバラ電脳組 2011年の夏休み
+- [One Piece: Defeat the Pirate Ganzack!](https://www.production-ig.co.jp/works/index.html) — ONE PIECE ～倒せ！海賊ギャンザック～
+- [Girls und Panzer das Finale 4D: Parts 1 + 2](https://www.hakuhodody-map.jp/lineup/movie/map-3030) — ガールズ＆パンツァー 最終章 4D ～第1話＋第2話～
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon?: Arrow of the Orion](https://www.hakuhodody-map.jp/lineup/animation/map-3045) — 劇場版 ダンジョンに出会いを求めるのは間違っているだろうかーオリオンの矢ー
+- [Peace Maker Kurogane: Belief](https://www.hakuhodody-map.jp/lineup/animation/map-3061) — PEACE MAKER 鐵 ～友命～
+- [Eureka Seven: Hi-Evolution – Anemone](https://www.hakuhodody-map.jp/lineup/movie/map-3062) — ANEMONE／交響詩篇エウレカセブン ハイエボリューション
+- [Peace Maker Kurogane: Friendship](https://www.hakuhodody-map.jp/lineup/animation/map-3078) — PEACE MAKER 鐵 ～想道～
+- [Maquia: When the Promised Flower Blooms](https://www.hakuhodody-map.jp/lineup/movie/map-3088) — さよならの朝に約束の花をかざろう
+- [Girls und Panzer das Finale: Part 1](https://www.hakuhodody-map.jp/lineup/movie/map-3095) — ガールズ＆パンツァー 最終章 第１話
+- [Eureka Seven: Hi-Evolution 1](https://www.hakuhodody-map.jp/lineup/movie/map-3102) — 交響詩篇エウレカセブン ハイエボリューション１
+- [Chain Chronicle: The Light of Haecceitas – Chapter 3](https://www.hakuhodody-map.jp/lineup/movie/map-3129) — チェインクロニクル ～ヘクセイタスの閃～ 第3章
+- [Chain Chronicle: The Light of Haecceitas – Chapter 2](https://www.hakuhodody-map.jp/lineup/movie/map-3132) — チェインクロニクル ～ヘクセイタスの閃～ 第2章
+- [Chain Chronicle: The Light of Haecceitas – Chapter 1](https://www.hakuhodody-map.jp/lineup/movie/map-3140) — チェインクロニクル ～ヘクセイタスの閃～ 第1章
+- [Girls und Panzer der Film](https://www.hakuhodody-map.jp/lineup/movie/map-3184) — ガールズ＆パンツァー 劇場版
+- [selector destructed WIXOSS the Movie](https://www.hakuhodody-map.jp/lineup/animation/map-3169) — 劇場版『selector（セレクター） destructed WIXOSS』
+- [Code Geass: Akito the Exiled – Final: To Beloved Ones](https://www.hakuhodody-map.jp/lineup/movie/map-3170) — コードギアス 亡国のアキト 最終章 愛シキモノタチヘ
+- [Persona 3 the Movie #4: Winter of Rebirth](https://www.hakuhodody-map.jp/lineup/animation/map-3171) — 劇場版「ペルソナ3」第4章
+- [Code Geass: Akito the Exiled – Part 4: From the Memories of Hatred](https://www.hakuhodody-map.jp/lineup/movie/map-3203) — コードギアス 亡国のアキト 第4章 憎しみの記憶から
+- [Code Geass: Akito the Exiled – Part 3: The Brightness Falls](https://www.hakuhodody-map.jp/lineup/movie/map-3204) — コードギアス 亡国のアキト 第3章 輝くもの天より堕つ
+- [Blue Exorcist: The Movie](https://www.aniplex.co.jp/lineup/aoex_movie/) — 青の祓魔師 劇場版
+- [Fireworks](https://www.aniplex.co.jp/lineup/uchiagehanabi/) — 打ち上げ花火、下から見るか？横から見るか？
+- [Kagerou Days -in a day's- (MX4D)](https://www.aniplex.co.jp/lineup/kageroumx4d/) — MX4D カゲロウデイズ -in a day's-
+- [The Garden of Sinners: Overlooking View](https://www.aniplex.co.jp/lineup/karanokyoukai/) — 劇場版 空の境界
+- [The Garden of Sinners: Paradox Spiral](https://www.aniplex.co.jp/lineup/karanokyoukai5/) — 劇場版「空の境界」第五章 矛盾螺旋
+- [The Garden of Sinners: Remaining Sense of Pain](https://www.aniplex.co.jp/lineup/karanokyoukai3/) — 劇場版「空の境界」第三章 痛覚残留
+- [The Garden of Sinners: A Study in Murder (Part 2)](https://www.aniplex.co.jp/lineup/karanokyoukai7/) — 劇場版「空の境界」第七章 殺人考察（後）
+- [The Garden of Sinners: A Study in Murder (Part 1)](https://www.aniplex.co.jp/lineup/karanokyoukai2/) — 劇場版「空の境界」第二章 殺人考察（前）
+- [The Garden of Sinners: The Hollow Shrine](https://www.aniplex.co.jp/lineup/karanokyoukai4/) — 劇場版「空の境界」第四章 伽藍の洞
+- [The Garden of Sinners: Oblivion Recording](https://www.aniplex.co.jp/lineup/karanokyoukai6/) — 劇場版「空の境界」第六章 忘却録音
+- [Star Driver the Movie](https://www.aniplex.co.jp/lineup/stardriver-movie/) — スタードライバー THE MOVIE
+- [Gurren Lagann the Movie: The Lights in the Sky Are Stars](https://www.aniplex.co.jp/lineup/gurrenraganhen/) — 劇場版 天元突破グレンラガン 螺巌篇
+- [Gurren Lagann the Movie: Childhood's End](https://www.aniplex.co.jp/lineup/gurrengurenhen/) — 劇場版 天元突破グレンラガン 紅蓮篇
+- [Fullmetal Alchemist the Movie: Conqueror of Shamballa](https://www.aniplex.co.jp/lineup/hagaren-movie-shamballa/) — 劇場版「鋼の錬金術師 シャンバラを征く者」
+- [Puella Magi Madoka Magica the Movie: Beginnings / Eternal](https://www.aniplex.co.jp/lineup/madoka-zenkouhen/) — 劇場版 魔法少女まどか☆マギカ [前編]始まりの物語 [後編]永遠の物語
+- [Magical Girl Lyrical Nanoha the Movie 1st](https://www.aniplex.co.jp/lineup/nanoha/) — 魔法少女リリカルなのは The MOVIE 1st
+
+## No MyAnimeList match (set "mal_id": <id> or false) (27)
+
+- [Junk Head](https://www.gaga.co.jp/intls/junk-head/) — JUNK HEAD
+- [Rakudai Majo: Fuka and the Dark Witch](https://www.production-ig.co.jp/works/rakumajo/) — らくだい魔女
+- [Fafner in the Azure: Behind the Line](https://www.production-ig.co.jp/works/fafner-behind-the-line/) — 蒼穹のファフナー BEHIND THE LINE
+- [Fate/Grand Order the Movie – Divine Realm of the Round Table: Camelot – Paladin; Agateram](https://www.production-ig.co.jp/works/fgo-movie-pa/) — 劇場版 Fate/Grand Order -神聖円卓領域キャメロット-後編 Paladin; Agateram
+- [Fafner in the Azure: The Beyond](https://www.production-ig.co.jp/works/fafner-beyond/) — 蒼穹のファフナー THE BEYOND
+- [Fate/Grand Order the Movie – Divine Realm of the Round Table: Camelot – Wandering; Agateram](https://www.production-ig.co.jp/works/fgo-movie-wa/) — 劇場版 Fate/Grand Order -神聖円卓領域キャメロット-前編 Wandering; Agateram
+- [Pikaia!! (Season 2)](https://www.production-ig.co.jp/works/pikaia-2nd/) — ピカイア!!（第2期）
+- [Haikyu!! The Movie: The End and the Beginning / Winners and Losers](https://www.production-ig.co.jp/works/haikyu-movie/) — 劇場版総集編 ハイキュー!!（終わりと始まり／勝者と敗者）
+- [Kuroko's Basketball: Winter Cup Highlights](https://www.production-ig.co.jp/works/kurobas-movie-1st) — 黒子のバスケ 劇場版プロジェクト ウインターカップ総集編
+- [Ghost in the Shell: Arise](https://www.production-ig.co.jp/works/kokaku-a) — 攻殻機動隊ARISE
+- [Yondemasuyo, Azazel-san. (OVA: Sea Anemone arc)](https://www.production-ig.co.jp/works/azazel-annex4/) — よんでますよ、アザゼルさん。（DVD付き初回限定版「よんでますよ、アザゼルさん。」第11巻 ）
+- [Imadoki! Doukyuusei (animated part of the film 'Mugiko-san to')](https://www.production-ig.co.jp/works/mugiko/) — 今ドキッ！同級生（映画「麦子さんと」内アニメーション）
+- [My Sweet Umadonna 2](https://www.production-ig.co.jp/works/umadonna2/) — My sweet ウマドンナ2～ウマすぐKiss Me～
+- [Yondemasuyo, Azazel-san. (OVA: Lucifer arc)](https://www.production-ig.co.jp/works/azazel-annex3/) — よんでますよ、アザゼルさん。（第8巻特別限定BOX）
+- [Kami☆Voice: The Voice Makes a Miracle](https://www.production-ig.co.jp/works/kamivoice/) — 神☆ヴォイス
+- [Tachikomatic Days](https://www.production-ig.co.jp/works/tachikoma/) — タチコマな日々
+- [The King of Fighters: Another Day](https://www.production-ig.co.jp/works/the-kof-ad/) — The King of Fighters：Another Day
+- [Girls und Panzer das Finale 4D: Parts 1 + 2](https://www.hakuhodody-map.jp/lineup/movie/map-3030) — ガールズ＆パンツァー 最終章 4D ～第1話＋第2話～
+- [Peace Maker Kurogane: Friendship](https://www.hakuhodody-map.jp/lineup/animation/map-3078) — PEACE MAKER 鐵 ～想道～
+- [selector destructed WIXOSS the Movie](https://www.hakuhodody-map.jp/lineup/animation/map-3169) — 劇場版『selector（セレクター） destructed WIXOSS』
+- [Code Geass: Akito the Exiled – Final: To Beloved Ones](https://www.hakuhodody-map.jp/lineup/movie/map-3170) — コードギアス 亡国のアキト 最終章 愛シキモノタチヘ
+- [Demon Slayer: To the Hashira Training](https://www.aniplex.co.jp/lineup/kimetsu_worldtour2024/) — ワールドツアー上映「鬼滅の刃」絆の奇跡、そして柱稽古へ
+- [Demon Slayer: To the Swordsmith Village](https://www.aniplex.co.jp/lineup/kimetsu_worldtour/) — ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ
+- [City Hunter: Shinjuku Private Eyes](https://www.aniplex.co.jp/lineup/cityhunter-movie/) — 劇場版シティーハンター <新宿プライベート･アイズ>
+- [Ping Pong Girls: Beyond the Flash](https://www.aniplex.co.jp/lineup/pingpong-girls/) — 卓球少女 -閃光のかなたへ-
+- [Persona 3 the Movie](https://www.aniplex.co.jp/lineup/p3m/) — 劇場版「ペルソナ３」
+- [Puella Magi Madoka Magica the Movie: Beginnings / Eternal](https://www.aniplex.co.jp/lineup/madoka-zenkouhen/) — 劇場版 魔法少女まどか☆マギカ [前編]始まりの物語 [後編]永遠の物語

@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Animated Titles Catalog</title>
+<style>
+:root{
+  --bg:#f6f4f0; --surface:#ffffff; --ink:#1c1b1a; --muted:#6b675f; --line:#e4e0d8;
+  --accent:#d2452f; --chip:#efebe4; --chip-on:#1c1b1a; --chip-on-ink:#fff;
+  --movie:#2d6cdf; --series:#8a3ffc; --other:#1f8f6a;
+  --good:#1a9e55; --maybe:#2b6fe0; --bad:#d23a2f; --idle:#9a958c;
+  --shadow:0 1px 2px rgba(0,0,0,.06),0 4px 16px rgba(0,0,0,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#121212; --surface:#1c1c1c; --ink:#f1efe9; --muted:#a29e95; --line:#2e2e2e;
+    --accent:#ff6a52; --chip:#262626; --chip-on:#f1efe9; --chip-on-ink:#121212;
+    --movie:#6d9bff; --series:#b48cff; --other:#4cc79c;
+    --good:#3fcf7f; --maybe:#5c97ff; --bad:#ff5a4d; --idle:#77736b;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121212; --surface:#1c1c1c; --ink:#f1efe9; --muted:#a29e95; --line:#2e2e2e;
+  --accent:#ff6a52; --chip:#262626; --chip-on:#f1efe9; --chip-on-ink:#121212;
+  --movie:#6d9bff; --series:#b48cff; --other:#4cc79c;
+  --good:#3fcf7f; --maybe:#5c97ff; --bad:#ff5a4d; --idle:#77736b;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Hiragino Sans","Yu Gothic UI",sans-serif}
+body.lb-open{overflow:hidden}
+.wrap{max-width:1240px;margin:0 auto;padding:32px 16px 64px}
+header h1{font-size:clamp(26px,4vw,38px);line-height:1.1;margin:0 0 6px;letter-spacing:-.02em}
+header p{margin:0;color:var(--muted)}
+header{position:relative;padding-right:56px}
+.theme-toggle{position:absolute;top:0;right:0;width:44px;height:44px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;padding:0}
+.theme-toggle:hover{background:var(--chip)}
+.theme-toggle:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.theme-toggle svg{width:20px;height:20px;fill:currentColor}
+header a{color:inherit}
+.stats{display:flex;gap:24px;flex-wrap:wrap;margin:20px 0 24px}
+.stat b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:13px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:24px;display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:0;background:var(--chip);color:var(--ink);padding:6px 12px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--chip-on);color:var(--chip-on-ink)}
+.controls input[type=search],.controls select{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);max-width:100%}
+.controls input[type=search]{flex:1 1 200px;min-width:0}
+.sep{width:1px;height:22px;background:var(--line)}
+.rf{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px}
+.rf label{display:inline-flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.rf input{width:16px;height:16px;margin:0;accent-color:var(--ink)}
+.rf .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.rf .n{color:var(--muted);font-variant-numeric:tabular-nums}
+
+.multi{position:relative}
+.multi summary{list-style:none;cursor:pointer;font-size:14px;padding:7px 28px 7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);white-space:nowrap;position:relative}
+.multi summary::-webkit-details-marker{display:none}
+.multi summary::after{content:"▾";position:absolute;right:10px;color:var(--muted)}
+.multi[open] summary{border-color:var(--ink)}
+.multi summary.on{background:var(--chip-on);color:var(--chip-on-ink);border-color:var(--chip-on)}
+.multi .panel{position:absolute;z-index:20;top:calc(100% + 6px);left:0;width:min(360px,calc(100vw - 32px));background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.18);padding:10px}
+.panel-head{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--muted);margin-bottom:6px}
+.panel-head button{font:inherit;border:0;background:none;color:var(--accent);cursor:pointer;padding:2px 4px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;max-height:300px;overflow:auto}
+.opts label{display:flex;align-items:center;gap:7px;font-size:13.5px;padding:4px 2px;cursor:pointer;border-radius:6px}
+.opts label:hover{background:var(--chip)}
+.opts input{width:16px;height:16px;margin:0;accent-color:var(--ink)}
+.opts .n{margin-left:auto;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.active-note{font-size:13px;background:var(--chip);border-radius:8px;padding:6px 10px;gap:12px}
+.active-note[hidden]{display:none}
+.active-note button{font:inherit;font-size:13px;font-weight:600;border:0;border-radius:999px;padding:4px 12px;background:var(--chip-on);color:var(--chip-on-ink);cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
+.card{background:var(--surface);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:box-shadow .15s}
+.card.r-up{box-shadow:0 0 0 3px var(--good),var(--shadow)}
+.card.r-maybe{box-shadow:0 0 0 3px var(--maybe),var(--shadow)}
+.card.r-down .poster,.card.r-down .body>:not(.rate){filter:grayscale(1);opacity:.45}
+.poster{position:relative;aspect-ratio:3/4;background:var(--chip);overflow:hidden;display:block;width:100%;border:0;padding:0;cursor:zoom-in;color:inherit;font:inherit}
+.poster img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.poster .bg{object-fit:cover;filter:blur(18px) brightness(.7);transform:scale(1.15)}
+.poster .fg{object-fit:contain}
+.poster .ph{position:absolute;inset:0;display:grid;place-items:center;padding:24px;text-align:center;font-weight:600;color:var(--muted)}
+.poster:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.tag{position:absolute;color:#fff;font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px;line-height:1.4}
+.fmt{top:10px;left:10px;letter-spacing:.04em;text-transform:uppercase}
+.fmt.movie{background:var(--movie)} .fmt.series{background:var(--series)} .fmt.other{background:var(--other)}
+.year{top:10px;right:10px;background:rgba(0,0,0,.65);font-variant-numeric:tabular-nums}
+.co{bottom:10px;left:10px;background:rgba(0,0,0,.65)}
+.count{bottom:10px;right:10px;background:rgba(0,0,0,.65)}
+.body{padding:12px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.rate{display:flex;justify-content:space-between;align-items:center;padding:0 6px 6px;border-bottom:1px solid var(--line)}
+.rate button{width:44px;height:40px;display:grid;place-items:center;border:0;border-radius:10px;background:transparent;color:var(--idle);cursor:pointer;padding:0}
+.rate button:hover{background:var(--chip)}
+.rate button:focus-visible{outline:2px solid var(--ink)}
+.rate svg{width:24px;height:24px;fill:currentColor}
+.rate button[data-r="up"][aria-pressed="true"]{color:var(--good)}
+.rate button[data-r="maybe"][aria-pressed="true"]{color:var(--maybe)}
+.rate button[data-r="down"][aria-pressed="true"]{color:var(--bad)}
+.body h2{font-size:17px;line-height:1.25;margin:0}
+.body h2 a{color:inherit;text-decoration:none}
+.body h2 a:hover{text-decoration:underline}
+.names{margin:-4px 0 0;display:flex;flex-direction:column;gap:1px}
+.ja{font-size:14px;font-family:"Hiragino Sans","Yu Gothic UI","Meiryo","Noto Sans JP",system-ui,sans-serif}
+.romaji{font-size:13px;color:var(--muted);font-style:italic}
+dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:2px 0;font-size:13px}
+dt{color:var(--muted)} dd{margin:0}
+dd a{color:inherit}
+.score{font-weight:600}
+.genres{display:flex;flex-wrap:wrap;gap:4px}
+.genres span{font-size:11.5px;background:var(--chip);padding:2px 8px;border-radius:999px}
+.sum{margin:0;font-size:13.5px}
+.srcs{margin-top:auto;display:flex;flex-direction:column;gap:2px;padding-top:4px}
+.src{font-size:12.5px;color:var(--accent);text-decoration:none}
+.src:hover{text-decoration:underline}
+.empty{color:var(--muted);text-align:center;padding:48px 0}
+footer{margin-top:40px;color:var(--muted);font-size:12.5px}
+footer a{color:inherit}
+
+/* fullscreen viewer */
+.lb{position:fixed;inset:0;z-index:50;background:#0b0b0b;color:#f1efe9;display:grid;grid-template-rows:auto minmax(0,1fr) auto;height:100vh;height:100dvh}
+.lb[hidden]{display:none}
+.lb-top{display:flex;align-items:center;gap:12px;padding:10px 12px 10px 16px}
+.lb-title{flex:1;min-width:0;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lb-count{font-size:13px;color:#b9b5ad;font-variant-numeric:tabular-nums}
+.lb button{font:inherit;color:inherit;background:rgba(255,255,255,.08);border:0;border-radius:999px;cursor:pointer}
+.lb button:hover{background:rgba(255,255,255,.18)}
+.lb button:focus-visible{outline:2px solid #fff}
+.lb-close{width:40px;height:40px;font-size:22px;line-height:1}
+.lb-stage{position:relative;min-height:0;height:100%;overflow:hidden;display:grid;grid-template-rows:minmax(0,1fr);place-items:center;padding:0 56px;touch-action:pan-y}
+.lb-stage img{width:100%;height:100%;object-fit:contain;display:block;user-select:none;-webkit-user-drag:none}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:64px;font-size:30px;z-index:2}
+.lb-prev{left:8px} .lb-next{right:8px}
+.lb-video{width:min(100%,1100px);display:flex;flex-direction:column;gap:12px;align-items:center}
+.lb-video .frame{width:100%;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden}
+.lb-video iframe{width:100%;height:100%;border:0;display:block}
+.lb-video p{margin:0;font-size:13px;color:#b9b5ad;text-align:center}
+.lb-video a{color:#fff}
+.lb-none{text-align:center;max-width:420px}
+.lb-none a{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:999px;background:#fff;color:#111;text-decoration:none;font-weight:600}
+.lb-thumbs{display:flex;gap:6px;overflow-x:auto;padding:10px 12px 14px;justify-content:safe center}
+.lb-thumbs button{flex:0 0 auto;width:64px;height:48px;border-radius:6px;padding:0;overflow:hidden;opacity:.55;border:2px solid transparent;background:#222}
+.lb-thumbs button[aria-current="true"]{opacity:1;border-color:#fff}
+.lb-thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.lb-thumbs .play{display:grid;place-items:center;font-size:18px}
+@media (max-width:600px){
+  .controls{position:static}
+  .lb-stage{padding:0 8px}
+  .lb-nav{width:36px;height:52px;font-size:24px;background:rgba(0,0,0,.5)!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode"></button>
+    <h1>Animated Titles</h1>
+    <p id="sources"></p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <div class="row">
+      <div class="chips" id="fmtChips" role="group" aria-label="Format"></div>
+      <div class="sep"></div>
+      <select id="company" aria-label="Company"></select>
+      <select id="type" aria-label="Animated or live action">
+        <option value="all">Animated + live action</option>
+        <option value="anim">Animated only</option>
+        <option value="live">Live action / hybrid</option>
+      </select>
+      <details class="multi" id="genreBox">
+        <summary id="genreSummary">All genres</summary>
+        <div class="panel">
+          <div class="panel-head"><span>Show titles with any of:</span><button type="button" id="genreClear">Clear</button></div>
+          <div class="opts" id="genreOpts"></div>
+        </div>
+      </details>
+      <select id="sort" aria-label="Sort">
+        <option value="new">Newest first</option>
+        <option value="old">Oldest first</option>
+        <option value="score">MAL score</option>
+        <option value="az">Title A–Z</option>
+      </select>
+      <input id="q" type="search" placeholder="Search English, 日本語, romaji, story…" aria-label="Search">
+    </div>
+    <div class="row rf" id="rateFilter" role="group" aria-label="Show by my rating"></div>
+    <div class="row active-note" id="activeNote" hidden>
+      <span id="activeText"></span>
+      <button type="button" id="resetFilters">Reset filters</button>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>No titles match these filters.</p>
+
+  <footer id="footer"></footer>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <div class="lb-top">
+    <span class="lb-title" id="lbTitle"></span>
+    <span class="lb-count" id="lbCount"></span>
+    <button class="lb-close" id="lbClose" aria-label="Close viewer">×</button>
+  </div>
+  <div class="lb-stage" id="lbStage">
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+    <div id="lbSlide" style="display:contents"></div>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+  </div>
+  <div class="lb-thumbs" id="lbThumbs" aria-label="All images"></div>
+</div>
+
+<script>
+const DATA = /*DATA*/[];
+const COMPANIES = /*COMPANIES*/[];
+// MyAnimeList scores only appear once a build has fetched some (see catalog/README.md)
+const HAS_SCORES = DATA.some(x => x.mal && x.mal.score);
+if (!HAS_SCORES) document.querySelector('#sort option[value="score"]').remove();
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeURI = s => { try { return encodeURI(decodeURI(s)); } catch(e) { return encodeURI(s); } };
+const group = f => /^(Movie|TV film|Film series)$/.test(f) ? "movie" : /series/i.test(f) ? "series" : "other";
+const isLive = x => /live (action|footage)/i.test(x.type);
+const store = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch(e) { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
+};
+
+const ICON = {
+  up:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg>',
+  maybe:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg>',
+  down:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"/></svg>'
+};
+const RATES = [["up","Want to watch","var(--good)"],["maybe","Not sure","var(--maybe)"],["down","Not for me","var(--bad)"],["none","Not rated yet","var(--idle)"]];
+
+const ratings = store.get("animeCatalog.ratings", {});
+const state = Object.assign({fmt:"all", co:"all", type:"all", genres:[], sort:"new", q:"",
+  show:{up:true, maybe:true, down:true, none:true}}, store.get("animeCatalog.filters", {}), {q:""});
+if (!Array.isArray(state.genres)) state.genres = [];
+delete state.genre; // single-genre setting from older versions
+const saveFilters = () => store.set("animeCatalog.filters", {fmt:state.fmt, co:state.co, type:state.type,
+  genres:state.genres, sort:state.sort, show:state.show});
+const rateOf = x => ratings[x.id] || "none";
+
+// light/dark toggle: follows the system until the viewer picks one, then remembers it
+const themeBtn = document.getElementById("themeToggle");
+const SUN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM11 1h2v3h-2zm0 19h2v3h-2zM1 11h3v2H1zm19 0h3v2h-3zM4.22 5.64l1.42-1.42 2.12 2.12-1.42 1.42zm12.02 12.02 1.42-1.42 2.12 2.12-1.42 1.42zM4.22 18.36l2.12-2.12 1.42 1.42-2.12 2.12zM16.24 6.34l2.12-2.12 1.42 1.42-2.12 2.12z"/></svg>';
+const MOON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.3 2a10 10 0 1 0 9.7 12.4A8 8 0 0 1 12.3 2z"/></svg>';
+const isDark = () => document.documentElement.dataset.theme
+  ? document.documentElement.dataset.theme === "dark"
+  : matchMedia("(prefers-color-scheme: dark)").matches;
+function drawTheme(){
+  const dark = isDark();
+  themeBtn.innerHTML = dark ? SUN : MOON;
+  themeBtn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+  themeBtn.title = themeBtn.getAttribute("aria-label");
+}
+const savedTheme = store.get("animeCatalog.theme", null);
+if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+themeBtn.onclick = () => {
+  const next = isDark() ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  store.set("animeCatalog.theme", next);
+  drawTheme();
+};
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawTheme);
+drawTheme();
+
+// header + footer
+document.getElementById("sources").innerHTML = "Animated titles from " + COMPANIES.map(c =>
+  `<a href="${esc(c.list)}" target="_blank" rel="noopener">${esc(c.name)}</a> (${esc(c.role.toLowerCase())})`)
+    .join(", ").replace(/, ([^,]*)$/, " and $1") +
+  ". Built {{BUILT}}. Click a poster for every image and the trailer.";
+document.getElementById("footer").innerHTML =
+  "Images and trailers are loaded from the companies' sites and YouTube and remain the property of their rights holders. " +
+  (HAS_SCORES ? "Scores come from <a href='https://myanimelist.net' target='_blank' rel='noopener'>MyAnimeList</a>. " : "") +
+  "Your ratings are saved in this browser only. Summaries are paraphrased; “—” means a value wasn't confirmed.";
+
+// format chips
+const chipBox = document.getElementById("fmtChips");
+chipBox.innerHTML = [["all","All"],["movie","Movies"],["series","Series"],["other","Other"]]
+  .map(([k,l]) => `<button class="chip" data-k="${k}" aria-pressed="${k===state.fmt}">${l}</button>`).join("");
+chipBox.addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if(!b) return;
+  state.fmt = b.dataset.k;
+  chipBox.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === b));
+  render();
+});
+
+// selects
+const cSel = document.getElementById("company");
+const cos = [...new Set(DATA.flatMap(x => x.cos))];
+cSel.innerHTML = `<option value="all">All companies</option>` +
+  cos.map(c => `<option value="${esc(c)}">${esc(c)} (${DATA.filter(x => x.cos.includes(c)).length})</option>`).join("");
+// genres: multiple choice, a title shows if it has any of the ticked genres
+const ALL_GENRES = [...new Set(DATA.flatMap(x => x.g))].sort();
+state.genres = state.genres.filter(g => ALL_GENRES.includes(g));
+const genreBox = document.getElementById("genreBox"), genreOpts = document.getElementById("genreOpts");
+genreOpts.innerHTML = ALL_GENRES.map(g => `<label><input type="checkbox" value="${esc(g)}" ${state.genres.includes(g) ? "checked" : ""}>
+  ${esc(g)}<span class="n">${DATA.filter(x => x.g.includes(g)).length}</span></label>`).join("");
+function drawGenreSummary(){
+  const s = document.getElementById("genreSummary"), n = state.genres.length;
+  s.textContent = !n ? "All genres" : n === 1 ? state.genres[0] : `${n} genres`;
+  s.classList.toggle("on", n > 0);
+  s.title = state.genres.join(", ");
+}
+genreOpts.addEventListener("change", () => {
+  state.genres = [...genreOpts.querySelectorAll("input:checked")].map(i => i.value);
+  drawGenreSummary(); render();
+});
+document.getElementById("genreClear").onclick = () => {
+  genreOpts.querySelectorAll("input").forEach(i => i.checked = false);
+  state.genres = []; drawGenreSummary(); render();
+};
+document.addEventListener("click", e => { if (genreBox.open && !genreBox.contains(e.target)) genreBox.open = false; });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && genreBox.open) { genreBox.open = false; genreBox.querySelector("summary").focus(); } });
+drawGenreSummary();
+for (const [id, key] of [["company","co"],["type","type"],["sort","sort"]]) {
+  const el = document.getElementById(id);
+  if ([...el.options].some(o => o.value === state[key])) el.value = state[key]; else state[key] = "all";
+  el.onchange = e => { state[key] = e.target.value; render(); };
+}
+document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
+
+// rating filter checkboxes
+const rf = document.getElementById("rateFilter");
+rf.innerHTML = `<span style="color:var(--muted)">Show:</span>` + RATES.map(([k,label,color]) =>
+  `<label><input type="checkbox" data-k="${k}" ${state.show[k] ? "checked" : ""}>
+    <span class="dot" style="background:${color}"></span>${label}
+    <span class="n" data-n="${k}"></span></label>`).join("");
+function drawRateFilter(){ // update counts only, so checkboxes keep focus
+  for (const [k] of RATES) rf.querySelector(`[data-n="${k}"]`).textContent = DATA.filter(x => rateOf(x)===k).length;
+}
+rf.addEventListener("change", e => {
+  const k = e.target.dataset.k; if(!k) return;
+  state.show[k] = e.target.checked; render();
+});
+
+function stats(list){
+  const nMovies = list.filter(x => group(x.fmt)==="movie").length;
+  const nSeries = list.filter(x => group(x.fmt)==="series").length;
+  const years = list.map(x => x.year).filter(Boolean);
+  document.getElementById("stats").innerHTML = [
+    [list.length,"titles shown"],[nMovies,"films"],[nSeries,"series"],
+    [list.length-nMovies-nSeries,"OVAs, shorts & other"],
+    [list.filter(x => x.trailer).length,"with trailer"],
+    [years.length ? Math.min(...years)+"–"+Math.max(...years) : "—","release years"]
+  ].map(([b,s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+}
+
+const matches = x =>
+  (state.fmt==="all" || group(x.fmt)===state.fmt) &&
+  (state.co==="all" || x.cos.includes(state.co)) &&
+  (state.type==="all" || (state.type==="live") === isLive(x)) &&
+  (!state.genres.length || state.genres.some(g => x.g.includes(g))) &&
+  state.show[rateOf(x)] &&
+  (!state.q || [x.t,x.ja,x.romaji,x.d,x.s,x.cos.join(" "),x.g.join(" ")].join(" ").toLowerCase().includes(state.q));
+
+function card(x, i){
+  const r = rateOf(x);
+  const src = x.poster ? esc(safeURI(x.poster)) : "";
+  const pic = src
+    ? `<img class="bg" loading="lazy" src="${src}" alt="" aria-hidden="true"><img class="fg" loading="lazy" src="${src}" alt="">`
+    : `<span class="ph">${esc(x.ja || x.t)}</span>`;
+  const n = x.images.length + 1;
+  const score = x.mal
+    ? (x.mal.score ? `<a class="score" href="${esc(x.mal.url)}" target="_blank" rel="noopener">★ ${x.mal.score.toFixed(2)}</a>` : `<a href="${esc(x.mal.url)}" target="_blank" rel="noopener">not scored yet</a>`)
+    : (isLive(x) ? "n/a (live action)" : "—");
+  return `
+  <article class="card ${r!=="none" ? "r-"+r : ""}" data-i="${i}">
+    <button class="poster" data-open="${i}" aria-label="View images${x.trailer ? " and trailer" : ""} for ${esc(x.t)}">
+      ${pic}
+      <span class="tag fmt ${group(x.fmt)}">${esc(x.fmt)}</span>
+      <span class="tag year">${x.year || "—"}</span>
+      <span class="tag co">${esc(x.cos.join(" · "))}</span>
+      <span class="tag count">${x.images.length} img${x.trailer ? " · ▶" : ""}</span>
+    </button>
+    <div class="body">
+      <div class="rate" role="group" aria-label="My rating">
+        ${[["up","Want to watch"],["maybe","Not sure"],["down","Not for me"]].map(([k,l]) =>
+          `<button data-r="${k}" aria-pressed="${r===k}" aria-label="${l}" title="${l}">${ICON[k]}</button>`).join("")}
+      </div>
+      <h2><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.t)}</a></h2>
+      <div class="names">
+        ${x.ja && x.ja !== x.t ? `<span class="ja" lang="ja">${esc(x.ja)}</span>` : ""}
+        ${x.romaji && x.romaji !== x.t ? `<span class="romaji">${esc(x.romaji)}</span>` : ""}
+      </div>
+      <dl>
+        ${HAS_SCORES ? `<dt>MAL</dt><dd>${score}</dd>` : ""}
+        <dt>Duration</dt><dd>${esc(x.dur)}</dd>
+        <dt>Released</dt><dd>${esc(x.yearNote || x.year || "—")}</dd>
+        <dt>Type</dt><dd>${esc(x.type)}</dd>
+        ${x.d ? `<dt>Director</dt><dd>${esc(x.d)}</dd>` : ""}
+        <dt>${x.cos.length > 1 ? "Companies" : "Company"}</dt><dd>${esc(x.cos.join(", "))}</dd>
+      </dl>
+      <div class="genres">${x.g.map(g => `<span>${esc(g)}</span>`).join("")}</div>
+      ${x.s ? `<p class="sum">${esc(x.s)}</p>` : ""}
+      <div class="srcs">${x.links.map(l => `<a class="src" href="${esc(l.u)}" target="_blank" rel="noopener">Title page on ${esc(l.site)} →</a>`).join("")}</div>
+    </div>
+  </article>`;
+}
+
+// filters are remembered between visits, so always say when they hide titles
+const DEFAULTS = {fmt:"all", co:"all", type:"all"};
+function showActiveFilters(){
+  const on = [];
+  if (state.fmt !== "all") on.push(chipBox.querySelector(`[data-k="${state.fmt}"]`).textContent);
+  if (state.co !== "all") on.push(state.co);
+  if (state.type !== "all") on.push(state.type === "live" ? "live action / hybrid" : "animated only");
+  if (state.genres.length) on.push(state.genres.join(" or "));
+  const hiddenRates = RATES.filter(([k]) => !state.show[k]).map(([, label]) => label.toLowerCase());
+  if (hiddenRates.length) on.push("hiding “" + hiddenRates.join("”, “") + "”");
+  if (state.q) on.push(`search “${state.q}”`);
+  const note = document.getElementById("activeNote");
+  note.hidden = shown.length === DATA.length && !on.length;
+  document.getElementById("activeText").textContent =
+    `Showing ${shown.length} of ${DATA.length} titles` + (on.length ? ` · ${on.join(" · ")}` : "");
+}
+document.getElementById("resetFilters").onclick = () => {
+  Object.assign(state, DEFAULTS, {genres:[], q:"", show:{up:true, maybe:true, down:true, none:true}});
+  chipBox.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === "all"));
+  for (const id of ["company","type"]) document.getElementById(id).value = "all";
+  genreOpts.querySelectorAll("input").forEach(i => i.checked = false);
+  drawGenreSummary();
+  document.getElementById("q").value = "";
+  rf.querySelectorAll("input").forEach(i => i.checked = true);
+  render();
+};
+
+let shown = [];
+function render(){
+  saveFilters();
+  drawRateFilter();
+  shown = DATA.map((x,i) => [x,i]).filter(([x]) => matches(x));
+  const by = {
+    az:(a,b) => a[0].t.localeCompare(b[0].t),
+    old:(a,b) => (a[0].year||9999) - (b[0].year||9999),
+    new:(a,b) => (b[0].year||0) - (a[0].year||0),
+    score:(a,b) => ((b[0].mal&&b[0].mal.score)||0) - ((a[0].mal&&a[0].mal.score)||0)
+  }[state.sort] || (() => 0);
+  shown.sort(by);
+  stats(shown.map(s => s[0]));
+  showActiveFilters();
+  document.getElementById("empty").hidden = shown.length > 0;
+  document.getElementById("grid").innerHTML = shown.map(([x,i]) => card(x,i)).join("");
+}
+
+// ratings + opening the viewer (event delegation)
+document.getElementById("grid").addEventListener("click", e => {
+  const rb = e.target.closest(".rate button");
+  if (rb) {
+    const el = rb.closest(".card"), x = DATA[+el.dataset.i], k = rb.dataset.r;
+    const next = rateOf(x) === k ? "none" : k;
+    if (next === "none") delete ratings[x.id]; else ratings[x.id] = next;
+    store.set("animeCatalog.ratings", ratings);
+    el.classList.remove("r-up","r-maybe","r-down");
+    if (next !== "none") el.classList.add("r-"+next);
+    el.querySelectorAll(".rate button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === next));
+    drawRateFilter();
+    if (!state.show[next]) { el.remove(); shown = shown.filter(([,i]) => DATA[i] !== x); stats(shown.map(s => s[0])); }
+    return;
+  }
+  const pb = e.target.closest("[data-open]");
+  if (pb) openViewer(+pb.dataset.open, pb);
+});
+
+// fullscreen viewer
+const lb = document.getElementById("lb"), lbSlide = document.getElementById("lbSlide"),
+      lbThumbs = document.getElementById("lbThumbs");
+let cur = null, idx = 0, opener = null;
+const slidesOf = x => [...x.images.map(src => ({img:src})), {video:x.trailer || null}];
+
+function openViewer(i, from){
+  cur = DATA[i]; idx = 0; opener = from;
+  document.getElementById("lbTitle").textContent = cur.t + (cur.ja && cur.ja !== cur.t ? "  ·  " + cur.ja : "");
+  const slides = slidesOf(cur);
+  lbThumbs.innerHTML = slides.map((s,k) => s.img
+    ? `<button data-k="${k}" aria-label="Image ${k+1}"><img loading="lazy" src="${esc(safeURI(s.img))}" alt=""></button>`
+    : `<button data-k="${k}" class="play" aria-label="Trailer">▶</button>`).join("");
+  lb.hidden = false; document.body.classList.add("lb-open");
+  show(cur.images.length ? 0 : slides.length - 1);
+  document.getElementById("lbClose").focus();
+}
+function closeViewer(){
+  lb.hidden = true; document.body.classList.remove("lb-open");
+  lbSlide.innerHTML = ""; // stops any playing video
+  if (opener) opener.focus();
+}
+function show(k){
+  const slides = slidesOf(cur);
+  idx = (k + slides.length) % slides.length;
+  const s = slides[idx];
+  if (s.img) {
+    lbSlide.innerHTML = `<img src="${esc(safeURI(s.img))}" alt="${esc(cur.t)}, image ${idx+1} of ${cur.images.length}">`;
+  } else if (s.video) {
+    const id = encodeURIComponent(s.video);
+    lbSlide.innerHTML = `<div class="lb-video">
+      <div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/${id}?rel=0"
+        title="Trailer: ${esc(cur.t)}" referrerpolicy="strict-origin-when-cross-origin"
+        allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+      <p>${cur.trailerTitle ? "“" + esc(cur.trailerTitle) + "” · " : ""}found on ${esc(cur.trailerSrc || "YouTube")} · <a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener">Open on YouTube</a></p>
+    </div>`;
+  } else {
+    const q = encodeURIComponent((cur.ja || cur.t) + " 予告");
+    lbSlide.innerHTML = `<div class="lb-none"><p>No trailer found for this title yet.</p>
+      <a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Search YouTube</a></div>`;
+  }
+  document.getElementById("lbCount").textContent = s.img ? `${idx+1} / ${cur.images.length}` : "Trailer";
+  lbThumbs.querySelectorAll("button").forEach((b,k) => b.setAttribute("aria-current", k === idx));
+  const t = lbThumbs.children[idx]; if (t) t.scrollIntoView({block:"nearest", inline:"center"});
+  const single = slides.length < 2;
+  document.getElementById("lbPrev").hidden = single; document.getElementById("lbNext").hidden = single;
+}
+document.getElementById("lbClose").onclick = closeViewer;
+document.getElementById("lbPrev").onclick = () => show(idx - 1);
+document.getElementById("lbNext").onclick = () => show(idx + 1);
+lbThumbs.addEventListener("click", e => { const b = e.target.closest("button"); if (b) show(+b.dataset.k); });
+document.addEventListener("keydown", e => {
+  if (lb.hidden) return;
+  if (e.key === "Escape") closeViewer();
+  else if (e.key === "ArrowLeft") show(idx - 1);
+  else if (e.key === "ArrowRight") show(idx + 1);
+  else if (e.key === "Tab") { // keep focus inside the dialog
+    const f = [...lb.querySelectorAll("button:not([hidden]), a, iframe")];
+    if (!f.length) return;
+    if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length-1].focus(); }
+    else if (!e.shiftKey && document.activeElement === f[f.length-1]) { e.preventDefault(); f[0].focus(); }
+  }
+});
+let sx = null;
+const stage = document.getElementById("lbStage");
+stage.addEventListener("pointerdown", e => { if (e.pointerType !== "mouse") sx = e.clientX; });
+stage.addEventListener("pointerup", e => {
+  if (sx === null) return; const dx = e.clientX - sx; sx = null;
+  if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
+});
+stage.addEventListener("click", e => { if (e.target === stage) closeViewer(); });
+
+render();
+</script>
+</body>
+</html>
