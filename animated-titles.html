@@ -65,6 +65,20 @@ header a{color:inherit}
 .sync button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 
 .multi{position:relative}
+.years{display:inline-flex;align-items:center;gap:10px;font-size:14px;padding:3px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.years.on{border-color:var(--ink)}
+.years .yl{white-space:nowrap;font-variant-numeric:tabular-nums;min-width:84px}
+.dual{position:relative;width:150px;height:28px;flex:0 0 auto}
+.dual .track,.dual .fill{position:absolute;top:50%;height:4px;margin-top:-2px;border-radius:2px}
+.dual .track{left:0;right:0;background:var(--line)}
+.dual .fill{background:var(--ink)}
+.dual input{position:absolute;inset:0;width:100%;height:100%;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
+.dual input::-webkit-slider-runnable-track{background:transparent;border:0}
+.dual input::-moz-range-track{background:transparent;border:0}
+.dual input::-webkit-slider-thumb{pointer-events:auto;-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--ink);border:3px solid var(--surface);box-shadow:0 0 0 1px var(--ink);cursor:pointer}
+.dual input::-moz-range-thumb{pointer-events:auto;width:12px;height:12px;border-radius:50%;background:var(--ink);border:3px solid var(--surface);box-shadow:0 0 0 1px var(--ink);cursor:pointer}
+.dual input:focus-visible::-webkit-slider-thumb{outline:2px solid var(--ink);outline-offset:2px}
+.dual input:focus-visible::-moz-range-thumb{outline:2px solid var(--ink);outline-offset:2px}
 .multi summary{list-style:none;cursor:pointer;font-size:14px;padding:7px 28px 7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);white-space:nowrap;position:relative}
 .multi summary::-webkit-details-marker{display:none}
 .multi summary::after{content:"▾";position:absolute;right:10px;color:var(--muted)}
@@ -176,9 +190,9 @@ footer a{color:inherit}
       <div class="sep"></div>
       <select id="company" aria-label="Company"></select>
       <select id="type" aria-label="Animated or live action">
-        <option value="all">Animated + live action</option>
         <option value="anim">Animated only</option>
         <option value="live">Live action / hybrid</option>
+        <option value="all">Animated + live action</option>
       </select>
       <details class="multi" id="genreBox">
         <summary id="genreSummary">All genres</summary>
@@ -187,6 +201,14 @@ footer a{color:inherit}
           <div class="opts" id="genreOpts"></div>
         </div>
       </details>
+      <div class="years" id="yearBox" role="group" aria-label="Release year range">
+        <span class="yl" id="yearLabel"></span>
+        <div class="dual">
+          <span class="track"></span><span class="fill" id="yearFill"></span>
+          <input type="range" id="y0" aria-label="From year">
+          <input type="range" id="y1" aria-label="To year">
+        </div>
+      </div>
       <select id="sort" aria-label="Sort">
         <option value="new">Newest first</option>
         <option value="old">Oldest first</option>
@@ -246,12 +268,16 @@ const ICON = {
 const RATES = [["up","Want to watch","var(--good)"],["maybe","Not sure","var(--maybe)"],["down","Not for me","var(--bad)"],["none","Not rated yet","var(--idle)"]];
 
 const ratings = store.get("animeCatalog.ratings", {});
-const state = Object.assign({fmt:"all", co:"all", type:"all", genres:[], sort:"new", q:"",
-  show:{up:true, maybe:true, down:true, none:true}}, store.get("animeCatalog.filters", {}), {q:""});
+const savedFilters = store.get("animeCatalog.filters", {}) || {};
+if (savedFilters.v !== 2) delete savedFilters.type; // "Animated only" became the default
+const state = Object.assign({fmt:"all", co:"all", type:"anim", genres:[], sort:"new", q:"", y0:null, y1:null,
+  show:{up:true, maybe:true, down:true, none:true}}, savedFilters, {q:""});
 if (!Array.isArray(state.genres)) state.genres = [];
 delete state.genre; // single-genre setting from older versions
-const saveFilters = () => store.set("animeCatalog.filters", {fmt:state.fmt, co:state.co, type:state.type,
-  genres:state.genres, sort:state.sort, show:state.show});
+const saveFilters = () => store.set("animeCatalog.filters", {v:2, fmt:state.fmt, co:state.co, type:state.type,
+  genres:state.genres, sort:state.sort, show:state.show,
+  // an end of the year range at its limit is saved as open, so titles from new years still show
+  y0: state.y0 > YMIN ? state.y0 : null, y1: state.y1 < YMAX ? state.y1 : null});
 const rateOf = x => ratings[x.id] || "none";
 
 // light/dark toggle: follows the system until the viewer picks one, then remembers it
@@ -303,7 +329,40 @@ chipBox.addEventListener("click", e => {
 const cSel = document.getElementById("company");
 const cos = [...new Set(DATA.flatMap(x => x.cos))];
 cSel.innerHTML = `<option value="all">All companies</option>` +
-  cos.map(c => `<option value="${esc(c)}">${esc(c)} (${DATA.filter(x => x.cos.includes(c)).length})</option>`).join("");
+  cos.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+function drawCompanyCounts(){ // counts use every filter except the company one
+  const pool = DATA.filter(x => matches(x, "co"));
+  for (const o of cSel.options) {
+    const n = o.value === "all" ? pool.length : pool.filter(x => x.cos.includes(o.value)).length;
+    o.textContent = (o.value === "all" ? "All companies" : o.value) + ` (${n})`;
+  }
+}
+
+// year range: two sliders on one track
+const YEARS = DATA.map(x => x.year).filter(Boolean);
+const YMIN = Math.min(...YEARS), YMAX = Math.max(...YEARS);
+const yearBox = document.getElementById("yearBox"), y0 = document.getElementById("y0"), y1 = document.getElementById("y1");
+for (const el of [y0, y1]) { el.min = YMIN; el.max = YMAX; el.step = 1; }
+const clampY = v => Math.min(YMAX, Math.max(YMIN, v));
+state.y0 = state.y0 == null ? YMIN : clampY(+state.y0);
+state.y1 = state.y1 == null ? YMAX : clampY(+state.y1);
+if (state.y0 > state.y1) [state.y0, state.y1] = [state.y1, state.y0];
+const yearsAll = () => state.y0 <= YMIN && state.y1 >= YMAX;
+const yearText = () => state.y0 === state.y1 ? String(state.y0) : `${state.y0} – ${state.y1}`;
+function drawYears(){
+  y0.value = state.y0; y1.value = state.y1;
+  document.getElementById("yearLabel").textContent = yearsAll() ? "All years" : yearText();
+  const pct = v => (v - YMIN) / (YMAX - YMIN || 1) * 100;
+  const fill = document.getElementById("yearFill");
+  fill.style.left = pct(state.y0) + "%"; fill.style.width = (pct(state.y1) - pct(state.y0)) + "%";
+  // when both handles meet, keep the one that can still move on top
+  y0.style.zIndex = state.y0 === state.y1 && state.y0 > (YMIN + YMAX) / 2 ? 3 : 1;
+  y1.style.zIndex = 2;
+  yearBox.classList.toggle("on", !yearsAll());
+}
+y0.addEventListener("input", () => { state.y0 = Math.min(+y0.value, state.y1); drawYears(); render(); });
+y1.addEventListener("input", () => { state.y1 = Math.max(+y1.value, state.y0); drawYears(); render(); });
+drawYears();
 // genres: multiple choice, a title shows if it has any of the ticked genres
 const ALL_GENRES = [...new Set(DATA.flatMap(x => x.g))].sort();
 state.genres = state.genres.filter(g => ALL_GENRES.includes(g));
@@ -329,7 +388,7 @@ document.addEventListener("keydown", e => { if (e.key === "Escape" && genreBox.o
 drawGenreSummary();
 for (const [id, key] of [["company","co"],["type","type"],["sort","sort"]]) {
   const el = document.getElementById(id);
-  if ([...el.options].some(o => o.value === state[key])) el.value = state[key]; else state[key] = "all";
+  if ([...el.options].some(o => o.value === state[key])) el.value = state[key]; else state[key] = el.options[0].value;
   el.onchange = e => { state[key] = e.target.value; render(); };
 }
 document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); render(); };
@@ -360,9 +419,10 @@ function stats(list){
   ].map(([b,s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
 }
 
-const matches = x =>
+const matches = (x, skip) =>
   (state.fmt==="all" || group(x.fmt)===state.fmt) &&
-  (state.co==="all" || x.cos.includes(state.co)) &&
+  (skip==="co" || state.co==="all" || x.cos.includes(state.co)) &&
+  (yearsAll() || (x.year >= state.y0 && x.year <= state.y1)) &&
   (state.type==="all" || (state.type==="live") === isLive(x)) &&
   (!state.genres.length || state.genres.some(g => x.g.includes(g))) &&
   state.show[rateOf(x)] &&
@@ -413,25 +473,27 @@ function card(x, i){
 }
 
 // filters are remembered between visits, so always say when they hide titles
-const DEFAULTS = {fmt:"all", co:"all", type:"all"};
+const DEFAULTS = {fmt:"all", co:"all", type:"anim"};
 function showActiveFilters(){
   const on = [];
   if (state.fmt !== "all") on.push(chipBox.querySelector(`[data-k="${state.fmt}"]`).textContent);
   if (state.co !== "all") on.push(state.co);
-  if (state.type !== "all") on.push(state.type === "live" ? "live action / hybrid" : "animated only");
+  if (state.type !== "anim") on.push(state.type === "live" ? "live action / hybrid" : "animated + live action");
+  if (!yearsAll()) on.push(yearText());
   if (state.genres.length) on.push(state.genres.join(" or "));
   const hiddenRates = RATES.filter(([k]) => !state.show[k]).map(([, label]) => label.toLowerCase());
   if (hiddenRates.length) on.push("hiding “" + hiddenRates.join("”, “") + "”");
   if (state.q) on.push(`search “${state.q}”`);
   const note = document.getElementById("activeNote");
-  note.hidden = shown.length === DATA.length && !on.length;
+  note.hidden = !on.length;
   document.getElementById("activeText").textContent =
     `Showing ${shown.length} of ${DATA.length} titles` + (on.length ? ` · ${on.join(" · ")}` : "");
 }
 document.getElementById("resetFilters").onclick = () => {
-  Object.assign(state, DEFAULTS, {genres:[], q:"", show:{up:true, maybe:true, down:true, none:true}});
+  Object.assign(state, DEFAULTS, {genres:[], q:"", y0:YMIN, y1:YMAX, show:{up:true, maybe:true, down:true, none:true}});
   chipBox.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === "all"));
-  for (const id of ["company","type"]) document.getElementById(id).value = "all";
+  for (const id of ["company","type"]) document.getElementById(id).value = DEFAULTS[id === "company" ? "co" : "type"];
+  drawYears();
   genreOpts.querySelectorAll("input").forEach(i => i.checked = false);
   drawGenreSummary();
   document.getElementById("q").value = "";
@@ -443,6 +505,7 @@ let shown = [];
 function render(){
   saveFilters();
   drawRateFilter();
+  drawCompanyCounts();
   shown = DATA.map((x,i) => [x,i]).filter(([x]) => matches(x));
   const by = {
     az:(a,b) => a[0].t.localeCompare(b[0].t),
