@@ -58,6 +58,11 @@ header a{color:inherit}
 .rf input{width:16px;height:16px;margin:0;accent-color:var(--ink)}
 .rf .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
 .rf .n{color:var(--muted);font-variant-numeric:tabular-nums}
+.sync{margin-left:auto;display:inline-flex;align-items:center;gap:8px;color:var(--muted)}
+.sync .dot{width:8px;height:8px}
+.sync button{font:inherit;font-size:12.5px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer}
+.sync button:hover{background:var(--chip)}
+.sync button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 
 .multi{position:relative}
 .multi summary{list-style:none;cursor:pointer;font-size:14px;padding:7px 28px 7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);white-space:nowrap;position:relative}
@@ -281,7 +286,7 @@ document.getElementById("sources").innerHTML = "Animated titles from " + COMPANI
 document.getElementById("footer").innerHTML =
   "Images and trailers are loaded from the companies' sites and YouTube and remain the property of their rights holders. " +
   (HAS_SCORES ? "Scores come from <a href='https://myanimelist.net' target='_blank' rel='noopener'>MyAnimeList</a>. " : "") +
-  "Your ratings are saved in this browser only. Summaries are paraphrased; “—” means a value wasn't confirmed.";
+  "Your ratings are saved in this browser and, once connected, in the repository's ratings.json. Summaries are paraphrased; “—” means a value wasn't confirmed.";
 
 // format chips
 const chipBox = document.getElementById("fmtChips");
@@ -460,6 +465,7 @@ document.getElementById("grid").addEventListener("click", e => {
     const next = rateOf(x) === k ? "none" : k;
     if (next === "none") delete ratings[x.id]; else ratings[x.id] = next;
     store.set("animeCatalog.ratings", ratings);
+    sync.changed(x.id, next);
     el.classList.remove("r-up","r-maybe","r-down");
     if (next !== "none") el.classList.add("r-"+next);
     el.querySelectorAll(".rate button").forEach(b => b.setAttribute("aria-pressed", b.dataset.r === next));
@@ -542,6 +548,113 @@ stage.addEventListener("pointerup", e => {
   if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1));
 });
 stage.addEventListener("click", e => { if (e.target === stage) closeViewer(); });
+
+// Saving ratings to the repository. GitHub Pages can't write files, so the page commits
+// ratings.json through the GitHub API with a fine-grained token kept in this browser only.
+// Without a token the page still reads ratings.json, so everyone sees the saved ratings.
+const sync = (() => {
+  const REPO = "AndoHere/anime-shortlist", BRANCH = "main", FILE = "ratings.json";
+  const API = `https://api.github.com/repos/${REPO}/contents/${FILE}`;
+  // changes not in the repo yet; on the first visit after this was added, every rating in this browser
+  const pending = store.get("animeCatalog.pendingRatings", null) || Object.assign({}, ratings);
+  store.set("animeCatalog.pendingRatings", pending);
+  let token = store.get("animeCatalog.githubToken", ""), timer = null, busy = false, again = false;
+
+  const box = document.createElement("span");
+  box.className = "sync";
+  box.innerHTML = `<span class="dot"></span><span class="msg"></span><button type="button"></button>`;
+  rf.appendChild(box);
+  const dot = box.querySelector(".dot"), msg = box.querySelector(".msg"), btn = box.querySelector("button");
+  function status(text, color){ msg.textContent = text; dot.style.background = color; }
+  function drawButton(){ btn.textContent = token ? "Disconnect" : "Save ratings to GitHub"; }
+  const nPending = () => Object.keys(pending).length;
+  function idle(){
+    if (!token) status(nPending() ? `${nPending()} rating change(s) only in this browser` : "Ratings load from the repository", "var(--idle)");
+    else status(nPending() ? "Not saved yet" : "Saved to the repository", nPending() ? "var(--maybe)" : "var(--good)");
+  }
+
+  const toB64 = s => { const b = new TextEncoder().encode(s); let t = ""; for (const c of b) t += String.fromCharCode(c); return btoa(t); };
+  const fromB64 = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\s/g, "")), c => c.charCodeAt(0)));
+  const headers = () => ({Accept: "application/vnd.github+json", Authorization: `Bearer ${token}`});
+
+  async function readRepo(){ // returns {data, sha}; sha is null when the file doesn't exist yet
+    if (token) {
+      const r = await fetch(`${API}?ref=${BRANCH}&t=${Date.now()}`, {headers: headers(), cache: "no-store"});
+      if (r.status === 404) return {data: {}, sha: null};
+      if (!r.ok) throw Object.assign(new Error("read " + r.status), {status: r.status});
+      const j = await r.json();
+      return {data: JSON.parse(fromB64(j.content) || "{}"), sha: j.sha};
+    }
+    const r = await fetch(`${FILE}?t=${Date.now()}`, {cache: "no-store"});
+    return {data: r.ok ? await r.json() : {}, sha: null};
+  }
+
+  function apply(data){ // repository ratings, with this browser's unsaved changes on top
+    for (const k of Object.keys(ratings)) delete ratings[k];
+    Object.assign(ratings, data);
+    for (const [id, v] of Object.entries(pending)) { if (v === "none") delete ratings[id]; else ratings[id] = v; }
+    store.set("animeCatalog.ratings", ratings);
+    render();
+  }
+
+  async function push(){
+    if (!token || !nPending()) { idle(); return; }
+    if (busy) { again = true; return; }
+    busy = true; status("Saving…", "var(--maybe)");
+    try {
+      for (let attempt = 0; ; attempt++) {
+        const {data, sha} = await readRepo();
+        const sent = Object.assign({}, pending);
+        for (const [id, v] of Object.entries(sent)) { if (v === "none") delete data[id]; else data[id] = v; }
+        const sorted = Object.fromEntries(Object.keys(data).sort().map(k => [k, data[k]]));
+        const body = {message: `Update ratings (${Object.keys(sent).length} change${Object.keys(sent).length === 1 ? "" : "s"})`,
+          content: toB64(JSON.stringify(sorted, null, 2) + "\n"), branch: BRANCH};
+        if (sha) body.sha = sha;
+        const r = await fetch(API, {method: "PUT", headers: headers(), body: JSON.stringify(body)});
+        if ((r.status === 409 || r.status === 422) && attempt < 2) continue; // someone else saved first: re-read and retry
+        if (!r.ok) throw Object.assign(new Error("save " + r.status), {status: r.status});
+        for (const [id, v] of Object.entries(sent)) if (pending[id] === v) delete pending[id];
+        store.set("animeCatalog.pendingRatings", pending);
+        break;
+      }
+      idle();
+    } catch (e) {
+      status(e.status === 401 || e.status === 403 || e.status === 404
+        ? "GitHub refused the token. Disconnect and connect again." : "Couldn't save. Will retry on the next rating.", "var(--bad)");
+    } finally {
+      busy = false;
+      if (again) { again = false; push(); }
+    }
+  }
+
+  btn.onclick = async () => {
+    if (token) {
+      if (!confirm("Stop saving ratings to GitHub from this browser? The token is removed from this browser.")) return;
+      token = ""; store.set("animeCatalog.githubToken", ""); drawButton(); idle(); return;
+    }
+    const t = prompt("Paste a GitHub fine-grained token for " + REPO + " with Contents: Read and write.\n" +
+      "It is kept in this browser only. See the README for how to make one.");
+    if (!t || !t.trim()) return;
+    token = t.trim(); store.set("animeCatalog.githubToken", token); drawButton();
+    // ratings made in this browser before connecting are saved too
+    for (const [id, v] of Object.entries(ratings)) if (!(id in pending)) pending[id] = v;
+    store.set("animeCatalog.pendingRatings", pending);
+    try { apply((await readRepo()).data); } catch (e) {}
+    push();
+  };
+
+  drawButton(); idle();
+  readRepo().then(({data}) => { apply(data); idle(); push(); }).catch(() => idle());
+
+  return {
+    changed(id, v){
+      pending[id] = v; store.set("animeCatalog.pendingRatings", pending);
+      if (!token) { idle(); return; }
+      status("Not saved yet", "var(--maybe)");
+      clearTimeout(timer); timer = setTimeout(push, 1500); // one commit for a burst of ratings
+    }
+  };
+})();
 
 render();
 </script>

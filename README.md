@@ -17,8 +17,26 @@ images and MyAnimeList scores.
 After a minute or so the catalog is live at <https://andohere.github.io/anime-shortlist/>.
 Every push to `main` republishes it.
 
-Your ratings (Want to watch, Not sure, Not for me) are saved in the browser per web address, so picks made on
-`localhost` don't carry over to the GitHub Pages address.
+## Saving ratings to the repository
+
+Ratings (Want to watch, Not sure, Not for me) are kept in `ratings.json` in this repository, so they show
+up on every device and for anyone who opens the site. The page reads that file on load. Writing to it needs
+a GitHub token, which you enter once per browser:
+
+1. Go to <https://github.com/settings/personal-access-tokens/new> (fine-grained token).
+2. Give it a name such as "anime-shortlist ratings" and an expiration date you're happy with.
+3. Under **Repository access**, choose **Only select repositories** and pick `anime-shortlist`.
+4. Under **Permissions → Repository permissions**, set **Contents** to **Read and write**. Leave everything else.
+5. Click **Generate token** and copy it.
+6. On the site, click **Save ratings to GitHub** (next to the rating filters) and paste the token.
+
+The token stays in that browser's local storage and is only sent to GitHub. Ratings you made in that
+browser before connecting are saved too. Each burst of ratings becomes one commit to `main` named
+"Update ratings", and GitHub Pages republishes the site a minute later. Click **Disconnect** to remove the
+token from the browser; you can also revoke it on GitHub at any time.
+
+Without a token the page still shows the saved ratings, and new ratings stay in that browser only (the
+status next to the button says how many).
 
 ## Updating the catalog
 
