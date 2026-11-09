@@ -12,6 +12,6 @@ An adapter may set "co" on a title to label it with another company name (see ha
 A title listed by several companies is shown once (build.merge_duplicates): the first company in this
 list keeps the entry, and the others' names, links, images and trailers are added to it.
 """
-from companies import aniplex, gaga, hakuhodo, production_ig
+from companies import aniplex, gaga, hakuhodo, production_ig, tbs
 
-COMPANIES = [gaga, production_ig, hakuhodo, aniplex]
+COMPANIES = [gaga, production_ig, hakuhodo, aniplex, tbs]
