@@ -1,8 +1,8 @@
 # Catalog TODO
 
-Generated 2026-11-06 by build.py. Fill these in in catalog/data/curated/<company>.json (keyed by the title's page URL), then rebuild.
+Generated 2026-11-09 by build.py. Fill these in in catalog/data/curated/<company>.json (keyed by the title's page URL), then rebuild.
 
-## No trailer found (set "trailer": "<youtube id>" or false) (76)
+## No trailer found (set "trailer": "<youtube id>" or false) (81)
 
 - [Night Head Genesis](https://www.gaga.co.jp/intls/night-head-genesis-2/) — NIGHT HEAD GENESIS
 - [Yuagari Sketch](https://www.production-ig.co.jp/works/yuagari-sketch/) — 湯あがりスケッチ
@@ -80,8 +80,13 @@ Generated 2026-11-06 by build.py. Fill these in in catalog/data/curated/<company
 - [Fullmetal Alchemist the Movie: Conqueror of Shamballa](https://www.aniplex.co.jp/lineup/hagaren-movie-shamballa/) — 劇場版「鋼の錬金術師 シャンバラを征く者」
 - [Puella Magi Madoka Magica the Movie: Beginnings / Eternal](https://www.aniplex.co.jp/lineup/madoka-zenkouhen/) — 劇場版 魔法少女まどか☆マギカ [前編]始まりの物語 [後編]永遠の物語
 - [Magical Girl Lyrical Nanoha the Movie 1st](https://www.aniplex.co.jp/lineup/nanoha/) — 魔法少女リリカルなのは The MOVIE 1st
+- [Tomica Hyper Rescue Drive Head the Movie](https://www.tbscontents.com/en/program/drivehead_movie) — 映画ドライブヘッド～トミカハイパーレスキュー 機動救急警察～
+- [Professor Layton and the Eternal Diva](https://www.tbscontents.com/en/program/professorlayton) — レイトン教授と永遠の歌姫
+- [One Stormy Night](https://www.tbscontents.com/en/program/stormynight) — あらしのよるに
+- [Appleseed](https://www.tbscontents.com/en/program/appleseed) — アップルシード
+- [You're Under Arrest: The Movie](https://www.tbscontents.com/en/program/youreunderarrestmovie) — 逮捕しちゃうぞ the movie
 
-## No MyAnimeList match (set "mal_id": <id> or false) (27)
+## No MyAnimeList match (set "mal_id": <id> or false) (28)
 
 - [Junk Head](https://www.gaga.co.jp/intls/junk-head/) — JUNK HEAD
 - [Rakudai Majo: Fuka and the Dark Witch](https://www.production-ig.co.jp/works/rakumajo/) — らくだい魔女
@@ -110,3 +115,4 @@ Generated 2026-11-06 by build.py. Fill these in in catalog/data/curated/<company
 - [Ping Pong Girls: Beyond the Flash](https://www.aniplex.co.jp/lineup/pingpong-girls/) — 卓球少女 -閃光のかなたへ-
 - [Persona 3 the Movie](https://www.aniplex.co.jp/lineup/p3m/) — 劇場版「ペルソナ３」
 - [Puella Magi Madoka Magica the Movie: Beginnings / Eternal](https://www.aniplex.co.jp/lineup/madoka-zenkouhen/) — 劇場版 魔法少女まどか☆マギカ [前編]始まりの物語 [後編]永遠の物語
+- [Tomica Hyper Rescue Drive Head the Movie](https://www.tbscontents.com/en/program/drivehead_movie) — 映画ドライブヘッド～トミカハイパーレスキュー 機動救急警察～
