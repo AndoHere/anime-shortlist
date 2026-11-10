@@ -88,6 +88,10 @@ def build_company(co, refresh):
             "live_action": bool(re.match(r"live action", e.get("type", ""), re.I)),
             "curated": bool(e),
         })
+        extra = item.get("extra_co")  # the same title also listed by this company on the same site (Hakuhodo JP)
+        if extra and extra["co"] != company:
+            rows[-1]["cos"].append(extra["co"])
+            rows[-1]["links"].append({"co": extra["co"], "site": co.SITE, "u": extra["u"]})
         if n % 25 == 0:
             log(f"  {co.NAME}: {n}/{len(items)} pages read")
     unused = set(curated) - {i["url"] for i in items}

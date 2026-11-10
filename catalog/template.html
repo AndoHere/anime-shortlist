@@ -328,6 +328,7 @@ chipBox.addEventListener("click", e => {
 // selects
 const cSel = document.getElementById("company");
 const cos = [...new Set(DATA.flatMap(x => x.cos))];
+if (state.co !== "all" && !cos.includes(state.co)) state.co = "all"; // a company renamed since the filter was saved
 cSel.innerHTML = `<option value="all">All companies</option>` +
   cos.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
 function drawCompanyCounts(){ // counts use every filter except the company one

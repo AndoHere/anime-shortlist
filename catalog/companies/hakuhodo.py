@@ -1,11 +1,13 @@
-"""Hakuhodo DY Music & Pictures: theatrical animation only.
+"""Hakuhodo DY Music & Pictures: films, TV series and OVAs.
 
 Two lists are read:
-  - the international sales animation list (English): only titles whose category says "Theatrical" are kept,
-    labelled "Hakuhodo DY Intl."
-  - the Japanese theatrical animation list (劇場公開作品), labelled "Hakuhodo DY JP"
-A title on both lists appears once, as "Hakuhodo DY Intl.", and takes its Japanese name from the JP list.
-Both lists are matched on the title's official website link or its poster file.
+  - the international sales animation list (English), labelled "🌐 Hakuhodo DY Intl."
+  - the Japanese animation list (https://www.hakuhodody-map.jp/animation/), labelled "🇯🇵 Hakuhodo DY JP"
+A title on both lists is one card listing both companies, international first, with a link to each site; it
+takes its Japanese name from the JP list. Both lists are matched on the title's official website link or its poster
+file. Format: a "Theatrical" category (English list) or a place on the theatrical list (animation-movie/) means a
+movie; otherwise the category / page text decides (OVA, streaming) and the rest are TV series. Fix any wrong one
+with "fmt" in data/curated/hakuhodo.json.
 """
 import os
 import re
@@ -17,9 +19,10 @@ NAME = "Hakuhodo DY"
 SLUG = "hakuhodo"
 SITE = "hakuhodody-map.jp"
 ROLE = "Film production, distribution & international sales"
-LIST_URL = "https://www.hakuhodody-map.jp/animation-movie/"
+LIST_URL = "https://www.hakuhodody-map.jp/animation/"
+MOVIE_URL = "https://www.hakuhodody-map.jp/animation-movie/"
 EN_LIST = "https://www.hakuhodody-map.jp/en/animation_en/"
-INTL, JP = "Hakuhodo DY Intl.", "Hakuhodo DY JP"
+INTL, JP = "🌐 Hakuhodo DY Intl.", "🇯🇵 Hakuhodo DY JP"
 NAMES = [INTL, JP]  # company names this adapter can give a title
 
 
@@ -57,31 +60,42 @@ def _category(html):
     return m.group(1).strip() if m else ""
 
 
+def _format(text_):
+    if re.search(r"theatrical|movie|film|劇場", text_, re.I):
+        return "Movie"
+    if re.search(r"\bOVA\b|ＯＶＡ", text_, re.I):
+        return "OVA"
+    if re.search(r"stream|web|配信|ネット", text_, re.I):
+        return "Streaming series"
+    return "TV series"
+
+
 def list_titles(refresh=False):
     intl = []
     for c in _cards(EN_LIST, refresh):
         html = fetch(c["url"], refresh=refresh) or ""
         cat = _category(html)  # e.g. "2025～2026/Theatrical animation/Drama, Youth"
-        if not re.search(r"theatrical|movie|film", cat, re.I):
-            continue
         parts = [p.strip() for p in cat.split("/")]
         years = re.findall(r"(?:19|20)\d\d", cat)
         # the remaining parts are genres, unless they are a running time or the format
-        genres = [g.strip() for p in parts if not re.search(r"\d|theatrical|animation|series|length", p, re.I)
+        genres = [g.strip() for p in parts if not re.search(r"\d|theatrical|animation|series|length|\bTV\b|\bOVA\b", p, re.I)
                   for g in p.split(",") if g.strip()]
-        intl.append({"url": c["url"], "co": INTL, "en": c["title"], "poster": c["poster"], "label": "Movie",
+        intl.append({"url": c["url"], "co": INTL, "en": c["title"], "poster": c["poster"], "label": _format(cat),
                      "year": int(years[0]) if years else None, "tags": genres,
                      "keys": _keys(c["url"], html, c["poster"])})
     by_key = {k: item for item in intl for k in item["keys"]}
     titles = list(intl)
+    movie_urls = {c["url"] for c in _cards(MOVIE_URL, refresh)}
     for c in _cards(LIST_URL, refresh):
         html = fetch(c["url"], refresh=refresh) or ""
         twin = next((by_key[k] for k in _keys(c["url"], html, c["poster"]) if k in by_key), None)
-        if twin:  # on both lists: keep the international entry, give it the Japanese title
+        if twin:  # on both lists: keep the international entry, give it the Japanese title and name both companies
             twin.setdefault("ja", c["title"])
+            twin["extra_co"] = {"co": JP, "u": c["url"]}
             continue
+        label = "Movie" if c["url"] in movie_urls else _format(_category(html) + " " + text(html)[:400])
         # JP pages give no release date (the © year is often the franchise's), so the year comes from MyAnimeList
-        titles.append({"url": c["url"], "co": JP, "ja": c["title"], "poster": c["poster"], "label": "Movie"})
+        titles.append({"url": c["url"], "co": JP, "ja": c["title"], "poster": c["poster"], "label": label})
     for t in titles:
         t.pop("keys", None)
     return titles
