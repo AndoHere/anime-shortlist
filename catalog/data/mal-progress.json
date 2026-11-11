@@ -3917,7 +3917,21 @@
   "score": 8.51,
   "trailer": "aic9EjX2A8Y"
  },
- "https://www.aniplex.co.jp/lineup/madoka-zenkouhen/": {},
+ "https://www.aniplex.co.jp/lineup/madoka-zenkouhen/": {
+  "mal_id": 11981,
+  "url": "https://myanimelist.net/anime/11981",
+  "romaji": "Mahou Shoujo Madoka☆Magica Movie 3: Hangyaku no Monogatari",
+  "ja": "劇場版 魔法少女まどか☆マギカ 叛逆の物語",
+  "en": "Puella Magi Madoka Magica the Movie: Rebellion",
+  "syn": [
+   "Mahou Shoujo Madoka Magika Movie 3",
+   "Magical Girl Madoka Magica Movie 3"
+  ],
+  "type": "Movie",
+  "year": 2013,
+  "score": 8.51,
+  "trailer": "aic9EjX2A8Y"
+ },
  "https://www.aniplex.co.jp/lineup/madoka-walpurgisnacht/": {
   "mal_id": 48820,
   "url": "https://myanimelist.net/anime/48820",
@@ -11760,7 +11774,18 @@
   "score": 7.46,
   "trailer": "n0-PpoSUs-M"
  },
- "https://www.tbscontents.com/en/program/shinkalion": {},
+ "https://www.tbscontents.com/en/program/shinkalion": {
+  "mal_id": 34985,
+  "url": "https://myanimelist.net/anime/34985",
+  "romaji": "Shinkansen Henkei Robo Shinkalion",
+  "ja": "新幹線変形ロボ シンカリオン",
+  "en": "Shinkalion",
+  "syn": [],
+  "type": "ONA",
+  "year": 2015,
+  "score": 5.97,
+  "trailer": null
+ },
  "https://www.tbscontents.com/en/program/takunomi": {
   "mal_id": 36108,
   "url": "https://myanimelist.net/anime/36108",
