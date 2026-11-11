@@ -8,7 +8,7 @@ Static catalog of animated titles. `animated-titles.html` is **generated**. Ever
 - Page UI/JS/CSS lives in `catalog/template.html`. Titles live in `catalog/data/`. Don't re-explore the repo; use the map below.
 - One small, focused change per thread. Don't grow long threads.
 - Routine work (re-run a build, rebuild, commit) is fine on Sonnet. Use a bigger model only for real code changes.
-- Ando starts scrapes manually. Don't add schedules, cron jobs or GitHub Actions for scraping.
+- Ando starts scrapes manually. Never add schedules or cron triggers. The only scrape automation is the manual `MAL scrape` workflow (`.github/workflows/mal-scrape.yml`, run via Actions > Run workflow).
 
 ## Where things live
 
@@ -16,7 +16,7 @@ Static catalog of animated titles. `animated-titles.html` is **generated**. Ever
 - `catalog/companies/*.py`: one scraper per source (GAGA, Production I.G, Hakuhodo, Aniplex, TBS). Registered in `companies/__init__.py`.
 - `catalog/data/curated/<company>.json`: hand-curated overrides keyed by title URL (English name, summary, trailer, `skip`, `mal_id`...). Format is in `catalog/README.md`.
 - `catalog/data/titles.json`: built catalog data. `catalog/data/trailer_search_picks.json`: hand-found trailers.
-- `catalog/mal_scrape.py` / `mal.py`: MyAnimeList scores. `catalog/trailers.py`, `common.py`: helpers.
+- `catalog/mal_scrape.py` / `mal.py`: MyAnimeList scores. `catalog/apply_mal.py` re-renders the page from `titles.json` + MAL results with no company-site cache (works on GitHub). `catalog/data/mal-progress.json`: MAL scrape progress saved by the workflow. `catalog/trailers.py`, `common.py`: helpers.
 - `ratings.json` (repo root): ratings the page commits itself through the GitHub API. Don't edit by hand.
 - `index.html`: redirect to the page for GitHub Pages. `catalog/data/cache/` is gitignored (~198 MB).
 
@@ -27,10 +27,11 @@ python catalog/build.py             # rebuild from cached pages
 python catalog/build.py --refresh   # re-download company sites first
 python catalog/apply_trailer_picks.py
 python catalog/mal_scrape.py        # MAL lookups for new titles
+python catalog/apply_mal.py         # apply MAL results to the page, no cache needed
 python catalog/serve.py             # http://localhost:8000/animated-titles.html
 ```
 
 ## Environment gotchas
 
-- The page cache and company-site access exist only on Ando's laptop (clone at `D:\Claude\anime-shortlist-repo`, reached via Remote Control). Cloud sessions can't scrape or fully rebuild. For those, edit the source and have the rebuild run on the laptop (`git pull` first so it doesn't build from an old template).
+- The page cache and company-site access exist only on Ando's laptop (clone at `D:\Claude\anime-shortlist-repo`, reached via Remote Control). Cloud sessions can't scrape or fully rebuild (but `apply_mal.py` works anywhere). For those, edit the source and have the rebuild run on the laptop (`git pull` first so it doesn't build from an old template).
 - Open the page via `serve.py`, not as a file: YouTube won't play from `file://`.
