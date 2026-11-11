@@ -5724,5 +5724,1473 @@
   "score": 7.76,
   "trailer": "XzXLibJm6GE"
  },
- "https://www.hakuhodody-map.jp/lineup/animation/map-3205": {}
+ "https://www.hakuhodody-map.jp/lineup/animation/map-3205": {},
+ "https://www.aniplex.co.jp/lineup/idolmaster/": {
+  "mal_id": 10278,
+  "url": "https://myanimelist.net/anime/10278",
+  "romaji": "The iDOLM@STER",
+  "ja": "アイドルマスター",
+  "en": "THE IDOLM@STER",
+  "syn": [
+   "The Idolmaster"
+  ],
+  "type": "TV",
+  "year": 2011,
+  "score": 7.61,
+  "trailer": "sz53h6_Iq_4"
+ },
+ "https://www.aniplex.co.jp/lineup/imas-sidem/": {
+  "mal_id": 34915,
+  "url": "https://myanimelist.net/anime/34915",
+  "romaji": "The iDOLM@STER SideM",
+  "ja": "アイドルマスター SideM",
+  "en": "THE IDOLM@STER SideM",
+  "syn": [
+   "The Idolmaster Side M"
+  ],
+  "type": "TV",
+  "year": 2017,
+  "score": 7.14,
+  "trailer": "QEbuMfTAGsg"
+ },
+ "https://www.aniplex.co.jp/lineup/imas-cinderella/": {
+  "mal_id": 23587,
+  "url": "https://myanimelist.net/anime/23587",
+  "romaji": "The iDOLM@STER Cinderella Girls",
+  "ja": "アイドルマスター シンデレラガールズ",
+  "en": "THE IDOLM@STER CINDERELLA GIRLS",
+  "syn": [
+   "The Idolmaster Cinderella Girls"
+  ],
+  "type": "TV",
+  "year": 2015,
+  "score": 7.17,
+  "trailer": "z9wR6khkTxA"
+ },
+ "https://www.aniplex.co.jp/lineup/ckbc/": {
+  "mal_id": 359,
+  "url": "https://myanimelist.net/anime/359",
+  "romaji": "I'll/CKBC",
+  "ja": "I'll/CKBC",
+  "en": "I'll/CKBC",
+  "syn": [
+   "I'll / Crazy KOUZU Basketball Club",
+   "Generation basket"
+  ],
+  "type": "OVA",
+  "year": 2002,
+  "score": 6.15,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/aoex/": {
+  "mal_id": 9919,
+  "url": "https://myanimelist.net/anime/9919",
+  "romaji": "Ao no Exorcist",
+  "ja": "青の祓魔師",
+  "en": "Blue Exorcist",
+  "syn": [
+   "Ao no Futsumashi"
+  ],
+  "type": "TV",
+  "year": 2011,
+  "score": 7.46,
+  "trailer": "ayLq7BKjQZU"
+ },
+ "https://www.aniplex.co.jp/lineup/aoex_n/": {
+  "mal_id": 53889,
+  "url": "https://myanimelist.net/anime/53889",
+  "romaji": "Ao no Exorcist: Shimane Illuminati-hen",
+  "ja": "青の祓魔師 島根啓明結社篇",
+  "en": "Blue Exorcist: Shimane Illuminati Saga",
+  "syn": [
+   "Blue Exorcist Season 3",
+   "Ao no Futsumashi"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.12,
+  "trailer": "eFtUkrxqRaM"
+ },
+ "https://www.aniplex.co.jp/lineup/aoex_s/": {
+  "mal_id": 58516,
+  "url": "https://myanimelist.net/anime/58516",
+  "romaji": "Ao no Exorcist: Yuki no Hate-hen",
+  "ja": "青の祓魔師 雪ノ果篇",
+  "en": "Blue Exorcist: Beyond the Snow Saga",
+  "syn": [
+   "Blue Exorcist Season 4",
+   "Ao no Exorcist 4th Season"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.48,
+  "trailer": "1p5XY7gcgYU"
+ },
+ "https://www.aniplex.co.jp/lineup/aoex_BNS/": {
+  "mal_id": 59226,
+  "url": "https://myanimelist.net/anime/59226",
+  "romaji": "Ao no Exorcist: Yosuga-hen",
+  "ja": "青の祓魔師 終夜篇",
+  "en": "Blue Exorcist: The Blue Night Saga",
+  "syn": [
+   "Blue Exorcist Season 5"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 7.98,
+  "trailer": "OJEcRFdvfss"
+ },
+ "https://www.aniplex.co.jp/lineup/aoex_kyoto/": {
+  "mal_id": 33506,
+  "url": "https://myanimelist.net/anime/33506",
+  "romaji": "Ao no Exorcist: Kyoto Fujouou-hen",
+  "ja": "青の祓魔師 京都不浄王篇",
+  "en": "Blue Exorcist: Kyoto Saga",
+  "syn": [
+   "Blue Exorcist: Kyoto Impure King Arc"
+  ],
+  "type": "TV",
+  "year": 2017,
+  "score": 7.34,
+  "trailer": "IV6BY5w9b9o"
+ },
+ "https://www.aniplex.co.jp/lineup/miburoanime/": {
+  "mal_id": 56647,
+  "url": "https://myanimelist.net/anime/56647",
+  "romaji": "Ao no Miburo",
+  "ja": "青のミブロ",
+  "en": "Blue Miburo",
+  "syn": [
+   "The Blue Wolves of Mibu"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 6.72,
+  "trailer": "cStgZyAzVg8"
+ },
+ "https://www.aniplex.co.jp/lineup/akane-banashi/": {
+  "mal_id": 62164,
+  "url": "https://myanimelist.net/anime/62164",
+  "romaji": "Akane-banashi",
+  "ja": "あかね噺",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2026,
+  "score": 7.93,
+  "trailer": "PZJAOQ-7iJ8"
+ },
+ "https://www.aniplex.co.jp/lineup/akebi-chan/": {
+  "mal_id": 48553,
+  "url": "https://myanimelist.net/anime/48553",
+  "romaji": "Akebi-chan no Sailor-fuku",
+  "ja": "明日ちゃんのセーラー服",
+  "en": "Akebi's Sailor Uniform",
+  "syn": [],
+  "type": "TV",
+  "year": 2022,
+  "score": 7.64,
+  "trailer": "pX1NO_8Ycuk"
+ },
+ "https://www.aniplex.co.jp/lineup/do-tennen/": {
+  "mal_id": 55310,
+  "url": "https://myanimelist.net/anime/55310",
+  "romaji": "Atarashii Joushi wa Do Tennen",
+  "ja": "新しい上司はど天然",
+  "en": "My New Boss Is Goofy",
+  "syn": [],
+  "type": "TV",
+  "year": 2023,
+  "score": 7.9,
+  "trailer": "Qb9YyEvdkEc"
+ },
+ "https://www.aniplex.co.jp/lineup/atri/": {
+  "mal_id": 53128,
+  "url": "https://myanimelist.net/anime/53128",
+  "romaji": "Atri: My Dear Moments",
+  "ja": "ATRI -My Dear Moments-",
+  "en": "Atri -My Dear Moments-",
+  "syn": [],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.22,
+  "trailer": "Pv5Kb62OSvg"
+ },
+ "https://www.aniplex.co.jp/lineup/animebunko/": {},
+ "https://www.aniplex.co.jp/lineup/anohana/": {
+  "mal_id": 9989,
+  "url": "https://myanimelist.net/anime/9989",
+  "romaji": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+  "ja": "あの日見た花の名前を僕達はまだ知らない。",
+  "en": "Anohana: The Flower We Saw That Day",
+  "syn": [
+   "AnoHana",
+   "We Still Don't Know the Name of the Flower We Saw That Day."
+  ],
+  "type": "TV",
+  "year": 2011,
+  "score": 8.28,
+  "trailer": "_p7fkViY-0I"
+ },
+ "https://www.aniplex.co.jp/lineup/atdk-a/": {
+  "mal_id": 58600,
+  "url": "https://myanimelist.net/anime/58600",
+  "romaji": "Ameku Takao no Suiri Karte",
+  "ja": "天久鷹央の推理カルテ",
+  "en": "Ameku M.D.: Doctor Detective",
+  "syn": [
+   "Ameku Takao's Detective Karte"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 7.14,
+  "trailer": "ccpgz748urI"
+ },
+ "https://www.aniplex.co.jp/lineup/amon/": {
+  "mal_id": 2356,
+  "url": "https://myanimelist.net/anime/2356",
+  "romaji": "Amon: Devilman Mokushiroku",
+  "ja": "AMON デビルマン黙示録",
+  "en": "Amon: Apocalypse of Devilman",
+  "syn": [
+   "Amon: The Apocalypse of Devilman"
+  ],
+  "type": "OVA",
+  "year": 2000,
+  "score": 6.54,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/ayakashitriangle-anime/": {
+  "mal_id": 50606,
+  "url": "https://myanimelist.net/anime/50606",
+  "romaji": "Ayakashi Triangle",
+  "ja": "あやかしトライアングル",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2023,
+  "score": 6.43,
+  "trailer": "TgnWkRUymj4"
+ },
+ "https://www.aniplex.co.jp/lineup/aratanarusekai/": {},
+ "https://www.aniplex.co.jp/lineup/aldnoahzero/": {
+  "mal_id": 22729,
+  "url": "https://myanimelist.net/anime/22729",
+  "romaji": "Aldnoah.Zero",
+  "ja": "アルドノア・ゼロ",
+  "en": "Aldnoah.Zero",
+  "syn": [
+   "AZ"
+  ],
+  "type": "TV",
+  "year": 2014,
+  "score": 7.38,
+  "trailer": "D6XOSJyJtk8"
+ },
+ "https://www.aniplex.co.jp/lineup/unco/": {
+  "mal_id": 29836,
+  "url": "https://myanimelist.net/anime/29836",
+  "romaji": "Akuei to Gacchinpo",
+  "ja": "アークエとガッチンポー",
+  "en": "",
+  "syn": [
+   "A-kuei & Gatchinpo"
+  ],
+  "type": "TV",
+  "year": 2004,
+  "score": 5.63,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/arcthelad/": {
+  "mal_id": 55,
+  "url": "https://myanimelist.net/anime/55",
+  "romaji": "Arc the Lad",
+  "ja": "アークザラッド",
+  "en": "",
+  "syn": [
+   "Arc"
+  ],
+  "type": "TV",
+  "year": 1999,
+  "score": 6.56,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/rod/": {},
+ "https://www.aniplex.co.jp/lineup/rodthetv/": {
+  "mal_id": 209,
+  "url": "https://myanimelist.net/anime/209",
+  "romaji": "R.O.D: The TV",
+  "ja": "アール・オー・ディー ザ・ティーヴィー",
+  "en": "R.O.D -The TV-",
+  "syn": [
+   "Read or Die TV",
+   "Read or Die",
+   "ROD",
+   "Read or Die: the TV",
+   "Read or Dream",
+   "R.O.D. TV"
+  ],
+  "type": "TV",
+  "year": 2003,
+  "score": 7.53,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/inuboku/": {
+  "mal_id": 11013,
+  "url": "https://myanimelist.net/anime/11013",
+  "romaji": "Inu x Boku SS",
+  "ja": "妖狐×僕SS",
+  "en": "Inu X Boku Secret Service",
+  "syn": [
+   "Youko x Boku SS"
+  ],
+  "type": "TV",
+  "year": 2012,
+  "score": 7.35,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/inuyasha/": {
+  "mal_id": 6811,
+  "url": "https://myanimelist.net/anime/6811",
+  "romaji": "InuYasha: Kanketsu-hen",
+  "ja": "犬夜叉 完結編",
+  "en": "InuYasha: The Final Act",
+  "syn": [
+   "Inu Yasha: Kanketsu-hen"
+  ],
+  "type": "TV",
+  "year": 2009,
+  "score": 8.2,
+  "trailer": "BcAuqVLCsZE"
+ },
+ "https://www.aniplex.co.jp/lineup/windbreaker/": {
+  "mal_id": 54900,
+  "url": "https://myanimelist.net/anime/54900",
+  "romaji": "Wind Breaker",
+  "ja": "WIND BREAKER",
+  "en": "Wind Breaker",
+  "syn": [
+   "Winbre",
+   "WBK"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.7,
+  "trailer": "k5qM1PoLmUc"
+ },
+ "https://www.aniplex.co.jp/lineup/windbreaker2/": {
+  "mal_id": 59160,
+  "url": "https://myanimelist.net/anime/59160",
+  "romaji": "Wind Breaker Season 2",
+  "ja": "WIND BREAKER Season 2",
+  "en": "Wind Breaker Season 2",
+  "syn": [
+   "Winbre",
+   "WBK"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 7.63,
+  "trailer": "qaR2_4tYhq8"
+ },
+ "https://www.aniplex.co.jp/lineup/utakoi/": {
+  "mal_id": 13349,
+  "url": "https://myanimelist.net/anime/13349",
+  "romaji": "Chouyaku Hyakuninisshu: Uta Koi.",
+  "ja": "超訳百人一首 うた恋い。",
+  "en": "Utakoi",
+  "syn": [
+   "Utakoi."
+  ],
+  "type": "TV",
+  "year": 2012,
+  "score": 7.44,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/uchitama/": {
+  "mal_id": 39942,
+  "url": "https://myanimelist.net/anime/39942",
+  "romaji": "Uchi Tama?! Uchi no Tama Shirimasen ka?",
+  "ja": "うちタマ?!~うちのタマ知りませんか?~",
+  "en": "Uchitama?! Have you seen my Tama?",
+  "syn": [],
+  "type": "TV",
+  "year": 2020,
+  "score": 6.95,
+  "trailer": "sBBFT-nwmec"
+ },
+ "https://www.aniplex.co.jp/lineup/uchioto/": {
+  "mal_id": 63061,
+  "url": "https://myanimelist.net/anime/63061",
+  "romaji": "Uchi no Otouto-domo ga Sumimasen",
+  "ja": "うちの弟どもがすみません",
+  "en": "Please Excuse My Younger Brothers",
+  "syn": [
+   "Sorry About My Little Brothers",
+   "Uchioto"
+  ],
+  "type": "TV",
+  "year": 2026,
+  "score": 7.09,
+  "trailer": "lUhpmL1vbL4"
+ },
+ "https://www.aniplex.co.jp/lineup/uchukyodai/": {
+  "mal_id": 12431,
+  "url": "https://myanimelist.net/anime/12431",
+  "romaji": "Uchuu Kyoudai",
+  "ja": "宇宙兄弟",
+  "en": "Space Brothers",
+  "syn": [
+   "Uchuu Kyodai"
+  ],
+  "type": "TV",
+  "year": 2012,
+  "score": 8.48,
+  "trailer": "ciS3fDqT1Vw"
+ },
+ "https://www.aniplex.co.jp/lineup/uy-allstars/": {
+  "mal_id": 50710,
+  "url": "https://myanimelist.net/anime/50710",
+  "romaji": "Urusei Yatsura (2022)",
+  "ja": "うる星やつら",
+  "en": "Urusei Yatsura",
+  "syn": [
+   "Those Obnoxious Aliens",
+   "The Return of Lum",
+   "Lum",
+   "the Invader Girl"
+  ],
+  "type": "TV",
+  "year": 2022,
+  "score": 7.4,
+  "trailer": "IrXb_W3o8dk"
+ },
+ "https://www.aniplex.co.jp/lineup/a-channel/": {
+  "mal_id": 9776,
+  "url": "https://myanimelist.net/anime/9776",
+  "romaji": "A-Channel",
+  "ja": "Aチャンネル",
+  "en": "A-Channel",
+  "syn": [
+   "A-Channel: The Animation"
+  ],
+  "type": "TV",
+  "year": 2011,
+  "score": 6.94,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/86anime/": {
+  "mal_id": 41457,
+  "url": "https://myanimelist.net/anime/41457",
+  "romaji": "86",
+  "ja": "86―エイティシックス―",
+  "en": "86 Eighty-Six",
+  "syn": [
+   "Eighty Six"
+  ],
+  "type": "TV",
+  "year": 2021,
+  "score": 8.36,
+  "trailer": "WVegRUOgkPM"
+ },
+ "https://www.aniplex.co.jp/lineup/sk8/": {
+  "mal_id": 42923,
+  "url": "https://myanimelist.net/anime/42923",
+  "romaji": "SK∞",
+  "ja": "SK∞ エスケーエイト",
+  "en": "SK8 the Infinity",
+  "syn": [
+   "SK Eight",
+   "Skate"
+  ],
+  "type": "TV",
+  "year": 2021,
+  "score": 7.99,
+  "trailer": "PcS3QIc6ma8"
+ },
+ "https://www.aniplex.co.jp/lineup/emiya-gohan/": {
+  "mal_id": 37033,
+  "url": "https://myanimelist.net/anime/37033",
+  "romaji": "Emiya-san Chi no Kyou no Gohan",
+  "ja": "衛宮さんちの今日のごはん",
+  "en": "Today's Menu for the Emiya Family",
+  "syn": [],
+  "type": "ONA",
+  "year": 2018,
+  "score": 7.78,
+  "trailer": "2p7MQA_yKjQ"
+ },
+ "https://www.aniplex.co.jp/lineup/eromanga/": {
+  "mal_id": 32901,
+  "url": "https://myanimelist.net/anime/32901",
+  "romaji": "Eromanga-sensei",
+  "ja": "エロマンガ先生",
+  "en": "Eromanga Sensei",
+  "syn": [],
+  "type": "TV",
+  "year": 2017,
+  "score": 6.3,
+  "trailer": "TzBk9alIqPI"
+ },
+ "https://www.aniplex.co.jp/lineup/engagekiss/": {
+  "mal_id": 51417,
+  "url": "https://myanimelist.net/anime/51417",
+  "romaji": "Engage Kiss",
+  "ja": "Engage Kiss",
+  "en": "Engage Kiss",
+  "syn": [],
+  "type": "TV",
+  "year": 2022,
+  "score": 6.78,
+  "trailer": "_xwq5xJB_KM"
+ },
+ "https://www.aniplex.co.jp/lineup/angelheart/": {
+  "mal_id": 282,
+  "url": "https://myanimelist.net/anime/282",
+  "romaji": "Angel Heart",
+  "ja": "エンジェル・ハート",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2005,
+  "score": 7.28,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/angelbeats/": {
+  "mal_id": 6547,
+  "url": "https://myanimelist.net/anime/6547",
+  "romaji": "Angel Beats!",
+  "ja": "Angel Beats!（エンジェルビーツ!）",
+  "en": "Angel Beats!",
+  "syn": [],
+  "type": "TV",
+  "year": 2010,
+  "score": 8.05,
+  "trailer": "zkY-sG6crKI"
+ },
+ "https://www.aniplex.co.jp/lineup/osama-ranking/": {
+  "mal_id": 40834,
+  "url": "https://myanimelist.net/anime/40834",
+  "romaji": "Ousama Ranking",
+  "ja": "王様ランキング",
+  "en": "Ranking of Kings",
+  "syn": [
+   "King Ranking"
+  ],
+  "type": "TV",
+  "year": 2021,
+  "score": 8.48,
+  "trailer": "c1HHoucIxRg"
+ },
+ "https://www.aniplex.co.jp/lineup/ousama_treasurechest/": {
+  "mal_id": 52657,
+  "url": "https://myanimelist.net/anime/52657",
+  "romaji": "Ousama Ranking: Yuuki no Takarabako",
+  "ja": "王様ランキング 勇気の宝箱",
+  "en": "Ranking of Kings: The Treasure Chest of Courage",
+  "syn": [
+   "Ranking of Kings: Treasure Chest of Courage"
+  ],
+  "type": "TV",
+  "year": 2023,
+  "score": 7.42,
+  "trailer": "TmyUZkQpSOE"
+ },
+ "https://www.aniplex.co.jp/lineup/oofuri/": {
+  "mal_id": 2159,
+  "url": "https://myanimelist.net/anime/2159",
+  "romaji": "Ookiku Furikabutte",
+  "ja": "おおきく振りかぶって",
+  "en": "Big Windup!",
+  "syn": [
+   "Oofuri",
+   "Ohkiku Furikabutte",
+   "Swing Big!"
+  ],
+  "type": "TV",
+  "year": 2007,
+  "score": 7.87,
+  "trailer": "gBFrqNqT8y0"
+ },
+ "https://www.aniplex.co.jp/lineup/oofuri2/": {
+  "mal_id": 7720,
+  "url": "https://myanimelist.net/anime/7720",
+  "romaji": "Ookiku Furikabutte: Natsu no Taikai-hen",
+  "ja": "おおきく振りかぶって 〜夏の大会編〜",
+  "en": "Big Windup! 2",
+  "syn": [
+   "Oofuri",
+   "Big Windup! 2",
+   "Swing Big! 2",
+   "Ookiku Furikabutte 2",
+   "Ookiku Furikabutte The Summer Tournament Chapter"
+  ],
+  "type": "TV",
+  "year": 2010,
+  "score": 7.96,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/jing/": {},
+ "https://www.aniplex.co.jp/lineup/zakuro/": {
+  "mal_id": 8476,
+  "url": "https://myanimelist.net/anime/8476",
+  "romaji": "Otome Youkai Zakuro",
+  "ja": "おとめ妖怪 ざくろ",
+  "en": "Zakuro",
+  "syn": [
+   "Girl Demon Zakuro"
+  ],
+  "type": "TV",
+  "year": 2010,
+  "score": 7.42,
+  "trailer": "TmONRcfX1Kw"
+ },
+ "https://www.aniplex.co.jp/lineup/onihana/": {
+  "mal_id": 61814,
+  "url": "https://myanimelist.net/anime/61814",
+  "romaji": "Oni no Hanayome",
+  "ja": "鬼の花嫁",
+  "en": "The Ogre's Bride",
+  "syn": [
+   "Onihana"
+  ],
+  "type": "TV",
+  "year": 2026,
+  "score": 6.81,
+  "trailer": "1hYWc5MCIPk"
+ },
+ "https://www.aniplex.co.jp/lineup/animehorsaga/": {
+  "mal_id": 40961,
+  "url": "https://myanimelist.net/anime/40961",
+  "romaji": "Hortensia Saga",
+  "ja": "オルタンシア・サーガ",
+  "en": "Hortensia SAGA",
+  "syn": [
+   "Horsaga"
+  ],
+  "type": "TV",
+  "year": 2021,
+  "score": 5.86,
+  "trailer": "9oHyGR1jOCo"
+ },
+ "https://www.aniplex.co.jp/lineup/ijiwarukei/": {
+  "mal_id": 25809,
+  "url": "https://myanimelist.net/anime/25809",
+  "romaji": "Oretachi Ijiwaru Kei",
+  "ja": "おれたちイジワルケイ",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2004,
+  "score": null,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/sololeveling/": {
+  "mal_id": 52299,
+  "url": "https://myanimelist.net/anime/52299",
+  "romaji": "Ore dake Level Up na Ken",
+  "ja": "俺だけレベルアップな件",
+  "en": "Solo Leveling",
+  "syn": [
+   "Na Honjaman Level Up",
+   "나 혼자만 레벨업",
+   "I Level Up Alone"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 8.12,
+  "trailer": "1kQwjK4rGYg"
+ },
+ "https://www.aniplex.co.jp/lineup/sololeveling-2/": {
+  "mal_id": 58567,
+  "url": "https://myanimelist.net/anime/58567",
+  "romaji": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
+  "ja": "俺だけレベルアップな件 Season 2 -Arise from the Shadow-",
+  "en": "Solo Leveling Season 2: Arise from the Shadow",
+  "syn": [
+   "Solo Leveling Second Season"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 8.49,
+  "trailer": "GDMXGzjJzS4"
+ },
+ "https://www.aniplex.co.jp/lineup/oreshura/": {
+  "mal_id": 14749,
+  "url": "https://myanimelist.net/anime/14749",
+  "romaji": "Ore no Kanojo to Osananajimi ga Shuraba Sugiru",
+  "ja": "俺の彼女と幼なじみが修羅場すぎる",
+  "en": "Oreshura",
+  "syn": [
+   "Ore no Kanojo to Osananajimi ga Shuraba Sugiru"
+  ],
+  "type": "TV",
+  "year": 2013,
+  "score": 6.88,
+  "trailer": "Qxf-PCLJr-Q"
+ },
+ "https://www.aniplex.co.jp/lineup/oreimo/": {
+  "mal_id": 8769,
+  "url": "https://myanimelist.net/anime/8769",
+  "romaji": "Ore no Imouto ga Konnani Kawaii Wake ga Nai",
+  "ja": "俺の妹がこんなに可愛いわけがない",
+  "en": "OreImo",
+  "syn": [
+   "My Little Sister Can't Be This Cute"
+  ],
+  "type": "TV",
+  "year": 2010,
+  "score": 6.92,
+  "trailer": "f_2F7u2-6yc"
+ },
+ "https://www.aniplex.co.jp/lineup/oreimo2/": {
+  "mal_id": 13659,
+  "url": "https://myanimelist.net/anime/13659",
+  "romaji": "Ore no Imouto ga Konnani Kawaii Wake ga Nai.",
+  "ja": "俺の妹がこんなに可愛いわけがない。",
+  "en": "OreImo 2",
+  "syn": [
+   "My Little Sister Can't Be This Cute 2",
+   "Ore no Imouto ga Konna ni Kawaii Wake ga Nai 2"
+  ],
+  "type": "TV",
+  "year": 2013,
+  "score": 6.88,
+  "trailer": "l17ArMkPNf4"
+ },
+ "https://www.aniplex.co.jp/lineup/oresuki-anime/": {
+  "mal_id": 38483,
+  "url": "https://myanimelist.net/anime/38483",
+  "romaji": "Ore wo Suki nano wa Omae dake ka yo",
+  "ja": "俺を好きなのはお前だけかよ",
+  "en": "Oresuki: Are You the Only One Who Loves Me?",
+  "syn": [],
+  "type": "TV",
+  "year": 2019,
+  "score": 7.29,
+  "trailer": "Pt3MqwiSyKY"
+ },
+ "https://www.aniplex.co.jp/lineup/oresuki-ova/": {
+  "mal_id": 40936,
+  "url": "https://myanimelist.net/anime/40936",
+  "romaji": "Ore wo Suki nano wa Omae dake ka yo: Oretachi no Game Set",
+  "ja": "俺を好きなのはお前だけかよ ～俺たちのゲームセット～",
+  "en": "Oresuki: Are You the Only One Who Loves Me? - Our Playball / Our End Run / Our Game",
+  "syn": [
+   "Ore wo Suki nano wa Omae dake ka yo Kanketsu-hen",
+   "Ore wo Suki nano wa Omae dake ka yo Episode 13",
+   "Oresuki OVA"
+  ],
+  "type": "OVA",
+  "year": 2020,
+  "score": 7.55,
+  "trailer": "htsu0pXwWl4"
+ },
+ "https://www.aniplex.co.jp/lineup/owarimonogatari/": {
+  "mal_id": 31181,
+  "url": "https://myanimelist.net/anime/31181",
+  "romaji": "Owarimonogatari",
+  "ja": "終物語",
+  "en": "Owarimonogatari",
+  "syn": [
+   "End Story"
+  ],
+  "type": "TV",
+  "year": 2015,
+  "score": 8.45,
+  "trailer": "TOlWzlNk0nw"
+ },
+ "https://www.aniplex.co.jp/lineup/vampireknight/": {
+  "mal_id": 3457,
+  "url": "https://myanimelist.net/anime/3457",
+  "romaji": "Vampire Knight",
+  "ja": "ヴァンパイア騎士〈ナイト〉",
+  "en": "Vampire Knight",
+  "syn": [
+   "Vampire Kishi"
+  ],
+  "type": "TV",
+  "year": 2008,
+  "score": 6.83,
+  "trailer": "rXluDzoDkKE"
+ },
+ "https://www.aniplex.co.jp/lineup/vampireknight2/": {},
+ "https://www.aniplex.co.jp/lineup/visualprison/": {
+  "mal_id": 48567,
+  "url": "https://myanimelist.net/anime/48567",
+  "romaji": "Visual Prison",
+  "ja": "ヴィジュアルプリズン",
+  "en": "Visual Prison",
+  "syn": [],
+  "type": "TV",
+  "year": 2021,
+  "score": 6.73,
+  "trailer": "GobEj1oZqFs"
+ },
+ "https://www.aniplex.co.jp/lineup/Vivy/": {
+  "mal_id": 46095,
+  "url": "https://myanimelist.net/anime/46095",
+  "romaji": "Vivy: Fluorite Eye's Song",
+  "ja": "Vivy -Fluorite Eye's Song- (ヴィヴィ -フローライトアイズソング-)",
+  "en": "Vivy -Fluorite Eye's Song-",
+  "syn": [],
+  "type": "TV",
+  "year": 2021,
+  "score": 8.37,
+  "trailer": "t3IHpQZHPFY"
+ },
+ "https://www.aniplex.co.jp/lineup/kaidohmaru/": {
+  "mal_id": 1622,
+  "url": "https://myanimelist.net/anime/1622",
+  "romaji": "Kai Doh Maru",
+  "ja": "怪童丸",
+  "en": "",
+  "syn": [
+   "Kaidoumaru",
+   "Kaidomaru"
+  ],
+  "type": "OVA",
+  "year": 2001,
+  "score": 5.56,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/kaoruhana/": {
+  "mal_id": 59845,
+  "url": "https://myanimelist.net/anime/59845",
+  "romaji": "Kaoru Hana wa Rin to Saku",
+  "ja": "薫る花は凛と咲く",
+  "en": "The Fragrant Flower Blooms with Dignity",
+  "syn": [
+   "The Fragrant Flowers Bloom with Dignity"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 8.45,
+  "trailer": "1FcVJxxPWh4"
+ },
+ "https://www.aniplex.co.jp/lineup/valvrave/": {
+  "mal_id": 16668,
+  "url": "https://myanimelist.net/anime/16668",
+  "romaji": "Kakumeiki Valvrave",
+  "ja": "革命機ヴァルヴレイヴ",
+  "en": "Valvrave the Liberator",
+  "syn": [
+   "Kakumeiki Valvrave"
+  ],
+  "type": "TV",
+  "year": 2013,
+  "score": 7.12,
+  "trailer": "AXsRaWBy03w"
+ },
+ "https://www.aniplex.co.jp/lineup/kaguya/": {
+  "mal_id": 37999,
+  "url": "https://myanimelist.net/anime/37999",
+  "romaji": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+  "ja": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+  "en": "Kaguya-sama: Love is War",
+  "syn": [
+   "Kaguya Wants to be Confessed To: The Geniuses' War of Love and Brains"
+  ],
+  "type": "TV",
+  "year": 2019,
+  "score": 8.4,
+  "trailer": "Ti2kJ-GYO68"
+ },
+ "https://www.aniplex.co.jp/lineup/kaguya05/": {
+  "mal_id": 61903,
+  "url": "https://myanimelist.net/anime/61903",
+  "romaji": "Kaguya-sama wa Kokurasetai: Otona e no Kaidan",
+  "ja": "かぐや様は告らせたい 大人への階段",
+  "en": "Kaguya-sama: Love Is War - Stairway to Adulthood",
+  "syn": [],
+  "type": "TV Special",
+  "year": 2025,
+  "score": 8.5,
+  "trailer": "LyHTqu5Yg7I"
+ },
+ "https://www.aniplex.co.jp/lineup/kaguya3/": {
+  "mal_id": 43608,
+  "url": "https://myanimelist.net/anime/43608",
+  "romaji": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+  "ja": "かぐや様は告らせたい-ウルトラロマンティック-",
+  "en": "Kaguya-sama: Love is War -Ultra Romantic-",
+  "syn": [
+   "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3rd Season",
+   "Kaguya-sama: Love is War Season 3rd Season"
+  ],
+  "type": "TV",
+  "year": 2022,
+  "score": 8.94,
+  "trailer": "b4tGGzQve3M"
+ },
+ "https://www.aniplex.co.jp/lineup/kagemamo/": {
+  "mal_id": 590,
+  "url": "https://myanimelist.net/anime/590",
+  "romaji": "Kage kara Mamoru!",
+  "ja": "陰からマモル！",
+  "en": "Guardian Ninja Mamoru",
+  "syn": [
+   "Protect from the Shadows!"
+  ],
+  "type": "TV",
+  "year": 2006,
+  "score": 6.61,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/kaze-tusgu/": {
+  "mal_id": 62483,
+  "url": "https://myanimelist.net/anime/62483",
+  "romaji": "Kaze wo Tsugumono",
+  "ja": "風を継ぐもの",
+  "en": "Inherit the Winds",
+  "syn": [],
+  "type": "TV",
+  "year": 2027,
+  "score": null,
+  "trailer": "ECavMtVCB08"
+ },
+ "https://www.aniplex.co.jp/lineup/katanagatari/": {},
+ "https://www.aniplex.co.jp/lineup/katsugeki-touken/": {
+  "mal_id": 33018,
+  "url": "https://myanimelist.net/anime/33018",
+  "romaji": "Katsugeki/Touken Ranbu",
+  "ja": "活撃／刀剣乱舞",
+  "en": "Katsugeki Touken Ranbu",
+  "syn": [],
+  "type": "TV",
+  "year": 2017,
+  "score": 6.74,
+  "trailer": "SdrkJG9fI74"
+ },
+ "https://www.aniplex.co.jp/lineup/kamiinabotan/": {
+  "mal_id": 61186,
+  "url": "https://myanimelist.net/anime/61186",
+  "romaji": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+  "ja": "上伊那ぼたん、酔へる姿は百合の花",
+  "en": "Botan Kamiina Fully Blossoms When Drunk",
+  "syn": [
+   "Kamiina Botan",
+   "the Drunken Appearance Is a Lily Flower"
+  ],
+  "type": "TV",
+  "year": 2026,
+  "score": 8.12,
+  "trailer": "lRJ3iJlviII"
+ },
+ "https://www.aniplex.co.jp/lineup/kamisama-day/": {
+  "mal_id": 41930,
+  "url": "https://myanimelist.net/anime/41930",
+  "romaji": "Kamisama ni Natta Hi",
+  "ja": "神様になった日",
+  "en": "The Day I Became a God",
+  "syn": [],
+  "type": "TV",
+  "year": 2020,
+  "score": 6.81,
+  "trailer": "AswIy0M2X_o"
+ },
+ "https://www.aniplex.co.jp/lineup/kamichu/": {
+  "mal_id": 489,
+  "url": "https://myanimelist.net/anime/489",
+  "romaji": "Kamichu!",
+  "ja": "かみちゅ!",
+  "en": "Kamichu!",
+  "syn": [
+   "Kami-chu!: Kami-sama wa Chuugakusei",
+   "The Goddess is a Middle School Student"
+  ],
+  "type": "TV",
+  "year": 2005,
+  "score": 7.39,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/kannagi/": {
+  "mal_id": 3958,
+  "url": "https://myanimelist.net/anime/3958",
+  "romaji": "Kannagi",
+  "ja": "かんなぎ",
+  "en": "Kannagi: Crazy Shrine Maidens",
+  "syn": [],
+  "type": "TV",
+  "year": 2008,
+  "score": 7.27,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/gakuenalice/": {
+  "mal_id": 74,
+  "url": "https://myanimelist.net/anime/74",
+  "romaji": "Gakuen Alice",
+  "ja": "学園アリス",
+  "en": "Gakuen Alice",
+  "syn": [
+   "Campus Alice",
+   "Alice Academy"
+  ],
+  "type": "TV",
+  "year": 2004,
+  "score": 7.65,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/asterisk/": {
+  "mal_id": 30544,
+  "url": "https://myanimelist.net/anime/30544",
+  "romaji": "Gakusen Toshi Asterisk",
+  "ja": "学戦都市アスタリスク",
+  "en": "The Asterisk War",
+  "syn": [
+   "Academy Battle City Asterisk"
+  ],
+  "type": "TV",
+  "year": 2015,
+  "score": 6.8,
+  "trailer": "qevN31yJemQ"
+ },
+ "https://www.aniplex.co.jp/lineup/galileidonna/": {
+  "mal_id": 19367,
+  "url": "https://myanimelist.net/anime/19367",
+  "romaji": "Galilei Donna",
+  "ja": "ガリレイドンナ",
+  "en": "Galilei Donna: Storia di tre sorelle a caccia di un mistero",
+  "syn": [
+   "Galilei Donna: the story of three sisters in the search of a mystery"
+  ],
+  "type": "TV",
+  "year": 2013,
+  "score": 6.43,
+  "trailer": "A8Hp7zetYsU"
+ },
+ "https://www.aniplex.co.jp/lineup/ggo/": {
+  "mal_id": 36475,
+  "url": "https://myanimelist.net/anime/36475",
+  "romaji": "Sword Art Online Alternative: Gun Gale Online",
+  "ja": "ソードアート・オンライン オルタナティブ ガンゲイル・オンライン",
+  "en": "",
+  "syn": [
+   "SAO Alternative Gun Gale Online"
+  ],
+  "type": "TV",
+  "year": 2018,
+  "score": 7.01,
+  "trailer": "ZoEtBn_6KOI"
+ },
+ "https://www.aniplex.co.jp/lineup/ggo2/": {
+  "mal_id": 55994,
+  "url": "https://myanimelist.net/anime/55994",
+  "romaji": "Sword Art Online Alternative: Gun Gale Online II",
+  "ja": "ソードアート・オンライン オルタナティブ ガンゲイル・オンラインⅡ",
+  "en": "Sword Art Online Alternative: Gun Gale Online II",
+  "syn": [
+   "SAO Alternative Gun Gale Online II"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.15,
+  "trailer": "y0v2lH6IRrc"
+ },
+ "https://www.aniplex.co.jp/lineup/guns/": {
+  "mal_id": 29975,
+  "url": "https://myanimelist.net/anime/29975",
+  "romaji": "Gunslinger Stratos",
+  "ja": "ガンスリンガー ストラトス",
+  "en": "",
+  "syn": [],
+  "type": "ONA",
+  "year": 2014,
+  "score": 5.99,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/nkmr-kun/": {
+  "mal_id": 59551,
+  "url": "https://myanimelist.net/anime/59551",
+  "romaji": "Ganbare! Nakamura-kun!!",
+  "ja": "ガンバレ！中村くん!!",
+  "en": "Go For It, Nakamura-kun!!",
+  "syn": [
+   "Go For It",
+   "Nakamura!"
+  ],
+  "type": "TV",
+  "year": 2026,
+  "score": 8.16,
+  "trailer": "w8MEfrVtWgY"
+ },
+ "https://www.aniplex.co.jp/lineup/girlswork/": {},
+ "https://www.aniplex.co.jp/lineup/kikansha/": {
+  "mal_id": 54852,
+  "url": "https://myanimelist.net/anime/54852",
+  "romaji": "Kikansha no Mahou wa Tokubetsu desu",
+  "ja": "帰還者の魔法は特別です",
+  "en": "A Returner's Magic Should Be Special",
+  "syn": [
+   "Gwihwanja-ui Mabeop-eun Teukbyeol-haeya Hamnida",
+   "귀환자의 마법은 특별해야 합니다"
+  ],
+  "type": "TV",
+  "year": 2023,
+  "score": 7.04,
+  "trailer": "rfIbLBCso4s"
+ },
+ "https://www.aniplex.co.jp/lineup/kikansha_season2/": {},
+ "https://www.aniplex.co.jp/lineup/kiznaiver/": {
+  "mal_id": 31798,
+  "url": "https://myanimelist.net/anime/31798",
+  "romaji": "Kiznaiver",
+  "ja": "キズナイーバー",
+  "en": "Kiznaiver",
+  "syn": [],
+  "type": "TV",
+  "year": 2016,
+  "score": 7.36,
+  "trailer": "x8M8LIcLtoo"
+ },
+ "https://www.aniplex.co.jp/lineup/kizumonogatari/": {},
+ "https://www.aniplex.co.jp/lineup/kinioto/": {
+  "mal_id": 61035,
+  "url": "https://myanimelist.net/anime/61035",
+  "romaji": "Kininatteru Hito ga Otoko ja Nakatta",
+  "ja": "気になってる人が男じゃなかった",
+  "en": "The Guy She Was Interested in Wasn't a Guy at All",
+  "syn": [
+   "Kinioto",
+   "Green Yuri"
+  ],
+  "type": "TV",
+  "year": 2027,
+  "score": null,
+  "trailer": "kLO7KyjhGR0"
+ },
+ "https://www.aniplex.co.jp/lineup/kiba/": {},
+ "https://www.aniplex.co.jp/lineup/kimitoboku/": {
+  "mal_id": 10460,
+  "url": "https://myanimelist.net/anime/10460",
+  "romaji": "Kimi to Boku.",
+  "ja": "君と僕。",
+  "en": "You and Me.",
+  "syn": [
+   "Kimi to Boku."
+  ],
+  "type": "TV",
+  "year": 2011,
+  "score": 7.65,
+  "trailer": "ajDCvoOAXSU"
+ },
+ "https://www.aniplex.co.jp/lineup/kimitoboku2/": {},
+ "https://www.aniplex.co.jp/lineup/kimetsutheater/": {},
+ "https://www.aniplex.co.jp/lineup/kimetsu_anime/": {
+  "mal_id": 38000,
+  "url": "https://myanimelist.net/anime/38000",
+  "romaji": "Kimetsu no Yaiba",
+  "ja": "鬼滅の刃",
+  "en": "Demon Slayer: Kimetsu no Yaiba",
+  "syn": [
+   "Blade of Demon Destruction"
+  ],
+  "type": "TV",
+  "year": 2019,
+  "score": 8.39,
+  "trailer": "6vMuWuWlW4I"
+ },
+ "https://www.aniplex.co.jp/lineup/kimetsu_katanakajinosato/": {
+  "mal_id": 51019,
+  "url": "https://myanimelist.net/anime/51019",
+  "romaji": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+  "ja": "鬼滅の刃 刀鍛冶の里編",
+  "en": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+  "syn": [],
+  "type": "TV",
+  "year": 2023,
+  "score": 8.14,
+  "trailer": "a9tq0aS5Zu8"
+ },
+ "https://www.aniplex.co.jp/lineup/kimetsu_hashirageikohen/": {
+  "mal_id": 55701,
+  "url": "https://myanimelist.net/anime/55701",
+  "romaji": "Kimetsu no Yaiba: Hashira Geiko-hen",
+  "ja": "鬼滅の刃 柱稽古編",
+  "en": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+  "syn": [],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.99,
+  "trailer": "Tf31dGdlWxE"
+ },
+ "https://www.aniplex.co.jp/lineup/kimetsu_yukaku/": {
+  "mal_id": 47778,
+  "url": "https://myanimelist.net/anime/47778",
+  "romaji": "Kimetsu no Yaiba: Yuukaku-hen",
+  "ja": "鬼滅の刃 遊郭編",
+  "en": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+  "syn": [],
+  "type": "TV",
+  "year": 2021,
+  "score": 8.68,
+  "trailer": "QwvWdnd2Ktg"
+ },
+ "https://www.aniplex.co.jp/lineup/captaintsubasa_jryouth/": {},
+ "https://www.aniplex.co.jp/lineup/kyoro/": {
+  "mal_id": 4375,
+  "url": "https://myanimelist.net/anime/4375",
+  "romaji": "Kyoro-chan",
+  "ja": "キョロちゃん",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 1999,
+  "score": 7.37,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/kill-la-kill/": {
+  "mal_id": 18679,
+  "url": "https://myanimelist.net/anime/18679",
+  "romaji": "Kill la Kill",
+  "ja": "キルラキル",
+  "en": "Kill la Kill",
+  "syn": [
+   "KLK",
+   "Dressed to Kill"
+  ],
+  "type": "TV",
+  "year": 2013,
+  "score": 8.03,
+  "trailer": "B98NY8Hfo7I"
+ },
+ "https://www.aniplex.co.jp/lineup/cordasecondopasso/": {},
+ "https://www.aniplex.co.jp/lineup/cordaprimopasso/": {
+  "mal_id": 1579,
+  "url": "https://myanimelist.net/anime/1579",
+  "romaji": "Kiniro no Corda: Primo Passo",
+  "ja": "金色のコルダ ～primo passo～",
+  "en": "La corda d'oro: primo passo",
+  "syn": [
+   "Kin'iro no Chord",
+   "Kiniro no Chord",
+   "Kin-iro no Corda: Primo Passo",
+   "The Golden Chord"
+  ],
+  "type": "TV",
+  "year": 2006,
+  "score": 7.4,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/gyakuten/": {},
+ "https://www.aniplex.co.jp/lineup/galleryfake/": {
+  "mal_id": 364,
+  "url": "https://myanimelist.net/anime/364",
+  "romaji": "Gallery Fake",
+  "ja": "ギャラリーフェイク",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2005,
+  "score": 7.44,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/girumasu/": {
+  "mal_id": 55997,
+  "url": "https://myanimelist.net/anime/55997",
+  "romaji": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
+  "ja": "ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います",
+  "en": "I May Be a Guild Receptionist, but I'll Solo Any Boss to Clock Out on Time",
+  "syn": [
+   "Girumasu"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 6.63,
+  "trailer": "_EnIDvUykhQ"
+ },
+ "https://www.aniplex.co.jp/lineup/gintama/": {},
+ "https://www.aniplex.co.jp/lineup/gintama2/": {
+  "mal_id": 9969,
+  "url": "https://myanimelist.net/anime/9969",
+  "romaji": "Gintama'",
+  "ja": "銀魂'",
+  "en": "Gintama Season 2",
+  "syn": [
+   "Gintama (2011)"
+  ],
+  "type": "TV",
+  "year": 2011,
+  "score": 9.02,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/gintama3/": {},
+ "https://www.aniplex.co.jp/lineup/ginsaji/": {},
+ "https://www.aniplex.co.jp/lineup/ginban/": {
+  "mal_id": 476,
+  "url": "https://myanimelist.net/anime/476",
+  "romaji": "Ginban Kaleidoscope",
+  "ja": "銀盤カレイドスコープ",
+  "en": "",
+  "syn": [
+   "Skating Rink Kaleidoscope"
+  ],
+  "type": "TV",
+  "year": 2005,
+  "score": 7.31,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/qualidea/": {
+  "mal_id": 32360,
+  "url": "https://myanimelist.net/anime/32360",
+  "romaji": "Qualidea Code",
+  "ja": "クオリディア・コード",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2016,
+  "score": 6.46,
+  "trailer": "TsC9FaYnBTE"
+ },
+ "https://www.aniplex.co.jp/lineup/kunoichi-tsubaki/": {
+  "mal_id": 50338,
+  "url": "https://myanimelist.net/anime/50338",
+  "romaji": "Kunoichi Tsubaki no Mune no Uchi",
+  "ja": "くノ一ツバキの胸の内",
+  "en": "In the Heart of Kunoichi Tsubaki",
+  "syn": [
+   "Inside Tsubaki Kunoichi's Heart"
+  ],
+  "type": "TV",
+  "year": 2022,
+  "score": 7.11,
+  "trailer": "rzWfn5k5cDk"
+ },
+ "https://www.aniplex.co.jp/lineup/kubikiricycle/": {},
+ "https://www.aniplex.co.jp/lineup/kura-kon/": {
+  "mal_id": 59135,
+  "url": "https://myanimelist.net/anime/59135",
+  "romaji": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
+  "ja": "クラスの大嫌いな女子と結婚することになった。",
+  "en": "I'm Getting Married to a Girl I Hate in My Class",
+  "syn": [
+   "Kurakon",
+   "I Got Married to the Girl I Hate Most in Class"
+  ],
+  "type": "TV",
+  "year": 2025,
+  "score": 6.73,
+  "trailer": "RgyqkGLsZ2M"
+ },
+ "https://www.aniplex.co.jp/lineup/crc/": {
+  "mal_id": 30383,
+  "url": "https://myanimelist.net/anime/30383",
+  "romaji": "Classroom☆Crisis",
+  "ja": "クラスルーム☆クライシス",
+  "en": "Classroom☆Crisis",
+  "syn": [],
+  "type": "TV",
+  "year": 2015,
+  "score": 6.95,
+  "trailer": "mWe8qSOEB9U"
+ },
+ "https://www.aniplex.co.jp/lineup/kuroshitsuji/": {
+  "mal_id": 4898,
+  "url": "https://myanimelist.net/anime/4898",
+  "romaji": "Kuroshitsuji",
+  "ja": "黒執事",
+  "en": "Black Butler",
+  "syn": [
+   "Kuro Shitsuji",
+   "Kuroshitsuzi"
+  ],
+  "type": "TV",
+  "year": 2008,
+  "score": 7.65,
+  "trailer": "S8j5iEklHyI"
+ },
+ "https://www.aniplex.co.jp/lineup/kuroshitsuji-2024/": {
+  "mal_id": 55855,
+  "url": "https://myanimelist.net/anime/55855",
+  "romaji": "Kuroshitsuji: Kishuku Gakkou-hen",
+  "ja": "黒執事 -寄宿学校編-",
+  "en": "Black Butler: Public School Arc",
+  "syn": [
+   "Black Butler: Public School Edition"
+  ],
+  "type": "TV",
+  "year": 2024,
+  "score": 7.86,
+  "trailer": "a-5NVZrsS-0"
+ },
+ "https://www.aniplex.co.jp/lineup/kuroshitsuji2/": {
+  "mal_id": 6707,
+  "url": "https://myanimelist.net/anime/6707",
+  "romaji": "Kuroshitsuji II",
+  "ja": "黒執事II",
+  "en": "Black Butler II",
+  "syn": [
+   "Kuroshitsuji 2",
+   "Black Butler 2"
+  ],
+  "type": "TV",
+  "year": 2010,
+  "score": 7.12,
+  "trailer": "7q1SAxzSS2g"
+ },
+ "https://www.aniplex.co.jp/lineup/kuroshitsuji3/": {
+  "mal_id": 22145,
+  "url": "https://myanimelist.net/anime/22145",
+  "romaji": "Kuroshitsuji: Book of Circus",
+  "ja": "黒執事 Book of Circus",
+  "en": "Black Butler: Book of Circus",
+  "syn": [
+   "Kuroshitsuji Circus Hen",
+   "Kuroshitsuji Shin Series",
+   "Black Butler 3",
+   "Kuroshitsuji III"
+  ],
+  "type": "TV",
+  "year": 2014,
+  "score": 8.06,
+  "trailer": "AZTuRJUpmE4"
+ },
+ "https://www.aniplex.co.jp/lineup/kuroshitsuji-bom/": {
+  "mal_id": 23317,
+  "url": "https://myanimelist.net/anime/23317",
+  "romaji": "Kuroshitsuji: Book of Murder",
+  "ja": "黒執事 Book of Murder",
+  "en": "Black Butler: Book of Murder",
+  "syn": [],
+  "type": "OVA",
+  "year": 2015,
+  "score": 8.04,
+  "trailer": "SMK4HSpyALE"
+ },
+ "https://www.aniplex.co.jp/lineup/kuroshitsuji-2025/": {
+  "mal_id": 59228,
+  "url": "https://myanimelist.net/anime/59228",
+  "romaji": "Kuroshitsuji: Midori no Majo-hen",
+  "ja": "黒執事 -緑の魔女編-",
+  "en": "Black Butler: Emerald Witch Arc",
+  "syn": [],
+  "type": "TV",
+  "year": 2025,
+  "score": 8.17,
+  "trailer": "Vag2bbe70Y0"
+ },
+ "https://www.aniplex.co.jp/lineup/guinsaga/": {
+  "mal_id": 5041,
+  "url": "https://myanimelist.net/anime/5041",
+  "romaji": "Guin Saga",
+  "ja": "グイン・サーガ",
+  "en": "",
+  "syn": [],
+  "type": "TV",
+  "year": 2009,
+  "score": 7.16,
+  "trailer": "Gw9jBEZpyRA"
+ },
+ "https://www.aniplex.co.jp/lineup/gnosia/": {
+  "mal_id": 60427,
+  "url": "https://myanimelist.net/anime/60427",
+  "romaji": "Gnosia",
+  "ja": "グノーシア",
+  "en": "Gnosia",
+  "syn": [],
+  "type": "TV",
+  "year": 2025,
+  "score": 7.82,
+  "trailer": "B91-RJiSD2A"
+ }
 }
