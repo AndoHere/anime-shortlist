@@ -618,7 +618,7 @@ const sync = (() => {
   // changes not in the repo yet; on the first visit after this was added, every rating in this browser
   const pending = store.get("animeCatalog.pendingRatings", null) || Object.assign({}, ratings);
   store.set("animeCatalog.pendingRatings", pending);
-  let token = store.get("animeCatalog.githubToken", ""), timer = null, busy = false, again = false;
+  let token = store.get("animeCatalog.githubToken", ""), timer = null, busy = false, again = false, retryIn = 0;
 
   const box = document.createElement("span");
   box.className = "sync";
@@ -677,10 +677,15 @@ const sync = (() => {
         store.set("animeCatalog.pendingRatings", pending);
         break;
       }
-      idle();
+      retryIn = 0; idle();
     } catch (e) {
-      status(e.status === 401 || e.status === 403 || e.status === 404
-        ? "GitHub refused the token. Disconnect and connect again." : "Couldn't save. Will retry on the next rating.", "var(--bad)");
+      if (e.status === 401 || e.status === 403 || e.status === 404) {
+        status("GitHub refused the token. Disconnect and connect again.", "var(--bad)");
+      } else { // network hiccup: try again on our own, waiting a bit longer each time
+        retryIn = Math.min(retryIn ? retryIn * 2 : 5, 120);
+        status(`Couldn't save. Retrying in ${retryIn}s…`, "var(--bad)");
+        clearTimeout(timer); timer = setTimeout(push, retryIn * 1000);
+      }
     } finally {
       busy = false;
       if (again) { again = false; push(); }
@@ -703,6 +708,7 @@ const sync = (() => {
     push();
   };
 
+  window.addEventListener("online", () => { if (token && nPending()) push(); });
   drawButton(); idle();
   readRepo().then(({data}) => { apply(data); idle(); push(); }).catch(() => idle());
 
@@ -711,7 +717,7 @@ const sync = (() => {
       pending[id] = v; store.set("animeCatalog.pendingRatings", pending);
       if (!token) { idle(); return; }
       status("Not saved yet", "var(--maybe)");
-      clearTimeout(timer); timer = setTimeout(push, 1500); // one commit for a burst of ratings
+      retryIn = 0; clearTimeout(timer); timer = setTimeout(push, 600); // one commit for a quick burst of ratings
     }
   };
 })();
