@@ -51,7 +51,8 @@ def _keys(url, html, poster):
         keys.add("site:" + (p.netloc.replace("www.", "") + p.path).rstrip("/").lower())
     name = os.path.basename(urllib.parse.unquote(WP_SIZE.sub("", urllib.parse.urlsplit(poster).path)))
     if name:
-        keys.add("img:" + os.path.splitext(name)[0].lower())
+        # WordPress adds "-1", "-2" to re-uploaded files, so the same poster can differ by that suffix
+        keys.add("img:" + re.sub(r"-\d+$", "", os.path.splitext(name)[0].lower()))
     return keys
 
 

@@ -1,8 +1,813 @@
 # Catalog TODO
 
-Generated 2026-11-09 by build.py. Fill these in in catalog/data/curated/<company>.json (keyed by the title's page URL), then rebuild.
+Generated 2026-11-11 by build.py. Fill these in in catalog/data/curated/<company>.json (keyed by the title's page URL), then rebuild.
 
-## No trailer found (set "trailer": "<youtube id>" or false) (81)
+## New titles without curated info (en, s, g, fmt, dur, type) (710)
+
+- [Animatica “Elegy for the Henchmen: Fist of the North Star”](https://www.hakuhodody-map.jp/en/international-sales/map-9749) — 
+- [Recommendations from Iwamoto-Senpai](https://www.hakuhodody-map.jp/en/international-sales/map-9744) — 岩元先輩ノ推薦
+- [Mushoku Tensei: Jobless Reincarnation Season 3](https://www.hakuhodody-map.jp/en/international-sales/map-9732) — 無職転生 III ～異世界行ったら本気だす～
+- [Easygoing Territory Defense by the Optimistic Lord](https://www.hakuhodody-map.jp/en/international-sales/map-9601) — お気楽領主の楽しい領地防衛 ～生産系魔術で名もなき村を最強の城塞都市に～
+- [The Holy Grail if Eris](https://www.hakuhodody-map.jp/en/international-sales/map-9604) — 
+- [Reincarnated as a Dragon Hatchling](https://www.hakuhodody-map.jp/en/international-sales/map-9608) — 転生したらドラゴンの卵だった
+- [Tales of Wedding Rings Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-9598) — 結婚指輪物語Ⅱ
+- [The Shy Hero and the Assassin Princesses](https://www.hakuhodody-map.jp/en/international-sales/map-9427) — 気絶勇者と暗殺姫
+- [ZENRYOKU RABBITS](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-9324) — 
+- [TEOGONIA](https://www.hakuhodody-map.jp/en/international-sales/map-9260) — 神統記（テオゴニア）
+- [I’ve Been Killing Slimes for 300 Years and Maxed Out My Level Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-9126) — 
+- [Headhunted to Another World: From Salaryman to Big Four!](https://www.hakuhodody-map.jp/en/international-sales/map-9123) — サラリーマンが異世界に行ったら四天王になった話
+- [Beheneko: The Elf-Girl’s Cat is Secretly an S-Ranked Monster!](https://www.hakuhodody-map.jp/en/international-sales/map-9119) — Sランクモンスターの《ベヒーモス》だけど、猫と間違われてエルフ娘の騎士（ペット）として暮らしてます
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? Ⅴ](https://www.hakuhodody-map.jp/en/international-sales/map-8996) — ダンジョンに出会いを求めるのは間違っているだろうかⅤ
+- [Arifureta: From Commonplace to World’s Strongest Season 3](https://www.hakuhodody-map.jp/en/international-sales/map-8993) — ありふれた職業で世界最強 season 3
+- [Dungeon People](https://www.hakuhodody-map.jp/en/international-sales/map-8840) — ダンジョンの中のひと
+- [A Salad Bowl Of Eccentrics](https://www.hakuhodody-map.jp/en/international-sales/map-8767) — 変人のサラダボウル
+- [Tales of Wedding Rings](https://www.hakuhodody-map.jp/en/international-sales/map-8623) — 結婚指輪物語
+- [The Unwanted Undead Adventurer](https://www.hakuhodody-map.jp/en/international-sales/map-8628) — 望まぬ不死の冒険者
+- [Stardust Telepath](https://www.hakuhodody-map.jp/en/international-sales/map-8629) — 星屑テレパス
+- [Goblin Slayer 2](https://www.hakuhodody-map.jp/en/international-sales/map-8630) — ゴブリンスレイヤーⅡ
+- [The Masterful Cat is Depressed Again Today](https://www.hakuhodody-map.jp/en/international-sales/map-8342) — デキる猫は今日も憂鬱
+- [Mushoku Tensei: Jobless Reincarnation Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-8338) — 無職転生Ⅱ ～異世界行ったら本気だす～
+- [The Girl I Like Forgot Her Glasses](https://www.hakuhodody-map.jp/en/international-sales/map-8334) — 好きな子がめがねを忘れた
+- [The Vampire Dies in No Time 2](https://www.hakuhodody-map.jp/en/international-sales/map-8040) — 吸血鬼すぐ死ぬ２
+- [ONIMAI: I’m Now Your Sister!](https://www.hakuhodody-map.jp/en/lineup/movie/map-8033) — お兄ちゃんはおしまい！
+- [Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World](https://www.hakuhodody-map.jp/en/international-sales/map-8154) — 人間不信の冒険者たちが世界を救うようです
+- [Vermeil in Gold: A Desperate Magician Barges Into the Magical World Alongside the Strongest Calamity](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-7684) — 金装のヴェルメイユ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～
+- [The Devil Is a Part-Timer!!](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-7682) — はたらく魔王さま！！
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? Ⅳ](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-7679) — ダンジョンに出会いを求めるのは間違っているだろうか OVA
+- [Arifureta: From Commonplace to World’s Strongest Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-7592) — ありふれた職業で世界最強 2nd season
+- [Requiem of the Rose King](https://www.hakuhodody-map.jp/en/international-sales/map-7587) — 薔薇王の葬列
+- [SABIKUI BISCO](https://www.hakuhodody-map.jp/en/international-sales/map-7454) — 錆喰いビスコ
+- [The Vampire Dies in No Time](https://www.hakuhodody-map.jp/en/international-sales/map-7449) — 吸血鬼すぐ死ぬ
+- [Saiyuki RELOAD ZEROIN](https://www.hakuhodody-map.jp/en/international-sales/map-7444) — 最遊記Reload -ZEROIN-
+- [What Happened When I Shaved My Beard](https://www.hakuhodody-map.jp/en/international-sales/map-7209) — ひげを剃る。そして女子高生を拾う。
+- [I’ve Been Killing Slimes for 300 Years and Maxed Out My Level](https://www.hakuhodody-map.jp/en/international-sales/map-7201) — スライム倒して300年、知らないうちにレベルMAXになってました
+- [Scar On The Praeter](https://www.hakuhodody-map.jp/en/international-sales/map-7060) — PROJECT SCARD プレイタの傷
+- [Mushoku Tensei: jobless reincarnation](https://www.hakuhodody-map.jp/en/international-sales/map-7055) — 無職転生 〜異世界行ったら本気出す〜
+- [Otherside Picnic](https://www.hakuhodody-map.jp/en/international-sales/map-7047) — 裏世界ピクニック
+- [NO GUNS LIFE](https://www.hakuhodody-map.jp/en/international-sales/map-6369) — ノー・ガンズ・ライフ
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? Ⅲ](https://www.hakuhodody-map.jp/en/international-sales/map-6865) — ダンジョンに出会いを求めるのは間違っているだろうかIII
+- [TALENTLESS NANA](https://www.hakuhodody-map.jp/en/international-sales/map-6874) — 無能なナナ
+- [Is the order a rabbit? 3](https://www.hakuhodody-map.jp/en/international-sales/map-6880) — 
+- [Tsugumomo 2](https://www.hakuhodody-map.jp/en/international-sales/map-6367) — つぐもも
+- [STRIKE THE BLOOD FOURTH](https://www.hakuhodody-map.jp/en/international-sales/map-6363) — ストライク・ザ・ブラッド ＯＶＡ①
+- [Monster Master Girl](https://www.hakuhodody-map.jp/lineup/map-9710) — 魔物使いの娘
+- [A Tale of the Secret Saint](https://www.hakuhodody-map.jp/lineup/map-9713) — 転生した大聖女は、聖女であることをひた隠す
+- [Full Clearing Another World under a Goddess with Zero Believers](https://www.hakuhodody-map.jp/lineup/map-9707) — 信者ゼロの女神サマと始める異世界攻略
+- [So What's Wrong with Getting Reborn as a Goblin?](https://www.hakuhodody-map.jp/lineup/map-9704) — 転生ゴブリンだけど質問ある？
+- [I've Been Killing Slimes for 300 Years and Maxed Out My Level Season 2](https://www.hakuhodody-map.jp/lineup/map-8929) — スライム倒して300年、知らないうちにレベルMAXになってました ～そのに～
+- [ゴブリンスレイヤ―Ⅱ](https://www.hakuhodody-map.jp/lineup/map-8415) — ゴブリンスレイヤ―Ⅱ
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? IV Part 2](https://www.hakuhodody-map.jp/lineup/map-8446) — ダンジョンに出会いを求めるのは間違っているだろうかⅣ
+- [Mob Psycho 100 III](https://www.hakuhodody-map.jp/lineup/map-8444) — モブサイコ100 Ⅲ
+- [Overlord](https://www.hakuhodody-map.jp/lineup/map-8440) — オーバーロードⅣ
+- [ストライク・ザ・ブラッド FINAL](https://www.hakuhodody-map.jp/lineup/map-8438) — ストライク・ザ・ブラッド FINAL
+- [処刑少女の生きる道](https://www.hakuhodody-map.jp/lineup/map-8436) — 処刑少女の生きる道
+- [That is the Bottleneck](https://www.hakuhodody-map.jp/lineup/animation/map-6961) — それだけがネック
+- [Monster Girl Doctor](https://www.hakuhodody-map.jp/lineup/animation/map-6024) — モンスター娘のお医者さん
+- [インフィニット・デンドログラム](https://www.hakuhodody-map.jp/lineup/animation/map-5316) — インフィニット・デンドログラム
+- [Special 7: Special Crime Investigation Unit](https://www.hakuhodody-map.jp/lineup/animation/map-5844) — 警視庁 特務部 特殊凶悪犯対策室 第七課-トクナナ-
+- [Demon Lord, Retry!](https://www.hakuhodody-map.jp/lineup/animation/map-3034) — 魔王様、リトライ！
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? II](https://www.hakuhodody-map.jp/lineup/animation/map-3036) — ダンジョンに出会いを求めるのは間違っているだろうかⅡ
+- [コップクラフト](https://www.hakuhodody-map.jp/lineup/animation/map-3037) — コップクラフト
+- [Carole & Tuesday](https://www.hakuhodody-map.jp/lineup/animation/map-3044) — キャロル＆チューズデイ
+- [W’z](https://www.hakuhodody-map.jp/lineup/animation/map-3052) — W’z
+- [Mob Psycho 100 II](https://www.hakuhodody-map.jp/lineup/animation/map-3053) — モブサイコ100 II
+- [B-Project II](https://www.hakuhodody-map.jp/lineup/animation/map-3054) — B-Project II
+- [メルクストーリア](https://www.hakuhodody-map.jp/lineup/animation/map-3067) — メルクストーリア
+- [プラネット・ウィズ](https://www.hakuhodody-map.jp/lineup/animation/map-3074) — プラネット・ウィズ
+- [Ms. Vampire who lives in my neighborhood.](https://www.hakuhodody-map.jp/lineup/animation/map-3069) — となりの吸血鬼さん
+- [Iroduku: The World in Colors](https://www.hakuhodody-map.jp/lineup/animation/map-3070) — 色づく世界の明日から
+- [Overlord III](https://www.hakuhodody-map.jp/lineup/bd-dvd/map-3075) — オーバーロードⅢ
+- [奴隷区 The Animation](https://www.hakuhodody-map.jp/lineup/animation/map-3083) — 奴隷区 The Animation
+- [High School DxD](https://www.hakuhodody-map.jp/lineup/bd-dvd/map-3085) — ハイスクール D×D HERO
+- [Dragon Pilot: Hisone and Masotan](https://www.hakuhodody-map.jp/lineup/animation/map-3086) — ひそねとまそたん
+- [A.I.C.O](https://www.hakuhodody-map.jp/lineup/animation/map-3087) — A.I.C.O
+- [Overlord II](https://www.hakuhodody-map.jp/lineup/bd-dvd/map-3093) — オーバーロードⅡ
+- [Mitsuboshi Colors](https://www.hakuhodody-map.jp/lineup/animation/map-3094) — 三ツ星カラーズ
+- [TWOCAR](https://www.hakuhodody-map.jp/lineup/animation/map-3100) — つうかあ
+- [Code:Realize ~Guardian of Rebirth~](https://www.hakuhodody-map.jp/lineup/animation/map-3101) — Code:Realize ～創世の姫君～
+- [Knight's & Magic](https://www.hakuhodody-map.jp/lineup/animation/map-3106) — ナイツ＆マジック
+- [Princess Principal](https://www.hakuhodody-map.jp/lineup/animation/map-3110) — プリンセス・プリンシパル
+- [Love and Lies](https://www.hakuhodody-map.jp/lineup/production-distribution/map-3107) — 恋と嘘
+- [天使の３P！](https://www.hakuhodody-map.jp/lineup/animation/map-3108) — 天使の３P！
+- [Battle Girl High School](https://www.hakuhodody-map.jp/lineup/animation/map-3109) — バトルガール ハイスクール
+- [Altair: A Record of Battles](https://www.hakuhodody-map.jp/lineup/animation/map-3111) — 将国のアルタイル
+- [Grimoire of Zero](https://www.hakuhodody-map.jp/lineup/animation/map-3119) — ゼロから始める魔法の書
+- [Alice & Zoroku](https://www.hakuhodody-map.jp/lineup/animation/map-3123) — アリスと蔵六
+- [Sagrada Reset](https://www.hakuhodody-map.jp/lineup/animation/map-3122) — サクラダリセット
+- [ゆゆ式 OVA](https://www.hakuhodody-map.jp/lineup/animation/map-3128) — ゆゆ式 OVA
+- [クジラの子ら砂上に歌う](https://www.hakuhodody-map.jp/lineup/animation/map-3133) — クジラの子ら砂上に歌う
+- [A Sister's All You Need](https://www.hakuhodody-map.jp/lineup/animation/map-3134) — 妹さえいればいい。
+- [チェインクロニクル](https://www.hakuhodody-map.jp/lineup/animation/map-3135) — チェインクロニクル
+- [森の妖精キノコの娘](https://www.hakuhodody-map.jp/lineup/animation/map-3136) — 森の妖精キノコの娘
+- [Magic of Stella](https://www.hakuhodody-map.jp/lineup/animation/map-3145) — ステラのまほう
+- [Uta no Prince Sama Legend Star](https://www.hakuhodody-map.jp/lineup/animation/map-3147) — うたの プリンスさまっ マジLOVEレジェンドスター
+- [Long Riders!](https://www.hakuhodody-map.jp/lineup/animation/map-3146) — ろんぐらいだぁす！
+- [Flip Flappers](https://www.hakuhodody-map.jp/lineup/animation/map-3148) — フリップフラッパーズ
+- [Occultic;Nine](https://www.hakuhodody-map.jp/lineup/animation/map-3149) — Occultic;Nine-オカルティック・ナイン-
+- [Danganronpa 3: The End of Hope's Peak High School - Future Arc](https://www.hakuhodody-map.jp/lineup/animation/map-3153) — ダンガンロンパ3 The End of 希望ヶ峰学園
+- [Mob Psycho 100](https://www.hakuhodody-map.jp/lineup/animation/map-3154) — モブサイコ100
+- [Re:ZERO -Starting Life in Another World-](https://www.hakuhodody-map.jp/lineup/bd-dvd/map-3162) — Ｒe：ゼロから始める異世界生活
+- [Ushio & Tora (2015)](https://www.hakuhodody-map.jp/lineup/animation/map-3165) — うしおととら
+- [Regalia: The Three Sacred Stars](https://www.hakuhodody-map.jp/lineup/animation/map-3164) — レガリア The Three Sacred Stars
+- [コンクリート・レボルティオ ザ・ラストソング](https://www.hakuhodody-map.jp/lineup/animation/map-3166) — コンクリート・レボルティオ ザ・ラストソング
+- [ノルン+ノネット](https://www.hakuhodody-map.jp/lineup/animation/map-3172) — ノルン+ノネット
+- [GATE](https://www.hakuhodody-map.jp/lineup/animation/map-3174) — GATE(ゲート) 自衛隊 彼の地にて、斯く戦えり
+- [Prince of Stride: Alternative](https://www.hakuhodody-map.jp/lineup/animation/map-3173) — プリンス・オブ・ストライド
+- [Dimension W](https://www.hakuhodody-map.jp/lineup/animation/map-3175) — Dimension W
+- [Girls Beyond the Wasteland](https://www.hakuhodody-map.jp/lineup/animation/map-3177) — 少女たちは荒野を目指す
+- [Durarara!! x2 Ketsu](https://www.hakuhodody-map.jp/lineup/animation/map-3176) — デュラララ!!× ２ 結
+- [ゆるゆり さん☆ハイ！](https://www.hakuhodody-map.jp/lineup/animation/map-3187) — ゆるゆり さん☆ハイ！
+- [Is the Order a Rabbit?](https://www.hakuhodody-map.jp/lineup/animation/map-3186) — ご注文はうさぎですか？？
+- [Valkyrie Drive: Mermaid](https://www.hakuhodody-map.jp/lineup/animation/map-3188) — ヴァルキリードライヴ
+- [Chivalry of a Failed Knight](https://www.hakuhodody-map.jp/lineup/animation/map-3189) — 落第騎士の英雄譚
+- [ヘビーオブジェクト](https://www.hakuhodody-map.jp/lineup/animation/map-3190) — ヘビーオブジェクト
+- [Shomin Sample](https://www.hakuhodody-map.jp/lineup/animation/map-3191) — 俺がお嬢様学校に「庶民サンプル」としてゲッツされた件
+- [Snow White with the Red Hair](https://www.hakuhodody-map.jp/lineup/animation/map-3202) — 赤髪の白雪姫
+- [神撃のバハムート](https://www.hakuhodody-map.jp/lineup/animation/map-3205) — 神撃のバハムート
+- [THE IDOLM@STER](https://www.aniplex.co.jp/lineup/idolmaster/) — アイドルマスター
+- [THE IDOLM@STER SideM](https://www.aniplex.co.jp/lineup/imas-sidem/) — アイドルマスター SideM
+- [THE IDOLM@STER CINDERELLA GIRLS](https://www.aniplex.co.jp/lineup/imas-cinderella/) — アイドルマスター シンデレラガールズ
+- [I'll/CKBC](https://www.aniplex.co.jp/lineup/ckbc/) — I'll/CKBC
+- [Blue Exorcist](https://www.aniplex.co.jp/lineup/aoex/) — 青の祓魔師
+- [Blue Exorcist: Shimane Illuminati Saga](https://www.aniplex.co.jp/lineup/aoex_n/) — 青の祓魔師 島根啓明結社篇
+- [Blue Exorcist: Beyond the Snow Saga](https://www.aniplex.co.jp/lineup/aoex_s/) — 青の祓魔師 雪ノ果篇
+- [Blue Exorcist: The Blue Night Saga](https://www.aniplex.co.jp/lineup/aoex_BNS/) — 青の祓魔師 終夜篇
+- [Blue Exorcist: Kyoto Saga](https://www.aniplex.co.jp/lineup/aoex_kyoto/) — 青の祓魔師 京都不浄王篇
+- [Blue Miburo](https://www.aniplex.co.jp/lineup/miburoanime/) — 青のミブロ
+- [あかね噺](https://www.aniplex.co.jp/lineup/akane-banashi/) — あかね噺
+- [Akebi's Sailor Uniform](https://www.aniplex.co.jp/lineup/akebi-chan/) — 明日ちゃんのセーラー服
+- [My New Boss Is Goofy](https://www.aniplex.co.jp/lineup/do-tennen/) — 新しい上司はど天然
+- [Atri -My Dear Moments-](https://www.aniplex.co.jp/lineup/atri/) — ATRI-My Dear Moments-
+- [アニメ文庫](https://www.aniplex.co.jp/lineup/animebunko/) — アニメ文庫
+- [Anohana: The Flower We Saw That Day](https://www.aniplex.co.jp/lineup/anohana/) — あの日見た花の名前を僕達はまだ知らない。
+- [Ameku M.D.: Doctor Detective](https://www.aniplex.co.jp/lineup/atdk-a/) — 天久鷹央の推理カルテ
+- [Amon: Apocalypse of Devilman](https://www.aniplex.co.jp/lineup/amon/) — AMON デビルマン黙示録
+- [あやかしトライアングル](https://www.aniplex.co.jp/lineup/ayakashitriangle-anime/) — あやかしトライアングル
+- [アラタなるセカイ](https://www.aniplex.co.jp/lineup/aratanarusekai/) — アラタなるセカイ
+- [Aldnoah.Zero](https://www.aniplex.co.jp/lineup/aldnoahzero/) — アルドノア・ゼロ
+- [アークエとガッチンポー](https://www.aniplex.co.jp/lineup/unco/) — アークエとガッチンポー
+- [アークザラッド](https://www.aniplex.co.jp/lineup/arcthelad/) — アークザラッド
+- [R.O.D](https://www.aniplex.co.jp/lineup/rod/) — R.O.D
+- [R.O.D -The TV-](https://www.aniplex.co.jp/lineup/rodthetv/) — R.O.D-THE TV-
+- [Inu X Boku Secret Service](https://www.aniplex.co.jp/lineup/inuboku/) — 妖狐×僕SS
+- [InuYasha: The Final Act](https://www.aniplex.co.jp/lineup/inuyasha/) — 犬夜叉 完結編
+- [Wind Breaker](https://www.aniplex.co.jp/lineup/windbreaker/) — WIND BREAKER
+- [Wind Breaker Season 2](https://www.aniplex.co.jp/lineup/windbreaker2/) — WIND BREAKER Season 2
+- [Utakoi](https://www.aniplex.co.jp/lineup/utakoi/) — 超訳百人一首 うた恋。
+- [Uchitama?! Have you seen my Tama?](https://www.aniplex.co.jp/lineup/uchitama/) — うちタマ?!～うちのタマ知りませんか？～
+- [Please Excuse My Younger Brothers](https://www.aniplex.co.jp/lineup/uchioto/) — うちの弟どもがすみません
+- [Space Brothers](https://www.aniplex.co.jp/lineup/uchukyodai/) — 宇宙兄弟
+- [Urusei Yatsura](https://www.aniplex.co.jp/lineup/uy-allstars/) — うる星やつら
+- [A-Channel](https://www.aniplex.co.jp/lineup/a-channel/) — Aチャンネル
+- [86 Eighty-Six](https://www.aniplex.co.jp/lineup/86anime/) — ８６ -エイティシックス-
+- [SK8 the Infinity](https://www.aniplex.co.jp/lineup/sk8/) — SK∞ エスケーエイト
+- [Today's Menu for the Emiya Family](https://www.aniplex.co.jp/lineup/emiya-gohan/) — 衛宮さんちの今日のごはん
+- [Eromanga Sensei](https://www.aniplex.co.jp/lineup/eromanga/) — エロマンガ先生
+- [Engage Kiss](https://www.aniplex.co.jp/lineup/engagekiss/) — Engage Kiss
+- [エンジェル・ハート](https://www.aniplex.co.jp/lineup/angelheart/) — エンジェル・ハート
+- [Angel Beats!](https://www.aniplex.co.jp/lineup/angelbeats/) — Angel Beats!
+- [Ranking of Kings](https://www.aniplex.co.jp/lineup/osama-ranking/) — 王様ランキング
+- [Ranking of Kings: The Treasure Chest of Courage](https://www.aniplex.co.jp/lineup/ousama_treasurechest/) — 王様ランキング 勇気の宝箱
+- [Big Windup!](https://www.aniplex.co.jp/lineup/oofuri/) — おおきく振りかぶって
+- [Big Windup! 2](https://www.aniplex.co.jp/lineup/oofuri2/) — おおきく振りかぶって〜夏の大会編〜
+- [王ドロボウＪＩＮＧ](https://www.aniplex.co.jp/lineup/jing/) — 王ドロボウＪＩＮＧ
+- [Zakuro](https://www.aniplex.co.jp/lineup/zakuro/) — おとめ妖怪 ざくろ
+- [The Ogre's Bride](https://www.aniplex.co.jp/lineup/onihana/) — 鬼の花嫁
+- [Hortensia SAGA](https://www.aniplex.co.jp/lineup/animehorsaga/) — オルタンシア・サーガ
+- [おれたちイジワルケイ](https://www.aniplex.co.jp/lineup/ijiwarukei/) — おれたちイジワルケイ
+- [Solo Leveling](https://www.aniplex.co.jp/lineup/sololeveling/) — 俺だけレベルアップな件
+- [Solo Leveling Season 2: Arise from the Shadow](https://www.aniplex.co.jp/lineup/sololeveling-2/) — 俺だけレベルアップな件 Season 2 -Arise from the Shadow-
+- [Oreshura](https://www.aniplex.co.jp/lineup/oreshura/) — 俺の彼女と幼なじみが修羅場すぎる
+- [OreImo](https://www.aniplex.co.jp/lineup/oreimo/) — 俺の妹がこんなに可愛いわけがない
+- [OreImo 2](https://www.aniplex.co.jp/lineup/oreimo2/) — 俺の妹がこんなに可愛いわけがない。
+- [Oresuki: Are You the Only One Who Loves Me?](https://www.aniplex.co.jp/lineup/oresuki-anime/) — 俺を好きなのはお前だけかよ
+- [Oresuki: Are You the Only One Who Loves Me? - Our Playball / Our End Run / Our Game](https://www.aniplex.co.jp/lineup/oresuki-ova/) — 俺を好きなのはお前だけかよ～俺たちのゲームセット～
+- [Owarimonogatari](https://www.aniplex.co.jp/lineup/owarimonogatari/) — 終物語
+- [Vampire Knight](https://www.aniplex.co.jp/lineup/vampireknight/) — ヴァンパイア騎士
+- [ヴァンパイア騎士 Guilty](https://www.aniplex.co.jp/lineup/vampireknight2/) — ヴァンパイア騎士 Guilty
+- [Visual Prison](https://www.aniplex.co.jp/lineup/visualprison/) — ヴィジュアルプリズン
+- [Vivy -Fluorite Eye's Song-](https://www.aniplex.co.jp/lineup/Vivy/) — Vivy-Fluorite Eye’s Song-
+- [怪童丸](https://www.aniplex.co.jp/lineup/kaidohmaru/) — 怪童丸
+- [The Fragrant Flower Blooms with Dignity](https://www.aniplex.co.jp/lineup/kaoruhana/) — 薫る花は凛と咲く
+- [Valvrave the Liberator](https://www.aniplex.co.jp/lineup/valvrave/) — 革命機ヴァルヴレイヴ
+- [Kaguya-sama: Love is War](https://www.aniplex.co.jp/lineup/kaguya/) — かぐや様は告らせたい～天才たちの恋愛頭脳戦～
+- [Kaguya-sama: Love Is War - Stairway to Adulthood](https://www.aniplex.co.jp/lineup/kaguya05/) — かぐや様は告らせたい 大人への階段
+- [Kaguya-sama: Love is War -Ultra Romantic-](https://www.aniplex.co.jp/lineup/kaguya3/) — かぐや様は告らせたい -ウルトラロマンティック-
+- [Guardian Ninja Mamoru](https://www.aniplex.co.jp/lineup/kagemamo/) — 陰からマモル！
+- [Inherit the Winds](https://www.aniplex.co.jp/lineup/kaze-tusgu/) — 風を継ぐもの
+- [刀語](https://www.aniplex.co.jp/lineup/katanagatari/) — 刀語
+- [Katsugeki Touken Ranbu](https://www.aniplex.co.jp/lineup/katsugeki-touken/) — 活撃 刀剣乱舞
+- [Botan Kamiina Fully Blossoms When Drunk](https://www.aniplex.co.jp/lineup/kamiinabotan/) — 上伊那ぼたん、酔へる姿は百合の花
+- [The Day I Became a God](https://www.aniplex.co.jp/lineup/kamisama-day/) — 神様になった日
+- [Kamichu!](https://www.aniplex.co.jp/lineup/kamichu/) — かみちゅ！
+- [Kannagi: Crazy Shrine Maidens](https://www.aniplex.co.jp/lineup/kannagi/) — かんなぎ
+- [Gakuen Alice](https://www.aniplex.co.jp/lineup/gakuenalice/) — 学園アリス
+- [The Asterisk War](https://www.aniplex.co.jp/lineup/asterisk/) — 学戦都市アスタリスク
+- [Galilei Donna: Storia di tre sorelle a caccia di un mistero](https://www.aniplex.co.jp/lineup/galileidonna/) — ガリレイドンナ
+- [ソードアート・オンライン オルタナティブ ガンゲイル・オンライン](https://www.aniplex.co.jp/lineup/ggo/) — ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
+- [Sword Art Online Alternative: Gun Gale Online II](https://www.aniplex.co.jp/lineup/ggo2/) — ソードアート・オンライン オルタナティブ ガンゲイル・オンラインⅡ
+- [ガンスリンガー ストラトス](https://www.aniplex.co.jp/lineup/guns/) — ガンスリンガー ストラトス
+- [Go For It, Nakamura-kun!!](https://www.aniplex.co.jp/lineup/nkmr-kun/) — ガンバレ！中村くん！！
+- [ガールズワーク](https://www.aniplex.co.jp/lineup/girlswork/) — ガールズワーク
+- [A Returner's Magic Should Be Special](https://www.aniplex.co.jp/lineup/kikansha/) — 帰還者の魔法は特別です
+- [帰還者の魔法は特別です 第二期](https://www.aniplex.co.jp/lineup/kikansha_season2/) — 帰還者の魔法は特別です 第二期
+- [Kiznaiver](https://www.aniplex.co.jp/lineup/kiznaiver/) — キズナイーバー
+- [傷物語](https://www.aniplex.co.jp/lineup/kizumonogatari/) — 傷物語
+- [The Guy She Was Interested in Wasn't a Guy at All](https://www.aniplex.co.jp/lineup/kinioto/) — 気になってる人が男じゃなかった
+- [牙](https://www.aniplex.co.jp/lineup/kiba/) — 牙
+- [You and Me.](https://www.aniplex.co.jp/lineup/kimitoboku/) — 君と僕。
+- [君と僕。２](https://www.aniplex.co.jp/lineup/kimitoboku2/) — 君と僕。２
+- [鬼滅シアター](https://www.aniplex.co.jp/lineup/kimetsutheater/) — 鬼滅シアター
+- [Demon Slayer: Kimetsu no Yaiba](https://www.aniplex.co.jp/lineup/kimetsu_anime/) — 鬼滅の刃
+- [Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc](https://www.aniplex.co.jp/lineup/kimetsu_katanakajinosato/) — 「鬼滅の刃」刀鍛冶の里編
+- [Demon Slayer: Kimetsu no Yaiba Hashira Training Arc](https://www.aniplex.co.jp/lineup/kimetsu_hashirageikohen/) — 「鬼滅の刃」柱稽古編
+- [Demon Slayer: Kimetsu no Yaiba Entertainment District Arc](https://www.aniplex.co.jp/lineup/kimetsu_yukaku/) — 「鬼滅の刃」遊郭編
+- [キャプテン翼シーズン２ ジュニアユース編](https://www.aniplex.co.jp/lineup/captaintsubasa_jryouth/) — キャプテン翼シーズン２ ジュニアユース編
+- [キョロちゃん](https://www.aniplex.co.jp/lineup/kyoro/) — キョロちゃん
+- [Kill la Kill](https://www.aniplex.co.jp/lineup/kill-la-kill/) — キルラキル
+- [金色のコルダ〜secondo passo〜](https://www.aniplex.co.jp/lineup/cordasecondopasso/) — 金色のコルダ〜secondo passo〜
+- [La corda d'oro: primo passo](https://www.aniplex.co.jp/lineup/cordaprimopasso/) — 金色のコルダ〜primo passo〜
+- [逆転裁判](https://www.aniplex.co.jp/lineup/gyakuten/) — 逆転裁判
+- [ギャラリーフェイク](https://www.aniplex.co.jp/lineup/galleryfake/) — ギャラリーフェイク
+- [I May Be a Guild Receptionist, but I'll Solo Any Boss to Clock Out on Time](https://www.aniplex.co.jp/lineup/girumasu/) — ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います
+- [銀魂](https://www.aniplex.co.jp/lineup/gintama/) — 銀魂
+- [Gintama Season 2](https://www.aniplex.co.jp/lineup/gintama2/) — 銀魂'
+- [銀魂．](https://www.aniplex.co.jp/lineup/gintama3/) — 銀魂．
+- [銀の匙 Silver Spoon](https://www.aniplex.co.jp/lineup/ginsaji/) — 銀の匙 Silver Spoon
+- [銀盤カレイドスコープ](https://www.aniplex.co.jp/lineup/ginban/) — 銀盤カレイドスコープ
+- [クオリディア・コード](https://www.aniplex.co.jp/lineup/qualidea/) — クオリディア・コード
+- [In the Heart of Kunoichi Tsubaki](https://www.aniplex.co.jp/lineup/kunoichi-tsubaki/) — くノ一ツバキの胸の内
+- [クビキリサイクル](https://www.aniplex.co.jp/lineup/kubikiricycle/) — クビキリサイクル
+- [I'm Getting Married to a Girl I Hate in My Class](https://www.aniplex.co.jp/lineup/kura-kon/) — クラスの大嫌いな女子と結婚することになった。
+- [Classroom☆Crisis](https://www.aniplex.co.jp/lineup/crc/) — Classroom☆Crisis
+- [Black Butler](https://www.aniplex.co.jp/lineup/kuroshitsuji/) — 黒執事
+- [Black Butler: Public School Arc](https://www.aniplex.co.jp/lineup/kuroshitsuji-2024/) — 黒執事 -寄宿学校編-
+- [Black Butler II](https://www.aniplex.co.jp/lineup/kuroshitsuji2/) — 黒執事Ⅱ
+- [Black Butler: Book of Circus](https://www.aniplex.co.jp/lineup/kuroshitsuji3/) — 黒執事 Book of Circus
+- [Black Butler: Book of Murder](https://www.aniplex.co.jp/lineup/kuroshitsuji-bom/) — 黒執事 Book of Murder
+- [Black Butler: Emerald Witch Arc](https://www.aniplex.co.jp/lineup/kuroshitsuji-2025/) — 黒執事 -緑の魔女編-
+- [グイン・サーガ](https://www.aniplex.co.jp/lineup/guinsaga/) — グイン・サーガ
+- [Gnosia](https://www.aniplex.co.jp/lineup/gnosia/) — グノーシア
+- [グラビテ−ション](https://www.aniplex.co.jp/lineup/gravitation/) — グラビテ−ション
+- [グラビテ−ション OVA](https://www.aniplex.co.jp/lineup/gravitation_ova/) — グラビテ−ション OVA
+- [Record of Grancrest War](https://www.aniplex.co.jp/lineup/grancrest/) — グランクレスト戦記
+- [Granblue Fantasy: The Animation](https://www.aniplex.co.jp/lineup/granbluefantasy/) — GRANBLUE FANTASY The Animation
+- [GRANBLUE FANTASY The Animation Season 2](https://www.aniplex.co.jp/lineup/granbluefantasy2/) — GRANBLUE FANTASY The Animation Season2
+- [Grisaia: Phantom Trigger](https://www.aniplex.co.jp/lineup/grisaia_phantom_trigger/) — グリザイア：ファントムトリガー
+- [Grow Up Show: Sunflower Circus](https://www.aniplex.co.jp/lineup/growupshow/) — グロウアップショウ ～ひまわりのサーカス団～
+- [Fanfare of Adolescence](https://www.aniplex.co.jp/lineup/fanfare-anime/) — 群青のファンファーレ
+- [Day Break Illusion](https://www.aniplex.co.jp/lineup/geneitaiyo/) — 幻影ヲ駆ケル太陽
+- [Fall in Love, You False Angels](https://www.aniplex.co.jp/lineup/koidomo-anime/) — 恋せよまやかし天使ども
+- [Love, Election and Chocolate](https://www.aniplex.co.jp/lineup/koichoco/) — 恋と選挙とチョコレート
+- [Raven of the Inner Palace](https://www.aniplex.co.jp/lineup/kokyu/) — 後宮の烏
+- [Kabaneri of the Iron Fortress](https://www.aniplex.co.jp/lineup/kabaneri/) — 甲鉄城のカバネリ
+- [Kabaneri of the Iron Fortress: The Battle of Unato](https://www.aniplex.co.jp/lineup/kabaneri_movie/) — 甲鉄城のカバネリ 海門決戦
+- [Le Portrait de Petit Cossette](https://www.aniplex.co.jp/lineup/cossette/) — コゼットの肖像
+- [Koyomimonogatari](https://www.aniplex.co.jp/lineup/koyomimonogatari/) — 暦物語
+- [May I Ask for One Final Thing?](https://www.aniplex.co.jp/lineup/saihito/) — 最後にひとつだけお願いしてもよろしいでしょうか
+- [サイバーパンク: エッジランナーズ](https://www.aniplex.co.jp/lineup/cyberpunk/) — サイバーパンク: エッジランナーズ
+- [Secrets of the Silent Witch](https://www.aniplex.co.jp/lineup/silentwitch/) — サイレント・ウィッチ 沈黙の魔女の隠しごと
+- [冴えない彼女の育てかた♭](https://www.aniplex.co.jp/lineup/saenai/) — 冴えない彼女の育てかた♭
+- [ささみさん@がんばらない](https://www.aniplex.co.jp/lineup/sasamisan/) — ささみさん@がんばらない
+- [Submarine 707R](https://www.aniplex.co.jp/lineup/submarine707r/) — サブマリン707R
+- [Samurai Flamenco](https://www.aniplex.co.jp/lineup/samumenco/) — サムライフラメンコ
+- [３月のライオン](https://www.aniplex.co.jp/lineup/3lion/) — ３月のライオン
+- [Thunderbolt Fantasy 東離劍遊紀2](https://www.aniplex.co.jp/lineup/thunderboltfantasy2/) — Thunderbolt Fantasy 東離劍遊紀2
+- [Gintama - Mr. Ginpachi's Zany Class](https://www.aniplex.co.jp/lineup/ginpachi/) — 3年Z組銀八先生
+- [Servant x Service](https://www.aniplex.co.jp/lineup/servantservice/) — サーバント×サービス
+- [Terror in Resonance](https://www.aniplex.co.jp/lineup/zankyo/) — 残響のテロル
+- [Your Lie in April](https://www.aniplex.co.jp/lineup/kimiuso/) — 四月は君の嘘
+- [屍鬼](https://www.aniplex.co.jp/lineup/shiki/) — 屍鬼
+- [CITY HUNTER](https://www.aniplex.co.jp/lineup/cityhunter/) — CITY HUNTER
+- [Shadows House](https://www.aniplex.co.jp/lineup/shadowshouse/) — シャドーハウス
+- [シャドーハウス 2ndSeason](https://www.aniplex.co.jp/lineup/shadowshouse2/) — シャドーハウス 2ndSeason
+- [Shabake](https://www.aniplex.co.jp/lineup/shabake/) — しゃばけ
+- [シャングリラ・フロンティア](https://www.aniplex.co.jp/lineup/shangrilafrontier/) — シャングリラ・フロンティア
+- [Charlotte](https://www.aniplex.co.jp/lineup/charlotte/) — Charlotte
+- [Touring After the Apocalypse](https://www.aniplex.co.jp/lineup/shumatsu-touring/) — 終末ツーリング
+- [Agents of the Four Seasons: Dance of Spring](https://www.aniplex.co.jp/lineup/4seasons_anime/) — 春夏秋冬代行者 春の舞
+- [Saint Cecilia and Pastor Lawrence](https://www.aniplex.co.jp/lineup/shiroseijyo/) — 白聖女と黒牧師
+- [Yaiba: Samurai Legend](https://www.aniplex.co.jp/lineup/yaiba/) — 真･侍伝 YAIBA
+- [Magi: Adventure of Sinbad](https://www.aniplex.co.jp/lineup/sinbad/) — シンドバッドの冒険
+- [SI-VIS: The Sound of Heroes](https://www.aniplex.co.jp/lineup/si-vis/) — SI-VIS: The Sound of Heroes
+- [時光代理人-LINK CLICK-](https://www.aniplex.co.jp/lineup/linkclick/) — 時光代理人-LINK CLICK-
+- [時光代理人-LINK CLICK- 英都篇](https://www.aniplex.co.jp/lineup/linkclick_eito/) — 時光代理人-LINK CLICK- 英都篇
+- [時光代理人-LINK CLICK-2](https://www.aniplex.co.jp/lineup/linkclick2/) — 時光代理人-LINK CLICK-2
+- [Hell Girl](https://www.aniplex.co.jp/lineup/jigokushojo/) — 地獄少女
+- [Hell Girl: Two Mirrors](https://www.aniplex.co.jp/lineup/jigokushojo2/) — 地獄少女 二籠
+- [Hell Girl: Three Vessels](https://www.aniplex.co.jp/lineup/jigokushojo3/) — 地獄少女 三鼎
+- [Hell Girl: Fourth Twilight](https://www.aniplex.co.jp/lineup/jigokushojo4/) — 地獄少女 宵伽
+- [じゃがいぬくん](https://www.aniplex.co.jp/lineup/jagainukun/) — じゃがいぬくん
+- [Dandivine](https://www.aniplex.co.jp/lineup/dandivine/) — 獣王武神ダンデヴァイン
+- [16bit Sensation: Another Layer](https://www.aniplex.co.jp/lineup/16bit/) — 16bitセンセーション ANOTHER LAYER
+- [人造人間キカイダー](https://www.aniplex.co.jp/lineup/Kikaider/) — 人造人間キカイダー
+- [GTO](https://www.aniplex.co.jp/lineup/gto/) — GTO
+- [スウィート・ヴァレリアン](https://www.aniplex.co.jp/lineup/sweetvalerian/) — スウィート・ヴァレリアン
+- [スキマの国のポルタ](https://www.aniplex.co.jp/lineup/poruta/) — スキマの国のポルタ
+- [Star Driver](https://www.aniplex.co.jp/lineup/stardriver/) — STAR DRIVER 輝きのタクト
+- [スノーマン](https://www.aniplex.co.jp/lineup/snowman/) — スノーマン
+- [Spiral: Bond of Reasoning](https://www.aniplex.co.jp/lineup/spiral/) — スパイラル-推理の絆-
+- [すべてがＦになる THE PERFECT INSIDER](https://www.aniplex.co.jp/lineup/allf/) — すべてがＦになる THE PERFECT INSIDER
+- [Slow Start](https://www.aniplex.co.jp/lineup/slow-start/) — スロウスタート
+- [Occult Academy](https://www.aniplex.co.jp/lineup/occultgakuin/) — 世紀末 オカルト学院
+- [青春ブタ野郎はサンタクロースの夢をみない](https://www.aniplex.co.jp/lineup/ao-buta-santa/) — 青春ブタ野郎はサンタクロースの夢をみない
+- [Rascal Does Not Dream of Bunny Girl Senpai](https://www.aniplex.co.jp/lineup/ao-buta/) — 青春ブタ野郎はバニーガール先輩の夢を見ない
+- [Rascal Does Not Dream of a Dreaming Girl](https://www.aniplex.co.jp/lineup/ao-buta-yumemiru/) — 青春ブタ野郎はゆめみる少女の夢を見ない
+- [Even the Student Council Has Its Holes!](https://www.aniplex.co.jp/lineup/nama-anaru/) — 生徒会にも穴はある！
+- [Saint☆Young Men (Movie)](https://www.aniplex.co.jp/lineup/saint023/) — 聖☆おにいさん
+- [World Conquest Zvezda Plot](https://www.aniplex.co.jp/lineup/sekaiseifuku/) — 世界征服～謀略のズヴィズダー～
+- [Sekirei](https://www.aniplex.co.jp/lineup/sekirei/) — セキレイ
+- [Sekirei: Pure Engagement](https://www.aniplex.co.jp/lineup/sekirei2/) — セキレイ〜Pure Engagement〜
+- [Night Raid 1931](https://www.aniplex.co.jp/lineup/nightraid/) — 閃光のナイトレイド
+- [センコロール](https://www.aniplex.co.jp/lineup/cencoroll/) — センコロール
+- [Cencoroll Connect](https://www.aniplex.co.jp/lineup/cencoroll_connect/) — CENCOROLL CONNECT
+- [Valkyria Chronicles](https://www.aniplex.co.jp/lineup/valkyria/) — 戦場のヴァルキュリア
+- [戦場のヴァルキュリア3 誰がための銃瘡](https://www.aniplex.co.jp/lineup/valkyria3/) — 戦場のヴァルキュリア3 誰がための銃瘡
+- [Senpai is an Otokonoko](https://www.aniplex.co.jp/lineup/painoko/) — 先輩はおとこのこ
+- [Warlords of Sigrdrifa](https://www.aniplex.co.jp/lineup/sigururi/) — 戦翼のシグルドリーヴァ
+- [Blast of Tempest](https://www.aniplex.co.jp/lineup/zetsuen/) — 絶園のテンペスト
+- [009-1](https://www.aniplex.co.jp/lineup/0091/) — 009-1
+- [Omniscient Reader](https://www.aniplex.co.jp/lineup/zendokushi/) — 全知的な読者の視点から
+- [ぜんまいざむらい](https://www.aniplex.co.jp/lineup/zenmaizamurai/) — ぜんまいざむらい
+- [My Dress-Up Darling](https://www.aniplex.co.jp/lineup/bisquedoll-anime/) — その着せ替え人形は恋をする
+- [その着せ替え人形は恋をする Season 2](https://www.aniplex.co.jp/lineup/bisquedoll-anime2/) — その着せ替え人形は恋をする Season2
+- [Her Blue Sky](https://www.aniplex.co.jp/lineup/soraao/) — 空の青さを知る人よ
+- [Sound of the Sky](https://www.aniplex.co.jp/lineup/soranowoto/) — ソ・ラ・ノ・ヲ・ト
+- [Sword Art Online](https://www.aniplex.co.jp/lineup/swordartonline/) — ソードアート・オンライン
+- [Sword Art Online: Alicization](https://www.aniplex.co.jp/lineup/sao-alicization/) — ソードアート・オンライン アリシゼーション
+- [Sword Art Online: Alicization - War of Underworld](https://www.aniplex.co.jp/lineup/sao-alicization-wou/) — ソードアート・オンライン アリシゼーション War of Underworld
+- [Sword Art Online: Extra Edition](https://www.aniplex.co.jp/lineup/sao_ee/) — ソードアート・オンライン Extra Edition
+- [Sword Art Online II](https://www.aniplex.co.jp/lineup/swordartonline2/) — ソードアート・オンラインⅡ
+- [続・終物語](https://www.aniplex.co.jp/lineup/zokuowarimonogatari/) — 続・終物語
+- [The Gymnastics Samurai](https://www.aniplex.co.jp/lineup/taiso-samurai/) — 体操ザムライ
+- [ダイナ荘びより](https://www.aniplex.co.jp/lineup/dinosaur-biyori/) — ダイナ荘びより
+- [Dakaichi: I'm Being Harassed By the Sexiest Man of the Year](https://www.aniplex.co.jp/lineup/dakaretai-1st_tv/) — 抱かれたい男1位に脅されています。
+- [Dakaichi: I'm Being Harassed By the Sexiest Man of the Year the Movie - Spain Arc](https://www.aniplex.co.jp/lineup/dakaretai-1st/) — 抱かれたい男1位に脅されています。～スペイン編～
+- [Dan Da Dan](https://www.aniplex.co.jp/lineup/dandadan/) — ダンダダン
+- [Dan Da Dan Season 2](https://www.aniplex.co.jp/lineup/dandadan_s2/) — ダンダダン（第2期）
+- [Darwin's Game](https://www.aniplex.co.jp/lineup/darwins-game/) — ダーウィンズゲーム
+- [Darker than Black](https://www.aniplex.co.jp/lineup/darker/) — DARKER THAN BLACK -黒の契約者-
+- [Darker than Black: Gemini of the Meteor](https://www.aniplex.co.jp/lineup/darkerryusei/) — DARKER THAN BLACK 流星の双子
+- [Dark Moon: The Blood Altar](https://www.aniplex.co.jp/lineup/darkmoon/) — DARK MOON -黒の月: 月の祭壇-
+- [DARLING in the FRANXX](https://www.aniplex.co.jp/lineup/darli-fra/) — ダーリン・イン・ザ・フランキス
+- [Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?](https://www.aniplex.co.jp/lineup/okaasan-online/) — 通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか？
+- [Tsukimonogatari](https://www.aniplex.co.jp/lineup/tsukimonogatari/) — 憑物語
+- [Tsuritama](https://www.aniplex.co.jp/lineup/tsuritama/) — つり球
+- [Tekkonkinkreet](https://www.aniplex.co.jp/lineup/tekkon/) — 鉄コン筋クリート
+- [鉄腕バーディーDECODE](https://www.aniplex.co.jp/lineup/birdydecode/) — 鉄腕バーディーDECODE
+- [Birdy the Mighty: Decode 02](https://www.aniplex.co.jp/lineup/birdydecode2/) — 鉄腕バーディーDECODE 02
+- [地球へ・・・](https://www.aniplex.co.jp/lineup/terahe/) — 地球へ・・・
+- [Heaven Official's Blessing](https://www.aniplex.co.jp/lineup/tgcf-anime/) — 天官賜福
+- [天官賜福 貮](https://www.aniplex.co.jp/lineup/tgcf-anime2/) — 天官賜福 貮
+- [Gurren Lagann](https://www.aniplex.co.jp/lineup/gurren/) — 天元突破グレンラガン
+- [Gurren Lagann: Kirameki★Yoko Box - Pieces of Sweet Stars](https://www.aniplex.co.jp/lineup/kirameki_yoko/) — 天元突破グレンラガン キラメキ☆ヨーコＢＯＸ～Pieces of sweet stars～
+- [Ghost Slayers Ayashi](https://www.aniplex.co.jp/lineup/ayakashiayashi/) — 天保異聞 妖奇士
+- [D.Gray-man](https://www.aniplex.co.jp/lineup/dgrayman/) — D.Gray-man
+- [D.Gray-man HALLOW](https://www.aniplex.co.jp/lineup/dgrayman2/) — D.Gray-man HALLOW
+- [Devilman: Crybaby](https://www.aniplex.co.jp/lineup/dmc/) — DEVILMAN crybaby
+- [Interviews With Monster Girls](https://www.aniplex.co.jp/lineup/demichan/) — 亜人ちゃんは語りたい
+- [Durarara!!](https://www.aniplex.co.jp/lineup/durarara/) — デュラララ!!
+- [Durarara!! x2 Shou](https://www.aniplex.co.jp/lineup/durararax2/) — デュラララ!!×２
+- [Delico's Nursery](https://www.aniplex.co.jp/lineup/delicosnursery/) — デリコズ・ナーサリー
+- [電撃デイジー](https://www.aniplex.co.jp/lineup/dengeki-daisy/) — 電撃デイジー
+- [Space Runaway Ideon](https://www.aniplex.co.jp/lineup/ideon/) — 伝説巨神イデオン
+- [Ultimate Otaku Teacher](https://www.aniplex.co.jp/lineup/denpa/) — 電波教師
+- [To Be Hero X](https://www.aniplex.co.jp/lineup/tbhx/) — TO BE HERO X
+- [Tokyo 24th Ward](https://www.aniplex.co.jp/lineup/tokyo24project/) — 東京24区
+- [Tojima Wants to Be a Kamen Rider](https://www.aniplex.co.jp/lineup/tojima_rider/) — 東島丹三郎は仮面ライダーになりたい
+- [Togainu no Chi](https://www.aniplex.co.jp/lineup/togainunochi/) — 咎狗の血
+- [My Little Monster](https://www.aniplex.co.jp/lineup/kaibutsukun/) — となりの怪物くん
+- [Tomo-chan Is a Girl!](https://www.aniplex.co.jp/lineup/tomochan/) — トモちゃんは女の子！
+- [Doukyusei: Classmates](https://www.aniplex.co.jp/lineup/doukyusei/) — 同級生
+- [SUPER HXEROS](https://www.aniplex.co.jp/lineup/hxeros/) — ド級編隊エグゼロス
+- [DOG DAYS](https://www.aniplex.co.jp/lineup/dogdays/) — DOG DAYS
+- [The Dinner Table Detective](https://www.aniplex.co.jp/lineup/nazod-anime/) — 謎解きはディナーのあとで
+- [A Summer-Colored Miracle](https://www.aniplex.co.jp/lineup/natsuirokiseki/) — 夏色キセキ
+- [Natsume's Book of Friends](https://www.aniplex.co.jp/lineup/natsumeyujincho/) — 夏目友人帳
+- [Natsume's Book of Friends: The Waking Rock and the Strange Visitor](https://www.aniplex.co.jp/lineup/natsume-ova/) — 夏目友人帳 石起こしと怪しき来訪者
+- [Natsume's Book of Friends Season 5](https://www.aniplex.co.jp/lineup/natsumeyujinchgo/) — 夏目友人帳 伍
+- [Natsume's Book of Friends Season 3](https://www.aniplex.co.jp/lineup/natsumeyujincho3/) — 夏目友人帳 参
+- [Natsume's Book of Friends Season 4](https://www.aniplex.co.jp/lineup/natsumeyujinchoshi/) — 夏目友人帳 肆
+- [Natsume's Book of Friends Season 2](https://www.aniplex.co.jp/lineup/zokunatsumeyujincho/) — 続 夏目友人帳
+- [Natsume's Book of Friends Season 7](https://www.aniplex.co.jp/lineup/natsumeyujinchonana/) — 夏目友人帳 漆
+- [The Seven Deadly Sins](https://www.aniplex.co.jp/lineup/7taizai/) — 七つの大罪
+- [The Seven Deadly Sins: Revival of the Commandments](https://www.aniplex.co.jp/lineup/7taizai_tv2nd/) — 七つの大罪 戒めの復活
+- [The Seven Deadly Sins: Signs of Holy War](https://www.aniplex.co.jp/lineup/7taizai_tvsp/) — 七つの大罪 聖戦の予兆
+- [22/7](https://www.aniplex.co.jp/lineup/227_anime/) — 22/7
+- [Naruto Shippuden the Movie 1](https://www.aniplex.co.jp/lineup/naruto/) — NARUTO-ナルト- 疾風伝
+- [No. 6](https://www.aniplex.co.jp/lineup/no6/) — NO.6
+- [The Elusive Samurai](https://www.aniplex.co.jp/lineup/nigewaka/) — 逃げ上手の若君
+- [Nisekoi: False Love Season 2](https://www.aniplex.co.jp/lineup/nisekoi/) — ニセコイ:
+- [Nisemonogatari](https://www.aniplex.co.jp/lineup/nisemonogatari/) — 偽物語
+- [Nippon Sangoku: The Three Nations of the Crimson Sun](https://www.aniplex.co.jp/lineup/nipponsangoku/) — 日本三國
+- [2.43: Seiin High School Boys Volleyball Team](https://www.aniplex.co.jp/lineup/243anime/) — 2.43 清陰高校男子バレー部
+- [NINJA KAMUI](https://www.aniplex.co.jp/lineup/ninjakamui/) — NINJA KAMUI
+- [NieR:Automata Ver1.1a](https://www.aniplex.co.jp/lineup/NieR/) — NieR:Automata Ver1.1a
+- [Needy Girl Overdose](https://www.aniplex.co.jp/lineup/needy_girl/) — NEEDY GIRL OVERDOSE
+- [ぬるめた](https://www.aniplex.co.jp/lineup/nlmt/) — ぬるめた
+- [ねこねこ日本史(第5期)](https://www.aniplex.co.jp/lineup/neconeconihonshi/) — ねこねこ日本史(第5期)
+- [Nekomonogatari Black](https://www.aniplex.co.jp/lineup/nekomonogatari-kuro/) — 猫物語(黒)
+- [Psychic School Wars](https://www.aniplex.co.jp/lineup/neragaku/) — ねらわれた学園
+- [Nerima Daikon Brothers](https://www.aniplex.co.jp/lineup/nerimadaikon/) — 練馬大根ブラザーズ
+- [のりものまん](https://www.aniplex.co.jp/lineup/norimonoman/) — のりものまん
+- [High School! Kimengumi (2026)](https://www.aniplex.co.jp/lineup/kimengumi/) — ハイスクール！奇面組
+- [High School Fleet](https://www.aniplex.co.jp/lineup/hai-fri/) — ハイスクール・フリート
+- [Sadamitsu the Destroyer](https://www.aniplex.co.jp/lineup/sadamits/) — 破壊魔定光
+- [Fullmetal Alchemist](https://www.aniplex.co.jp/lineup/hagaren/) — 鋼の錬金術師
+- [Fullmetal Alchemist: The Sacred Star of Milos](https://www.aniplex.co.jp/lineup/hagaren-movie/) — 鋼の錬金術師 嘆きの丘(ミロス)の聖なる星
+- [Fullmetal Alchemist: Brotherhood](https://www.aniplex.co.jp/lineup/hagarenfa/) — 鋼の錬金術師 FULLMETAL ALCHEMIST
+- [ハクション大魔王２０２０](https://www.aniplex.co.jp/lineup/hakushon2020/) — ハクション大魔王２０２０
+- [Cells at Work!](https://www.aniplex.co.jp/lineup/hataraku-saibou/) — はたらく細胞
+- [Cells at Work! CODE BLACK!](https://www.aniplex.co.jp/lineup/saibou-black/) — はたらく細胞BLACK
+- [HoneyWorks](https://www.aniplex.co.jp/lineup/honeyworks/) — HoneyWorks
+- [Tokyo Pig](https://www.aniplex.co.jp/lineup/harebuta/) — はれときどきぶた
+- [半妖の夜叉姫](https://www.aniplex.co.jp/lineup/hanyo-yashahime/) — 半妖の夜叉姫
+- [Bakemonogatari](https://www.aniplex.co.jp/lineup/bakemonogatari/) — 化物語
+- [Baccano!](https://www.aniplex.co.jp/lineup/baccano/) — BACCANO!
+- [Back Arrow](https://www.aniplex.co.jp/lineup/back-arrow/) — バック・アロウ
+- [Buddy Daddies](https://www.aniplex.co.jp/lineup/buddydaddies/) — Buddy Daddies
+- [Banana Fish](https://www.aniplex.co.jp/lineup/bananafish/) — BANANA FISH
+- [All Saints Street](https://www.aniplex.co.jp/lineup/banseigai/) — 万聖街
+- [Vertex Force](https://www.aniplex.co.jp/lineup/vertexforce/) — バーテックスフォース
+- [Paradise Kiss](https://www.aniplex.co.jp/lineup/paradisekiss/) — Paradise Kiss
+- [パラッパラッパー](https://www.aniplex.co.jp/lineup/parapparapper/) — パラッパラッパー
+- [Powerpuff Girls Z](https://www.aniplex.co.jp/lineup/pawapafugirlsz/) — パワパフガールズZ
+- [Punch Line](https://www.aniplex.co.jp/lineup/punchline/) — パンチライン
+- [Here U Are](https://www.aniplex.co.jp/lineup/HereUAre/) — Here U Are
+- [ヒゲぴよ](https://www.aniplex.co.jp/lineup/higepiyo/) — ヒゲぴよ
+- [ひだまりスケッチ×ハニカム](https://www.aniplex.co.jp/lineup/hidamarisketchhanikamu/) — ひだまりスケッチ×ハニカム
+- [Hidamari Sketch](https://www.aniplex.co.jp/lineup/hidamarisketch/) — ひだまりスケッチ
+- [ひだまりスケッチ×３６５](https://www.aniplex.co.jp/lineup/hidamarisketch365/) — ひだまりスケッチ×３６５
+- [ひだまりスケッチ×☆☆☆](https://www.aniplex.co.jp/lineup/hidamarisketchhoshimittsu/) — ひだまりスケッチ×☆☆☆
+- [Food for the Soul](https://www.aniplex.co.jp/lineup/hibimeshi/) — 日々は過ぎれど飯うまし
+- [『ヒプノシスマイク -Division Rap Battle-』Rhyme Anima](https://www.aniplex.co.jp/lineup/hypnosismic-ra/) — 『ヒプノシスマイク -Division Rap Battle-』Rhyme Anima
+- [Pretty Boy Detective Club](https://www.aniplex.co.jp/lineup/bishonen-tanteidan/) — 美少年探偵団
+- [Vividred Operation](https://www.aniplex.co.jp/lineup/vividred/) — ビビッドレッド・オペレーション
+- [The Case Files of Biblia Bookstore](https://www.aniplex.co.jp/lineup/biblia/) — ビブリア古書堂の事件手帖
+- [Build Divide -#FFFFFF- Code White](https://www.aniplex.co.jp/lineup/build-divide-anime/) — ビルディバイド -#FFFFFF-(コードホワイト)
+- [B-PROJECT～鼓動＊アンビシャス～](https://www.aniplex.co.jp/lineup/bpro/) — B-PROJECT～鼓動＊アンビシャス～
+- [B-PROJECT～絶頂＊エモーション～](https://www.aniplex.co.jp/lineup/bpro2/) — B-PROJECT～絶頂＊エモーション～
+- [ピンポン](https://www.aniplex.co.jp/lineup/pingpong/) — ピンポン
+- [Fate/Apocrypha](https://www.aniplex.co.jp/lineup/Fate-Apocrypha/) — Fate/Apocrypha
+- [Fate/Extra: Last Encore](https://www.aniplex.co.jp/lineup/fate-extra-lastencore/) — Fate/EXTRA Last Encore
+- [Fate/Grand Order: Absolute Demonic Front - Babylonia](https://www.aniplex.co.jp/lineup/fgo-ep7-tv/) — Fate/Grand Order -絶対魔獣戦線バビロニア-
+- [Fate/Grand Order -First Order-](https://www.aniplex.co.jp/lineup/fate-go/) — Fate/Grand Order －First Order－
+- [Fate/Grand Order: You've Lost Ritsuka Fujimaru](https://www.aniplex.co.jp/lineup/fgo_fujiwaka/) — Fate/Grand Order 藤丸立香はわからない
+- [Fate/Grand Order 藤丸立香はわからない Season 2](https://www.aniplex.co.jp/lineup/fgo_fujiwaka2/) — Fate/Grand Order 藤丸立香はわからない Season2
+- [Fate/Grand Order 藤丸立香はわからない Season 3](https://www.aniplex.co.jp/lineup/fgo_fujiwaka3/) — Fate/Grand Order 藤丸立香はわからない Season3
+- [Fate/Grand Order 藤丸立香はわからない Season 4](https://www.aniplex.co.jp/lineup/fgo_fujiwaka4/) — Fate/Grand Order 藤丸立香はわからない Season4
+- [Fate/Grand Order -MOONLIGHT/LOSTROOM-](https://www.aniplex.co.jp/lineup/fgo-ml/) — Fate/Grand Order -MOONLIGHT/LOSTROOM-
+- [Fate/stay night [Unlimited Blade Works]](https://www.aniplex.co.jp/lineup/fate-sn-ubw/) — Fate/stay night[Unlimited Blade Works]
+- [Fate/strange Fake](https://www.aniplex.co.jp/lineup/strangefake/) — Fate/strange Fake
+- [Fate/strange Fake: Whispers of Dawn](https://www.aniplex.co.jp/lineup/strangefake_wod/) — Fate/strange Fake -Whispers of Dawn-
+- [Fate/Zero](https://www.aniplex.co.jp/lineup/fate-zero/) — Fate/Zero
+- [Fate/Grand Carnival](https://www.aniplex.co.jp/lineup/fgc/) — Fate/Grand Carnival
+- [The Millionaire Detective – Balance: Unlimited](https://www.aniplex.co.jp/lineup/fugoukeiji-bul/) — 富豪刑事 Balance:UNLIMITED
+- [To Your Eternity](https://www.aniplex.co.jp/lineup/fumetsu/) — 不滅のあなたへ
+- [TVアニメ「不滅のあなたへ」Season 2](https://www.aniplex.co.jp/lineup/fumetsu2/) — TVアニメ「不滅のあなたへ」Season2
+- [FLAG](https://www.aniplex.co.jp/lineup/flag/) — FLAG
+- [Hula Fulla Dance](https://www.aniplex.co.jp/lineup/hula-fulladance/) — フラ・フラダンス
+- [Butareba -The Story of a Man Who Turned into a Pig-](https://www.aniplex.co.jp/lineup/butaliver/) — 豚のレバーは加熱しろ
+- [Black Rock Shooter](https://www.aniplex.co.jp/lineup/blackrockshooter/) — ブラック★ロックシューター
+- [Blood: The Last Vampire](https://www.aniplex.co.jp/lineup/bloodthelastvampire/) — BLOOD THE LAST VAMPIRE
+- [Bleach](https://www.aniplex.co.jp/lineup/bleach/) — BLEACH
+- [Bleach: Thousand-Year Blood War](https://www.aniplex.co.jp/lineup/bleach-anime/) — BLEACH 千年血戦篇
+- [ブレス](https://www.aniplex.co.jp/lineup/bless/) — ブレス
+- [BLEND-S](https://www.aniplex.co.jp/lineup/blend-s/) — ブレンド・S
+- [Plastic Memories](https://www.aniplex.co.jp/lineup/plamemo/) — プラスティック・メモリーズ
+- [へんたつ](https://www.aniplex.co.jp/lineup/hentatsu/) — へんたつ
+- [Berserk: The Golden Age Arc - Memorial Edition](https://www.aniplex.co.jp/lineup/beserk/) — ベルセルク 黄金時代篇 MEMORIAL EDITION
+- [As Miss Beelzebub Likes.](https://www.aniplex.co.jp/lineup/beelmama/) — ベルゼブブ嬢のお気に召すまま。
+- [Persona: Trinity Soul](https://www.aniplex.co.jp/lineup/persona/) — PERSONA -trinity soul-
+- [Persona 5 the Animation -THE DAY BREAKERS-](https://www.aniplex.co.jp/lineup/P5A/) — PERSONA5 THE ANIMATION THE DAY BREAKERS
+- [Persona 5 the Animation](https://www.aniplex.co.jp/lineup/p5-anime/) — PERSONA5 the Animation
+- [TVアニメ「ペルソナ４」](https://www.aniplex.co.jp/lineup/p4a/) — TVアニメ「ペルソナ４」
+- [ペルソナ４ ザ・ゴールデン](https://www.aniplex.co.jp/lineup/p4ga/) — ペルソナ４ ザ・ゴールデン
+- [Wandering Son](https://www.aniplex.co.jp/lineup/houroumusuko/) — 放浪息子
+- [Firefly Wedding](https://www.aniplex.co.jp/lineup/hotaru-anime/) — ホタルの嫁入り
+- [Into the Forest of Fireflies' Light](https://www.aniplex.co.jp/lineup/hotarubi/) — 蛍火の杜へ
+- [炎の蜃気楼 OVA](https://www.aniplex.co.jp/lineup/honoonomiraju_ova/) — 炎の蜃気楼 OVA
+- [炎の蜃気楼 TVシリーズ](https://www.aniplex.co.jp/lineup/honoonomiraju/) — 炎の蜃気楼 TVシリーズ
+- [Horimiya](https://www.aniplex.co.jp/lineup/horimiya-anime/) — ホリミヤ
+- [Horimiya: The Missing Pieces](https://www.aniplex.co.jp/lineup/horimiya-piece-anime/) — ホリミヤ -piece-
+- [Xam'd: Lost Memories](https://www.aniplex.co.jp/lineup/zamd/) — 亡念のザムド
+- [We Never Learn: BOKUBEN Season 2](https://www.aniplex.co.jp/lineup/boku-ben/) — ぼくたちは勉強ができない！
+- [Erased](https://www.aniplex.co.jp/lineup/bokumachi/) — 僕だけがいない街
+- [Bocchi the Rock!](https://www.aniplex.co.jp/lineup/bocchi/) — ぼっち・ざ・ろっく！
+- [Paper Rabbit Rope x Boruto: Naruto Next Generations](https://www.aniplex.co.jp/lineup/boruto/) — BORUTO-ボルト-NARUTO NEXT GENERATIONS-
+- [Popolocrois Monogatari](https://www.aniplex.co.jp/lineup/popolo/) — ポポロクロイス物語
+- [The Misfit of Demon King Academy](https://www.aniplex.co.jp/lineup/maougakuin/) — 魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
+- [The Misfit of Demon King Academy Ⅱ](https://www.aniplex.co.jp/lineup/maougakuin02/) — 魔王学院の不適合者 Ⅱ ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～
+- [Demon Lord 2099](https://www.aniplex.co.jp/lineup/maou2099/) — 魔王2099
+- [マギ](https://www.aniplex.co.jp/lineup/magi/) — マギ
+- [Magia Record: Puella Magi Madoka Magica Side Story](https://www.aniplex.co.jp/lineup/magireco_anime/) — マギアレコード 魔法少女まどか☆マギカ外伝
+- [Makeine: Too Many Losing Heroines!](https://www.aniplex.co.jp/lineup/makeine/) — 負けヒロインが多すぎる！
+- [Magical★Explorer](https://www.aniplex.co.jp/lineup/majieku/) — マジカル★エクスプローラー
+- [Mashle: Magic and Muscles](https://www.aniplex.co.jp/lineup/mashle/) — マッシュル-MASHLE-
+- [マッシュル-MASHLE- 三魔対争神覚者最終試験編](https://www.aniplex.co.jp/lineup/mashle-3rd/) — マッシュル-MASHLE- 三魔対争神覚者最終試験編
+- [Mashle: Magic and Muscles - The Divine Visionary Candidate Exam Arc](https://www.aniplex.co.jp/lineup/mashle-shinkakusya/) — マッシュル-MASHLE- 神覚者候補選抜試験編
+- [魔道祖師 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs/) — 魔道祖師 日本語吹替版
+- [魔道祖師 完結編 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs_final/) — 魔道祖師 完結編 日本語吹替版
+- [The Honor Student at Magic High School](https://www.aniplex.co.jp/lineup/mahouka_yuutousei/) — 魔法科高校の優等生
+- [The Irregular at Magic High School](https://www.aniplex.co.jp/lineup/mahouka/) — 魔法科高校の劣等生
+- [The Irregular at Magic High School Season 3](https://www.aniplex.co.jp/lineup/mahouka_tv3rd/) — 魔法科高校の劣等生 第3シーズン
+- [The Irregular at Magic High School: Reminiscence Arc](https://www.aniplex.co.jp/lineup/mahouka_tsuioku/) — 魔法科高校の劣等生 追憶編
+- [The Irregular at Magic High School: Visitor Arc](https://www.aniplex.co.jp/lineup/mahouka_tv2nd/) — 魔法科高校の劣等生 来訪者編
+- [Puella Magi Madoka Magica](https://www.aniplex.co.jp/lineup/madokamagica/) — 魔法少女まどか☆マギカ
+- [「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition](https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/) — 「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition
+- [魔法少女リリカルなのはViVid](https://www.aniplex.co.jp/lineup/nanoha-vivid/) — 魔法少女リリカルなのはViVid
+- [Mardock Scramble: The First Compression](https://www.aniplex.co.jp/lineup/m-scramble/) — マルドゥック・スクランブル
+- [Dealing with Mikadono Sisters Is a Breeze](https://www.aniplex.co.jp/lineup/mikadono/) — 帝乃三姉妹は案外、チョロい。
+- [The House of the Lost on the Cape](https://www.aniplex.co.jp/lineup/misakino-mayoiga/) — 岬のマヨイガ
+- [Mitsudomoe](https://www.aniplex.co.jp/lineup/mitsudomoe/) — みつどもえ
+- [Miracle Train: Welcome to the Oedo Line](https://www.aniplex.co.jp/lineup/miracletrain/) — ミラクル☆トレイン〜大江戸線へようこそ〜
+- [蟲師](https://www.aniplex.co.jp/lineup/mushishi/) — 蟲師
+- [Mekakucity Actors](https://www.aniplex.co.jp/lineup/mekakucityactors/) — メカクシティアクターズ
+- [Firefighter Daigo: Rescuer in Orange](https://www.aniplex.co.jp/lineup/meguminodaigo/) — め組の大吾 救国のオレンジ
+- [Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!](https://www.aniplex.co.jp/lineup/saikyosoubi/) — 目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい
+- [mono](https://www.aniplex.co.jp/lineup/mono/) — mono
+- [Monogatari Series: Off & Monster Season](https://www.aniplex.co.jp/lineup/OFMs/) — 〈物語〉シリーズ オフ&モンスターシーズン
+- [Monogatari Series: Second Season](https://www.aniplex.co.jp/lineup/monogatari-series/) — <物語>シリーズ セカンドシーズン
+- [The Demon Prince of Momochi House](https://www.aniplex.co.jp/lineup/momochisan/) — 百千さん家のあやかし王子
+- [もやしもん リターンズ](https://www.aniplex.co.jp/lineup/moyashimon/) — もやしもん リターンズ
+- [Yakitate!! Japan](https://www.aniplex.co.jp/lineup/yakitatejapan/) — 焼きたて!!ジャぱん
+- [The Promised Neverland Season 2](https://www.aniplex.co.jp/lineup/neverland/) — 約束のネバーランド
+- [約束のネバーランド 2ndSEASON](https://www.aniplex.co.jp/lineup/neverland2/) — 約束のネバーランド 2ndSEASON
+- [My Love Story with Yamada-kun at Lv999](https://www.aniplex.co.jp/lineup/yamada999/) — 山田くんとLv999の恋をする
+- [Your Forma](https://www.aniplex.co.jp/lineup/yourforma/) — ユア・フォルマ
+- [UniteUp!](https://www.aniplex.co.jp/lineup/uniteup/) — UniteUp!
+- [UniteUp! -Uni:Birth-](https://www.aniplex.co.jp/lineup/uniteup_unibirth/) — UniteUp! -Uni:Birth-
+- [Yuuna and the Haunted Hot Springs](https://www.aniplex.co.jp/lineup/yuragisou/) — ゆらぎ荘の幽奈さん
+- [ヨコハマ買い出し紀行](https://www.aniplex.co.jp/lineup/yokohama/) — ヨコハマ買い出し紀行
+- [よふかしのうた Season 2](https://www.aniplex.co.jp/lineup/yofukashi-no-uta_s2/) — よふかしのうた Season2
+- [Daemons of the Shadow Realm](https://www.aniplex.co.jp/lineup/yominotsugai/) — 黄泉のツガイ
+- [Samurai Troopers](https://www.aniplex.co.jp/lineup/samurai/) — 鎧伝サムライトルーパー
+- [Atelier Ryza: Ever Darkness & the Secret Hideout The Animation](https://www.aniplex.co.jp/lineup/ryza/) — ライザのアトリエ 〜常闇の女王と秘密の隠れ家〜
+- [LAZARUS ラザロ](https://www.aniplex.co.jp/lineup/lazarus/) — LAZARUS ラザロ
+- [Love All Play](https://www.aniplex.co.jp/lineup/love-all-play/) — ラブオールプレー
+- [Love Lab](https://www.aniplex.co.jp/lineup/love-lab/) — 恋愛ラボ
+- [Rampo Kitan: Game of Laplace](https://www.aniplex.co.jp/lineup/ranpokitan/) — 乱歩奇譚 Game of Laplace
+- [Ranma ½ (2024)](https://www.aniplex.co.jp/lineup/ranma/) — らんま1/2
+- [Lycoris Recoil: Friends are thieves of time.](https://www.aniplex.co.jp/lineup/lycoris-recoil_shortmovie/) — リコリス・リコイル Friends are thieves of time.
+- [Lycoris Recoil](https://www.aniplex.co.jp/lineup/lycoris-recoil/) — リコリス・リコイル
+- [Nanana's Buried Treasure](https://www.aniplex.co.jp/lineup/nanana/) — 龍ヶ嬢七々々の埋蔵金
+- [龍族 -The Blazing Dawn-](https://www.aniplex.co.jp/lineup/ryuzoku/) — 龍族 -The Blazing Dawn-
+- [龍族Ⅱ -The Mourner's Eyes-](https://www.aniplex.co.jp/lineup/ryuzoku_2/) — 龍族Ⅱ -The Mourner's Eyes-
+- [Rewrite](https://www.aniplex.co.jp/lineup/rewrite/) — Rewrite
+- [ReLIFE](https://www.aniplex.co.jp/lineup/relife/) — ReLIFE
+- [Ruri Rocks](https://www.aniplex.co.jp/lineup/rurinohouseki/) — 瑠璃の宝石
+- [Rurouni Kenshin](https://www.aniplex.co.jp/lineup/rurounikenshin/) — るろうに剣心-明治剣客浪漫譚-
+- [Rurouni Kenshin: Kyoto Disturbance](https://www.aniplex.co.jp/lineup/rurounikenshin-anime-kyoto/) — るろうに剣心 －明治剣客浪漫譚－ 京都動乱
+- [Re:CREATORS](https://www.aniplex.co.jp/lineup/recreators/) — Re:CREATORS
+- [Level E](https://www.aniplex.co.jp/lineup/level-e/) — レベル E
+- [羅小黒戦記](https://www.aniplex.co.jp/lineup/luoxiaohei-tv/) — 羅小黒戦記
+- [羅小黒戦記（ロシャオヘイセンキ） ぼくが選ぶ未来](https://www.aniplex.co.jp/lineup/luoxiaohei/) — 羅小黒戦記（ロシャオヘイセンキ） ぼくが選ぶ未来
+- [Naruto Spin-Off: Rock Lee & His Ninja Pals](https://www.aniplex.co.jp/lineup/rock-lee/) — NARUTO -ナルト- SD ロック・リーの青春フルパワー忍伝
+- [Robby & Kerobby](https://www.aniplex.co.jp/lineup/robikero/) — ロビーとケロビー
+- [ロード・エルメロイⅡ世の事件簿](https://www.aniplex.co.jp/lineup/elmelloi/) — ロード・エルメロイⅡ世の事件簿
+- [ワイルドアームズTV](https://www.aniplex.co.jp/lineup/watv/) — ワイルドアームズTV
+- [Wonder Egg Priority](https://www.aniplex.co.jp/lineup/wonder-egg-priority/) — ワンダーエッグ・プライオリティ
+- [ワンダーベビルくん](https://www.aniplex.co.jp/lineup/wonderbevil/) — ワンダーベビルくん
+- [Wagnaria!!](https://www.aniplex.co.jp/lineup/working/) — WORKING!!
+- [WWW.WAGNARIA!!](https://www.aniplex.co.jp/lineup/www-working/) — WWW.WORKING!!
+- [Wotakoi: Love is Hard for Otaku](https://www.aniplex.co.jp/lineup/wotakoi/) — ヲタクに恋は難しい
+- [CHARISMA](https://www.tbscontents.com/en/program/charisma) — カリスマ
+- [KAIJU GIRL CARAMELISE](https://www.tbscontents.com/en/program/kaijugirlcaramelise) — 乙女怪獣キャラメリゼ
+- [Let's go KAIKIGUMI](https://www.tbscontents.com/en/program/letsgokaikigumi) — レッツゴー怪奇組
+- [Smoking Behind the Supermarket with You](https://www.tbscontents.com/en/program/smokingbehindthesupermarketwithyou) — スーパーの裏でヤニ吸うふたり
+- [Haibara’s Teenage New Game+](https://www.tbscontents.com/en/program/haibarasteenagenewgame) — 灰原くんの強くて青春ニューゲーム
+- [Killed again, Mr. Detective.](https://www.tbscontents.com/en/program/killedagain) — また殺されてしまったのですね、探偵様
+- [THE RAMPARTS OF ICE](https://www.tbscontents.com/en/program/therampartsofice) — 氷の城壁
+- [Champignon Witch](https://www.tbscontents.com/en/program/champignonwitch) — シャンピニオンの魔女
+- [A STAR BRIGHTER THAN THE SUN](https://www.tbscontents.com/en/program/astarbrighterthanthesun) — 太陽よりも眩しい星
+- [KAMITSUBAKI CITY UNDER CONSTRUCTION](https://www.tbscontents.com/en/program/kamitsubaki) — 神椿市建設中。
+- [The Water Magician](https://www.tbscontents.com/en/program/thewatermagician) — 水属性の魔法使い
+- [NMENEKO](https://www.tbscontents.com/en/program/nmeneko) — ンめねこ
+- [Rock Is a Lady’s Modesty](https://www.tbscontents.com/en/program/rockisaladysmodesty) — ロックは淑女の嗜みでして
+- [Umamusume: Cinderella Gray](https://www.tbscontents.com/en/program/umamusume_cinderellagray) — ウマ娘 シンデレラグレイ
+- [Toilet-bound Hanako-kun 2](https://www.tbscontents.com/en/program/toiletboundhanakokun2) — 地縛少年花子くん２
+- [The Quintessential Quintuplets Specials 2](https://www.tbscontents.com/en/program/thequintessentialquintuplets_sp2) — 五等分の花嫁＊
+- [Good Bye, Dragon Life](https://www.tbscontents.com/en/program/goodbyedragonlife) — さようなら竜生、こんにちは人生
+- [Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells](https://www.tbscontents.com/en/program/failureframe) — ハズレ枠の【状態異常スキル】で最強になった俺がすべてを蹂躙するまで
+- [After-school Hanako-kun](https://www.tbscontents.com/en/program/afterschoolhanakokun) — 放課後少年花子くん
+- [When Will Ayumu Make His Move?](https://www.tbscontents.com/en/program/whenwillayumumakehismove) — それでも歩は寄せてくる
+- [The Demon Girl Next Door 2](https://www.tbscontents.com/en/program/thedemongirlnextdoor2) — まちカドまぞく 2丁目
+- [Platinum End](https://www.tbscontents.com/en/program/platinumend) — プラチナエンド
+- [How NOT to Summon a Demon Lord Ω](https://www.tbscontents.com/en/program/hownottosummonademonlord) — 異世界魔王と召喚少女の奴隷魔術Ω
+- [Adachi and Shimamura](https://www.tbscontents.com/en/program/adachitoshimamura) — 安達としまむら
+- [If My Favorite Pop Idol Made It to the Budokan, I Would Die](https://www.tbscontents.com/en/program/oshibudo) — 推しが武道館いってくれたら死ぬ
+- [Toilet-bound Hanako-kun](https://www.tbscontents.com/en/program/toiletboundhanakokun) — 地縛少年花子くん
+- [Stars Align](https://www.tbscontents.com/en/program/starsalign) — 星合の空
+- [The Demon Girl Next Door](https://www.tbscontents.com/en/program/thedemongirlnextdoor) — まちカドまぞく
+- [Grimms Notes The Animation](https://www.tbscontents.com/en/program/grimmsnotestheanimation) — グリムノーツ The Animation
+- [The Quintessential Quintuplets](https://www.tbscontents.com/en/program/thequintessentialquintuplets) — 五等分の花嫁
+- [GAKUEN BASARA](https://www.tbscontents.com/en/program/gakuenbasara) — 学園BASARA
+- [Revue Starlight](https://www.tbscontents.com/en/program/revuestarlight) — 少女歌劇 レヴュースタァライト
+- [Seven Senses of the Reunion](https://www.tbscontents.com/en/program/sevensensesofthereunion) — 七星のスバル
+- [Dances with the Dragons](https://www.tbscontents.com/en/program/danceswiththedragons) — されど罪人は竜と踊る
+- [DAGASHIKASHI 2](https://www.tbscontents.com/en/program/dagashikashi2) — だがしかし2
+- [How to Keep a Mummy](https://www.tbscontents.com/en/program/howtokeepamummy) — ミイラの飼い方
+- [Shinkalion](https://www.tbscontents.com/en/program/shinkalion) — 新幹線変形ロボ シンカリオン
+- [Takunomi](https://www.tbscontents.com/en/program/takunomi) — たくのみ。
+- [Dynamic Chord](https://www.tbscontents.com/en/program/DC) — DYNAMIC CHORD
+- [TOMICA Hyper Rescue Police DRIVE HEAD](https://www.tbscontents.com/en/program/drivehead) — トミカハイパーレスキュー ドライブヘッド 機動救急警察
+- [Action Heroine Cheer Fruits](https://www.tbscontents.com/en/program/actionheroinecheerfruits) — アクションヒロイン チアフルーツ
+- [Clockwork Planet](https://www.tbscontents.com/en/program/clockworkplanet) — クロックワーク・プラネット
+- [Kabukibu!](https://www.tbscontents.com/en/program/kabuki) — カブキブ！
+- [SEIREN](https://www.tbscontents.com/en/program/seiren) — セイレン
+- [Urara Meirocho](https://www.tbscontents.com/en/program/urarameirocho) — うらら迷路帖
+- [Girlish Number](https://www.tbscontents.com/en/program/girlishnumber) — ガーリッシュ ナンバー
+- [Kiss Him, Not Me!](https://www.tbscontents.com/en/program/kisshimnotme) — 私がモテてどうすんだ
+- [Handa-kun](https://www.tbscontents.com/en/program/handa-kun) — はんだくん
+- [Haven't You Heard? I'm Sakamoto](https://www.tbscontents.com/en/program/sakamoto) — 坂本ですが？
+- [Shonen Maid](https://www.tbscontents.com/en/program/shonenmaid) — 少年メイド
+- [DAGASHIKASHI](https://www.tbscontents.com/en/program/dagashikashi) — だがしかし
+- [PHANTASY STAR ONLINE 2 THE ANIMATION](https://www.tbscontents.com/en/program/PSO2) — ファンタシースターオンライン2 ジ アニメーション
+- [Lance N' Masques](https://www.tbscontents.com/en/program/lance) — ランス・アンド・マスクス
+- [Young Black Jack](https://www.tbscontents.com/en/program/youngblackjack) — ヤング
+- [Aoharu X Machinegun](https://www.tbscontents.com/en/program/aoharu) — 青春×機関銃
+- [Castle Town Dandelion](https://www.tbscontents.com/en/program/castletowndandelion) — 城下町のダンデライオン
+- [RE-KAN!](https://www.tbscontents.com/en/program/re-kan) — レーカン！
+- [Gourmet Girl Graffiti](https://www.tbscontents.com/en/program/gourmetgirlgraffiti) — 幸腹グラフィティ
+- [Unlimited Fafnir](https://www.tbscontents.com/en/program/unlimitedfafnir) — 銃皇無尽のファフニール
+- [Amagi Brilliant Park](https://www.tbscontents.com/en/program/amagibrilliantpark) — 甘城ブリリアントパーク
+- [Rail Wars!](https://www.tbscontents.com/en/program/railwars) — RAIL WARS!
+- [The Kawai Complex Guide to Manors and Hostel Behavior](https://www.tbscontents.com/en/program/kawaicomplexguide) — 僕らはみんな河合荘
+- [Sakura Trick](https://www.tbscontents.com/en/program/sakuratrick) — 桜Trick
+- [Beyond the Boundary](https://www.tbscontents.com/en/program/beyondtheboundary) — 境界の彼方
+- [Outbreak Company](https://www.tbscontents.com/en/program/outbreakcompany) — アウトブレイク・カンパニー
+- [Rozen Maiden – Zurückspulen](https://www.tbscontents.com/en/program/rozenmaidenzuruckspulen) — ローゼンメイデン
+- [Stella Women's Academy High School Devision Class C3 - School Girl Survivor Game](https://www.tbscontents.com/en/program/stellac3) — ステラ女学院高等科C3
+- [My Teen Romantic Comedy ~ SNAFU](https://www.tbscontents.com/en/program/myteenromanticcomedy) — やはり俺の青春ラブコメはまちがっている。
+- [PhotoKano](https://www.tbscontents.com/en/program/photokano) — フォトカノ
+- [Tamako Market](https://www.tbscontents.com/en/program/tamakomarket) — たまこまーけっと
+- [Armored War Goddess](https://www.tbscontents.com/en/program/busoushinki) — 武装神姫
+- [Love, Chunibyo and Other Delusions!](https://www.tbscontents.com/en/program/lovechunibyoandotherdelusions) — 中二病でも恋がしたい！
+- [Place to Place](https://www.tbscontents.com/en/program/placetoplace) — あっちこっち
+- [SANKAREA](https://www.tbscontents.com/en/program/sankarea) — さんかれあ
+- [Kill Me Baby](https://www.tbscontents.com/en/program/killmebaby) — キルミーベイベー
+- [Mayo Chiki!](https://www.tbscontents.com/en/program/mayochiki) — まよチキ！
+- [Ground Control to Psychoelectric Girl](https://www.tbscontents.com/en/program/denpa_tbs) — 電波女と青春男
+- [Dream Eater Merry](https://www.tbscontents.com/en/program/dreameatermerry) — 夢喰いメリー
+- [And Yet the Town Moves](https://www.tbscontents.com/en/program/andyetthetownmoves) — それでも町は廻っている
+- [AMAGAMI SS](https://www.tbscontents.com/en/program/amagamiss) — アマガミ SS
+- [Maid Sama!](https://www.tbscontents.com/en/program/maidsama) — 会長はメイド様！
+- [Ookamikakushi](https://www.tbscontents.com/en/program/okamikakushi) — おおかみかくし
+- [Kämpfer](https://www.tbscontents.com/en/program/kampfer) — けんぷファー
+- [Nyankoi!](https://www.tbscontents.com/en/program/nyankoi) — にゃんこい！
+- [Taisho Baseball Girls](https://www.tbscontents.com/en/program/taishobaseballgirls) — 大正野球娘。
+- [K-ON!](https://www.tbscontents.com/en/program/k-on) — けいおん！
+- [Samurai Harem](https://www.tbscontents.com/en/program/asunoyoichi) — 明日のよいち！
+- [Yozakura Quartet](https://www.tbscontents.com/en/program/yozakuraqu) — 夜桜四重奏 ヨザクラカルテット
+- [To love Ru](https://www.tbscontents.com/en/program/toloveru) — To Loveる -とらぶる-
+- [CLANNAD](https://www.tbscontents.com/en/program/clannad) — 클라나드
+- [You're Under Arrest Full Throttle](https://www.tbscontents.com/en/program/youreunderarrestfullthrottle) — 逮捕しちゃうぞ フルスロットル
+- [Polyphonica](https://www.tbscontents.com/en/program/polyphonica) — 神曲奏界ポリフォニカ
+- [Princess Resurrection](https://www.tbscontents.com/en/program/princessresurrection) — 怪物王女
+- [Venus Versus Virus](https://www.tbscontents.com/en/program/venusversusvirus) — ヴィーナス･ヴァーサス･ヴァイアラス
+- [Winter Garden](https://www.tbscontents.com/en/program/wintergarden) — ウィンターガーデン
+- [Brighter Than the Dawning Blue](https://www.tbscontents.com/en/program/yoakena) — 夜明け前より瑠璃色な
+- [Kanon](https://www.tbscontents.com/en/program/kanon) — 卡農
+- [Living for the Day After Tomorrow](https://www.tbscontents.com/en/program/livingforthedayaftertomorrow) — あさっての方向。
+- [xxxHOLiC](https://www.tbscontents.com/en/program/xxxholic) — xxxホリック
+- [Binchotan](https://www.tbscontents.com/en/program/binchotan) — びんちょうタン
+- [Fate/stay night](https://www.tbscontents.com/en/program/fate) — Fate / stay night
+- [That's My Master](https://www.tbscontents.com/en/program/thatsmymaster) — これが私の御主人様
+- [AH! MY GODDESS](https://www.tbscontents.com/en/program/ahmygoddess) — ああっ女神さまっ
+- [Air](https://www.tbscontents.com/en/program/air) — AIR
+- [Rozen Maiden](https://www.tbscontents.com/en/program/rozenmaiden) — ローゼンメイデン
+- [This Ugly Yet Beautiful World](https://www.tbscontents.com/en/program/thisuglyyetbeautifulworld) — この醜くも美しい世界
+- [Lunar Legend TSUKIHIME](https://www.tbscontents.com/en/program/lunarlegendtsukihime) — 真月譚 月姫
+- [POPOTAN](https://www.tbscontents.com/en/program/popotan) — ぽぽたん
+- [Detective School Q](https://www.tbscontents.com/en/program/detectiveschoolq) — 探偵学園Q
+- [Get Backers](https://www.tbscontents.com/en/program/getbackers) — ゲットバッカーズ 奪還屋
+- [Chobits](https://www.tbscontents.com/en/program/chobits) — ちょびっツ
+- [REC](https://www.tbscontents.com/en/program/rec) — REC
+- [Rave](https://www.tbscontents.com/en/program/rave) — 聖石小石
+- [Kintaro, the White-collar Worker](https://www.tbscontents.com/en/program/kintaroanime) — サラリーマン金太郎
+- [MahoRomatic Automatic Maiden](https://www.tbscontents.com/en/program/automaticmaiden) — まほろまてぃっく
+- [Invincible King Tri-Zenon](https://www.tbscontents.com/en/program/trizenon) — 無敵王トライゼノン
+- [Sakura Wars TV](https://www.tbscontents.com/en/program/sakurawars) — サクラ大戦
+- [Remember the Sun in the Heart](https://www.tbscontents.com/en/program/alwayswiththesuninmyheart) — いつも心に太陽を
+- [Miss Critical Moment](https://www.tbscontents.com/en/program/crisisgirl) — イッパツ危機娘
+- [Orphen Revenge](https://www.tbscontents.com/en/program/orphenrevenge) — 魔術士オーフェン リベンジ
+- [Colorful](https://www.tbscontents.com/en/program/colorful) — Colorful - カラフル
+- [Reign: The Conquevor](https://www.tbscontents.com/en/program/alexander) — アレクサンダー戦記
+- [Let’s Dance with Papa](https://www.tbscontents.com/en/program/letsdancewithpapa) — パパと踊ろう
+- [Pet Shop of Horrors](https://www.tbscontents.com/en/program/petshopofhorrors) — ペットショップ・オブ・ホラーズ
+- [Number One Male Spirit 1, 2](https://www.tbscontents.com/en/program/numberonemalespirit) — 日本一の男の魂1, 2
+- [Di Gi Charat](https://www.tbscontents.com/en/program/digicharat) — デ・ジ・キャラット
+- [That Girl !](https://www.tbscontents.com/en/program/thatgirl) — よいこ
+- [Let’s Nupu Nupu](https://www.tbscontents.com/en/program/letsnupunupu) — Let’s ぬぷぬぷっ
+- [ORPHEN](https://www.tbscontents.com/en/program/orphen) — 魔術士オーフェン
+- [PINK Sisters](https://www.tbscontents.com/en/program/momoirosisters) — ももいろシスターズ
+- [Super Radical Gag Family of Urayasu](https://www.tbscontents.com/en/program/superradicalgagfamilyofurayasu) — 浦安鉄筋家族
+- [Cyber Team in Akihabara](https://www.tbscontents.com/en/program/cyberteaminakihabara) — アキハバラ電脳組
+- [Living Together](https://www.tbscontents.com/en/program/livingtogether) — ふたり暮らし
+- [If I See You in My Dreams](https://www.tbscontents.com/en/program/ifiseeyouinmydreams) — 夢で逢えたら
+- [Sexy Commando Masaru-san](https://www.tbscontents.com/en/program/sexycommandomasarusan) — セクシーコマンドー外伝 すごいよ!! マサルさん
+- [Demon Hunter Kocho](https://www.tbscontents.com/en/program/demonhunterkocho) — 厄災仔寵
+- [You're Under Arrest / You're Under Arrest 2nd Season](https://www.tbscontents.com/en/program/youreunderarrest) — 逮捕しちゃうぞ / 逮捕しちゃうぞ 2nd Season
+- [Jewel Bem Hunter LIME](https://www.tbscontents.com/en/program/jewelbemhunterlime) — 宝魔ハンターライム
+- [CatChat](https://www.tbscontents.com/en/program/catchat) — 貓言貓語
+- [The Ping Pong Club](https://www.tbscontents.com/en/program/pingpongclub) — 行け!稲中卓球部
+- [Cool Couple](https://www.tbscontents.com/en/program/groovycouple) — イケてる二人
+- [The Samurai](https://www.tbscontents.com/en/program/samurai) — ザ・サムライ
+- [Surf Side High School](https://www.tbscontents.com/en/program/surfsidehighschool) — サーフサイドハイスクール
+
+## Missing romaji (89)
+
+- [Animatica “Elegy for the Henchmen: Fist of the North Star”](https://www.hakuhodody-map.jp/en/international-sales/map-9749) — 
+- [Easygoing Territory Defense by the Optimistic Lord](https://www.hakuhodody-map.jp/en/international-sales/map-9601) — お気楽領主の楽しい領地防衛 ～生産系魔術で名もなき村を最強の城塞都市に～
+- [The Holy Grail if Eris](https://www.hakuhodody-map.jp/en/international-sales/map-9604) — 
+- [ZENRYOKU RABBITS](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-9324) — 
+- [I’ve Been Killing Slimes for 300 Years and Maxed Out My Level Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-9126) — 
+- [The Vampire Dies in No Time 2](https://www.hakuhodody-map.jp/en/international-sales/map-8040) — 吸血鬼すぐ死ぬ２
+- [Is the order a rabbit? 3](https://www.hakuhodody-map.jp/en/international-sales/map-6880) — 
+- [ゴブリンスレイヤ―Ⅱ](https://www.hakuhodody-map.jp/lineup/map-8415) — ゴブリンスレイヤ―Ⅱ
+- [処刑少女の生きる道](https://www.hakuhodody-map.jp/lineup/map-8436) — 処刑少女の生きる道
+- [インフィニット・デンドログラム](https://www.hakuhodody-map.jp/lineup/animation/map-5316) — インフィニット・デンドログラム
+- [コップクラフト](https://www.hakuhodody-map.jp/lineup/animation/map-3037) — コップクラフト
+- [W’z](https://www.hakuhodody-map.jp/lineup/animation/map-3052) — W’z
+- [メルクストーリア](https://www.hakuhodody-map.jp/lineup/animation/map-3067) — メルクストーリア
+- [天使の３P！](https://www.hakuhodody-map.jp/lineup/animation/map-3108) — 天使の３P！
+- [ゆゆ式 OVA](https://www.hakuhodody-map.jp/lineup/animation/map-3128) — ゆゆ式 OVA
+- [クジラの子ら砂上に歌う](https://www.hakuhodody-map.jp/lineup/animation/map-3133) — クジラの子ら砂上に歌う
+- [チェインクロニクル](https://www.hakuhodody-map.jp/lineup/animation/map-3135) — チェインクロニクル
+- [森の妖精キノコの娘](https://www.hakuhodody-map.jp/lineup/animation/map-3136) — 森の妖精キノコの娘
+- [コンクリート・レボルティオ ザ・ラストソング](https://www.hakuhodody-map.jp/lineup/animation/map-3166) — コンクリート・レボルティオ ザ・ラストソング
+- [ノルン+ノネット](https://www.hakuhodody-map.jp/lineup/animation/map-3172) — ノルン+ノネット
+- [ヘビーオブジェクト](https://www.hakuhodody-map.jp/lineup/animation/map-3190) — ヘビーオブジェクト
+- [神撃のバハムート](https://www.hakuhodody-map.jp/lineup/animation/map-3205) — 神撃のバハムート
+- [アニメ文庫](https://www.aniplex.co.jp/lineup/animebunko/) — アニメ文庫
+- [アラタなるセカイ](https://www.aniplex.co.jp/lineup/aratanarusekai/) — アラタなるセカイ
+- [王ドロボウＪＩＮＧ](https://www.aniplex.co.jp/lineup/jing/) — 王ドロボウＪＩＮＧ
+- [ヴァンパイア騎士 Guilty](https://www.aniplex.co.jp/lineup/vampireknight2/) — ヴァンパイア騎士 Guilty
+- [刀語](https://www.aniplex.co.jp/lineup/katanagatari/) — 刀語
+- [ガールズワーク](https://www.aniplex.co.jp/lineup/girlswork/) — ガールズワーク
+- [帰還者の魔法は特別です 第二期](https://www.aniplex.co.jp/lineup/kikansha_season2/) — 帰還者の魔法は特別です 第二期
+- [傷物語](https://www.aniplex.co.jp/lineup/kizumonogatari/) — 傷物語
+- [牙](https://www.aniplex.co.jp/lineup/kiba/) — 牙
+- [君と僕。２](https://www.aniplex.co.jp/lineup/kimitoboku2/) — 君と僕。２
+- [鬼滅シアター](https://www.aniplex.co.jp/lineup/kimetsutheater/) — 鬼滅シアター
+- [キャプテン翼シーズン２ ジュニアユース編](https://www.aniplex.co.jp/lineup/captaintsubasa_jryouth/) — キャプテン翼シーズン２ ジュニアユース編
+- [金色のコルダ〜secondo passo〜](https://www.aniplex.co.jp/lineup/cordasecondopasso/) — 金色のコルダ〜secondo passo〜
+- [逆転裁判](https://www.aniplex.co.jp/lineup/gyakuten/) — 逆転裁判
+- [銀魂](https://www.aniplex.co.jp/lineup/gintama/) — 銀魂
+- [銀魂．](https://www.aniplex.co.jp/lineup/gintama3/) — 銀魂．
+- [銀の匙 Silver Spoon](https://www.aniplex.co.jp/lineup/ginsaji/) — 銀の匙 Silver Spoon
+- [クビキリサイクル](https://www.aniplex.co.jp/lineup/kubikiricycle/) — クビキリサイクル
+- [グラビテ−ション](https://www.aniplex.co.jp/lineup/gravitation/) — グラビテ−ション
+- [グラビテ−ション OVA](https://www.aniplex.co.jp/lineup/gravitation_ova/) — グラビテ−ション OVA
+- [冴えない彼女の育てかた♭](https://www.aniplex.co.jp/lineup/saenai/) — 冴えない彼女の育てかた♭
+- [３月のライオン](https://www.aniplex.co.jp/lineup/3lion/) — ３月のライオン
+- [Thunderbolt Fantasy 東離劍遊紀2](https://www.aniplex.co.jp/lineup/thunderboltfantasy2/) — Thunderbolt Fantasy 東離劍遊紀2
+- [屍鬼](https://www.aniplex.co.jp/lineup/shiki/) — 屍鬼
+- [シャドーハウス 2ndSeason](https://www.aniplex.co.jp/lineup/shadowshouse2/) — シャドーハウス 2ndSeason
+- [シャングリラ・フロンティア](https://www.aniplex.co.jp/lineup/shangrilafrontier/) — シャングリラ・フロンティア
+- [時光代理人-LINK CLICK-](https://www.aniplex.co.jp/lineup/linkclick/) — 時光代理人-LINK CLICK-
+- [時光代理人-LINK CLICK- 英都篇](https://www.aniplex.co.jp/lineup/linkclick_eito/) — 時光代理人-LINK CLICK- 英都篇
+- [時光代理人-LINK CLICK-2](https://www.aniplex.co.jp/lineup/linkclick2/) — 時光代理人-LINK CLICK-2
+- [人造人間キカイダー](https://www.aniplex.co.jp/lineup/Kikaider/) — 人造人間キカイダー
+- [スノーマン](https://www.aniplex.co.jp/lineup/snowman/) — スノーマン
+- [すべてがＦになる THE PERFECT INSIDER](https://www.aniplex.co.jp/lineup/allf/) — すべてがＦになる THE PERFECT INSIDER
+- [青春ブタ野郎はサンタクロースの夢をみない](https://www.aniplex.co.jp/lineup/ao-buta-santa/) — 青春ブタ野郎はサンタクロースの夢をみない
+- [鉄腕バーディーDECODE](https://www.aniplex.co.jp/lineup/birdydecode/) — 鉄腕バーディーDECODE
+- [地球へ・・・](https://www.aniplex.co.jp/lineup/terahe/) — 地球へ・・・
+- [天官賜福 貮](https://www.aniplex.co.jp/lineup/tgcf-anime2/) — 天官賜福 貮
+- [のりものまん](https://www.aniplex.co.jp/lineup/norimonoman/) — のりものまん
+- [ハクション大魔王２０２０](https://www.aniplex.co.jp/lineup/hakushon2020/) — ハクション大魔王２０２０
+- [半妖の夜叉姫](https://www.aniplex.co.jp/lineup/hanyo-yashahime/) — 半妖の夜叉姫
+- [ヒゲぴよ](https://www.aniplex.co.jp/lineup/higepiyo/) — ヒゲぴよ
+- [ひだまりスケッチ×３６５](https://www.aniplex.co.jp/lineup/hidamarisketch365/) — ひだまりスケッチ×３６５
+- [ピンポン](https://www.aniplex.co.jp/lineup/pingpong/) — ピンポン
+- [TVアニメ「不滅のあなたへ」Season 2](https://www.aniplex.co.jp/lineup/fumetsu2/) — TVアニメ「不滅のあなたへ」Season2
+- [TVアニメ「ペルソナ４」](https://www.aniplex.co.jp/lineup/p4a/) — TVアニメ「ペルソナ４」
+- [ペルソナ４ ザ・ゴールデン](https://www.aniplex.co.jp/lineup/p4ga/) — ペルソナ４ ザ・ゴールデン
+- [炎の蜃気楼 OVA](https://www.aniplex.co.jp/lineup/honoonomiraju_ova/) — 炎の蜃気楼 OVA
+- [炎の蜃気楼 TVシリーズ](https://www.aniplex.co.jp/lineup/honoonomiraju/) — 炎の蜃気楼 TVシリーズ
+- [マギ](https://www.aniplex.co.jp/lineup/magi/) — マギ
+- [マッシュル-MASHLE- 三魔対争神覚者最終試験編](https://www.aniplex.co.jp/lineup/mashle-3rd/) — マッシュル-MASHLE- 三魔対争神覚者最終試験編
+- [魔道祖師 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs/) — 魔道祖師 日本語吹替版
+- [魔道祖師 完結編 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs_final/) — 魔道祖師 完結編 日本語吹替版
+- [「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition](https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/) — 「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition
+- [蟲師](https://www.aniplex.co.jp/lineup/mushishi/) — 蟲師
+- [約束のネバーランド 2ndSEASON](https://www.aniplex.co.jp/lineup/neverland2/) — 約束のネバーランド 2ndSEASON
+- [LAZARUS ラザロ](https://www.aniplex.co.jp/lineup/lazarus/) — LAZARUS ラザロ
+- [龍族 -The Blazing Dawn-](https://www.aniplex.co.jp/lineup/ryuzoku/) — 龍族 -The Blazing Dawn-
+- [龍族Ⅱ -The Mourner's Eyes-](https://www.aniplex.co.jp/lineup/ryuzoku_2/) — 龍族Ⅱ -The Mourner's Eyes-
+- [羅小黒戦記](https://www.aniplex.co.jp/lineup/luoxiaohei-tv/) — 羅小黒戦記
+- [羅小黒戦記（ロシャオヘイセンキ） ぼくが選ぶ未来](https://www.aniplex.co.jp/lineup/luoxiaohei/) — 羅小黒戦記（ロシャオヘイセンキ） ぼくが選ぶ未来
+- [ロード・エルメロイⅡ世の事件簿](https://www.aniplex.co.jp/lineup/elmelloi/) — ロード・エルメロイⅡ世の事件簿
+- [ワイルドアームズTV](https://www.aniplex.co.jp/lineup/watv/) — ワイルドアームズTV
+- [Shinkalion](https://www.tbscontents.com/en/program/shinkalion) — 新幹線変形ロボ シンカリオン
+- [Orphen Revenge](https://www.tbscontents.com/en/program/orphenrevenge) — 魔術士オーフェン リベンジ
+- [Number One Male Spirit 1, 2](https://www.tbscontents.com/en/program/numberonemalespirit) — 日本一の男の魂1, 2
+- [Demon Hunter Kocho](https://www.tbscontents.com/en/program/demonhunterkocho) — 厄災仔寵
+- [You're Under Arrest / You're Under Arrest 2nd Season](https://www.tbscontents.com/en/program/youreunderarrest) — 逮捕しちゃうぞ / 逮捕しちゃうぞ 2nd Season
+- [CatChat](https://www.tbscontents.com/en/program/catchat) — 貓言貓語
+
+## No trailer found (set "trailer": "<youtube id>" or false) (310)
 
 - [Night Head Genesis](https://www.gaga.co.jp/intls/night-head-genesis-2/) — NIGHT HEAD GENESIS
 - [Yuagari Sketch](https://www.production-ig.co.jp/works/yuagari-sketch/) — 湯あがりスケッチ
@@ -47,26 +852,84 @@ Generated 2026-11-09 by build.py. Fill these in in catalog/data/curated/<company
 - [Windy Tales](https://www.production-ig.co.jp/works/fuujin-monogatari/) — 風人物語
 - [Cyber Team in Akihabara: Summer Vacation of 2011](https://www.production-ig.co.jp/works/index.html) — アキハバラ電脳組 2011年の夏休み
 - [One Piece: Defeat the Pirate Ganzack!](https://www.production-ig.co.jp/works/index.html) — ONE PIECE ～倒せ！海賊ギャンザック～
+- [Animatica “Elegy for the Henchmen: Fist of the North Star”](https://www.hakuhodody-map.jp/en/international-sales/map-9749) — 
+- [Easygoing Territory Defense by the Optimistic Lord](https://www.hakuhodody-map.jp/en/international-sales/map-9601) — お気楽領主の楽しい領地防衛 ～生産系魔術で名もなき村を最強の城塞都市に～
+- [The Holy Grail if Eris](https://www.hakuhodody-map.jp/en/international-sales/map-9604) — 
+- [ZENRYOKU RABBITS](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-9324) — 
+- [I’ve Been Killing Slimes for 300 Years and Maxed Out My Level Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-9126) — 
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? Ⅴ](https://www.hakuhodody-map.jp/en/international-sales/map-8996) — ダンジョンに出会いを求めるのは間違っているだろうかⅤ
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? Ⅳ](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-7679) — ダンジョンに出会いを求めるのは間違っているだろうか OVA
+- [Scar On The Praeter](https://www.hakuhodody-map.jp/en/international-sales/map-7060) — PROJECT SCARD プレイタの傷
+- [Mushoku Tensei: jobless reincarnation](https://www.hakuhodody-map.jp/en/international-sales/map-7055) — 無職転生 〜異世界行ったら本気出す〜
+- [Is the order a rabbit? 3](https://www.hakuhodody-map.jp/en/international-sales/map-6880) — 
+- [STRIKE THE BLOOD FOURTH](https://www.hakuhodody-map.jp/en/international-sales/map-6363) — ストライク・ザ・ブラッド ＯＶＡ①
+- [Monster Master Girl](https://www.hakuhodody-map.jp/lineup/map-9710) — 魔物使いの娘
+- [ゴブリンスレイヤ―Ⅱ](https://www.hakuhodody-map.jp/lineup/map-8415) — ゴブリンスレイヤ―Ⅱ
+- [Is It Wrong to Try to Pick Up Girls in a Dungeon? IV Part 2](https://www.hakuhodody-map.jp/lineup/map-8446) — ダンジョンに出会いを求めるのは間違っているだろうかⅣ
+- [Overlord](https://www.hakuhodody-map.jp/lineup/map-8440) — オーバーロードⅣ
+- [処刑少女の生きる道](https://www.hakuhodody-map.jp/lineup/map-8436) — 処刑少女の生きる道
 - [Girls und Panzer das Finale 4D: Parts 1 + 2](https://www.hakuhodody-map.jp/lineup/movie/map-3030) — ガールズ＆パンツァー 最終章 4D ～第1話＋第2話～
 - [Is It Wrong to Try to Pick Up Girls in a Dungeon?: Arrow of the Orion](https://www.hakuhodody-map.jp/lineup/animation/map-3045) — 劇場版 ダンジョンに出会いを求めるのは間違っているだろうかーオリオンの矢ー
+- [B-Project II](https://www.hakuhodody-map.jp/lineup/animation/map-3054) — B-Project II
+- [メルクストーリア](https://www.hakuhodody-map.jp/lineup/animation/map-3067) — メルクストーリア
 - [Peace Maker Kurogane: Belief](https://www.hakuhodody-map.jp/lineup/animation/map-3061) — PEACE MAKER 鐵 ～友命～
 - [Eureka Seven: Hi-Evolution – Anemone](https://www.hakuhodody-map.jp/lineup/movie/map-3062) — ANEMONE／交響詩篇エウレカセブン ハイエボリューション
 - [Peace Maker Kurogane: Friendship](https://www.hakuhodody-map.jp/lineup/animation/map-3078) — PEACE MAKER 鐵 ～想道～
 - [Maquia: When the Promised Flower Blooms](https://www.hakuhodody-map.jp/lineup/movie/map-3088) — さよならの朝に約束の花をかざろう
 - [Girls und Panzer das Finale: Part 1](https://www.hakuhodody-map.jp/lineup/movie/map-3095) — ガールズ＆パンツァー 最終章 第１話
 - [Eureka Seven: Hi-Evolution 1](https://www.hakuhodody-map.jp/lineup/movie/map-3102) — 交響詩篇エウレカセブン ハイエボリューション１
+- [天使の３P！](https://www.hakuhodody-map.jp/lineup/animation/map-3108) — 天使の３P！
+- [Sagrada Reset](https://www.hakuhodody-map.jp/lineup/animation/map-3122) — サクラダリセット
+- [ゆゆ式 OVA](https://www.hakuhodody-map.jp/lineup/animation/map-3128) — ゆゆ式 OVA
+- [クジラの子ら砂上に歌う](https://www.hakuhodody-map.jp/lineup/animation/map-3133) — クジラの子ら砂上に歌う
 - [Chain Chronicle: The Light of Haecceitas – Chapter 3](https://www.hakuhodody-map.jp/lineup/movie/map-3129) — チェインクロニクル ～ヘクセイタスの閃～ 第3章
 - [Chain Chronicle: The Light of Haecceitas – Chapter 2](https://www.hakuhodody-map.jp/lineup/movie/map-3132) — チェインクロニクル ～ヘクセイタスの閃～ 第2章
+- [A Sister's All You Need](https://www.hakuhodody-map.jp/lineup/animation/map-3134) — 妹さえいればいい。
 - [Chain Chronicle: The Light of Haecceitas – Chapter 1](https://www.hakuhodody-map.jp/lineup/movie/map-3140) — チェインクロニクル ～ヘクセイタスの閃～ 第1章
+- [森の妖精キノコの娘](https://www.hakuhodody-map.jp/lineup/animation/map-3136) — 森の妖精キノコの娘
+- [Uta no Prince Sama Legend Star](https://www.hakuhodody-map.jp/lineup/animation/map-3147) — うたの プリンスさまっ マジLOVEレジェンドスター
+- [Regalia: The Three Sacred Stars](https://www.hakuhodody-map.jp/lineup/animation/map-3164) — レガリア The Three Sacred Stars
 - [Girls und Panzer der Film](https://www.hakuhodody-map.jp/lineup/movie/map-3184) — ガールズ＆パンツァー 劇場版
+- [コンクリート・レボルティオ ザ・ラストソング](https://www.hakuhodody-map.jp/lineup/animation/map-3166) — コンクリート・レボルティオ ザ・ラストソング
+- [ノルン+ノネット](https://www.hakuhodody-map.jp/lineup/animation/map-3172) — ノルン+ノネット
 - [selector destructed WIXOSS the Movie](https://www.hakuhodody-map.jp/lineup/animation/map-3169) — 劇場版『selector（セレクター） destructed WIXOSS』
 - [Code Geass: Akito the Exiled – Final: To Beloved Ones](https://www.hakuhodody-map.jp/lineup/movie/map-3170) — コードギアス 亡国のアキト 最終章 愛シキモノタチヘ
 - [Persona 3 the Movie #4: Winter of Rebirth](https://www.hakuhodody-map.jp/lineup/animation/map-3171) — 劇場版「ペルソナ3」第4章
+- [ヘビーオブジェクト](https://www.hakuhodody-map.jp/lineup/animation/map-3190) — ヘビーオブジェクト
 - [Code Geass: Akito the Exiled – Part 4: From the Memories of Hatred](https://www.hakuhodody-map.jp/lineup/movie/map-3203) — コードギアス 亡国のアキト 第4章 憎しみの記憶から
 - [Code Geass: Akito the Exiled – Part 3: The Brightness Falls](https://www.hakuhodody-map.jp/lineup/movie/map-3204) — コードギアス 亡国のアキト 第3章 輝くもの天より堕つ
+- [I'll/CKBC](https://www.aniplex.co.jp/lineup/ckbc/) — I'll/CKBC
+- [Blue Exorcist](https://www.aniplex.co.jp/lineup/aoex/) — 青の祓魔師
 - [Blue Exorcist: The Movie](https://www.aniplex.co.jp/lineup/aoex_movie/) — 青の祓魔師 劇場版
+- [アニメ文庫](https://www.aniplex.co.jp/lineup/animebunko/) — アニメ文庫
+- [Anohana: The Flower We Saw That Day](https://www.aniplex.co.jp/lineup/anohana/) — あの日見た花の名前を僕達はまだ知らない。
+- [Amon: Apocalypse of Devilman](https://www.aniplex.co.jp/lineup/amon/) — AMON デビルマン黙示録
+- [アラタなるセカイ](https://www.aniplex.co.jp/lineup/aratanarusekai/) — アラタなるセカイ
+- [アークエとガッチンポー](https://www.aniplex.co.jp/lineup/unco/) — アークエとガッチンポー
+- [アークザラッド](https://www.aniplex.co.jp/lineup/arcthelad/) — アークザラッド
+- [R.O.D](https://www.aniplex.co.jp/lineup/rod/) — R.O.D
+- [R.O.D -The TV-](https://www.aniplex.co.jp/lineup/rodthetv/) — R.O.D-THE TV-
+- [Inu X Boku Secret Service](https://www.aniplex.co.jp/lineup/inuboku/) — 妖狐×僕SS
+- [InuYasha: The Final Act](https://www.aniplex.co.jp/lineup/inuyasha/) — 犬夜叉 完結編
+- [Utakoi](https://www.aniplex.co.jp/lineup/utakoi/) — 超訳百人一首 うた恋。
 - [Fireworks](https://www.aniplex.co.jp/lineup/uchiagehanabi/) — 打ち上げ花火、下から見るか？横から見るか？
+- [Space Brothers](https://www.aniplex.co.jp/lineup/uchukyodai/) — 宇宙兄弟
+- [A-Channel](https://www.aniplex.co.jp/lineup/a-channel/) — Aチャンネル
+- [エンジェル・ハート](https://www.aniplex.co.jp/lineup/angelheart/) — エンジェル・ハート
+- [Big Windup! 2](https://www.aniplex.co.jp/lineup/oofuri2/) — おおきく振りかぶって〜夏の大会編〜
+- [王ドロボウＪＩＮＧ](https://www.aniplex.co.jp/lineup/jing/) — 王ドロボウＪＩＮＧ
+- [Zakuro](https://www.aniplex.co.jp/lineup/zakuro/) — おとめ妖怪 ざくろ
+- [おれたちイジワルケイ](https://www.aniplex.co.jp/lineup/ijiwarukei/) — おれたちイジワルケイ
+- [OreImo](https://www.aniplex.co.jp/lineup/oreimo/) — 俺の妹がこんなに可愛いわけがない
+- [OreImo 2](https://www.aniplex.co.jp/lineup/oreimo2/) — 俺の妹がこんなに可愛いわけがない。
+- [Oresuki: Are You the Only One Who Loves Me?](https://www.aniplex.co.jp/lineup/oresuki-anime/) — 俺を好きなのはお前だけかよ
+- [Vampire Knight](https://www.aniplex.co.jp/lineup/vampireknight/) — ヴァンパイア騎士
+- [ヴァンパイア騎士 Guilty](https://www.aniplex.co.jp/lineup/vampireknight2/) — ヴァンパイア騎士 Guilty
+- [怪童丸](https://www.aniplex.co.jp/lineup/kaidohmaru/) — 怪童丸
+- [Guardian Ninja Mamoru](https://www.aniplex.co.jp/lineup/kagemamo/) — 陰からマモル！
 - [Kagerou Days -in a day's- (MX4D)](https://www.aniplex.co.jp/lineup/kageroumx4d/) — MX4D カゲロウデイズ -in a day's-
+- [刀語](https://www.aniplex.co.jp/lineup/katanagatari/) — 刀語
+- [Kamichu!](https://www.aniplex.co.jp/lineup/kamichu/) — かみちゅ！
 - [The Garden of Sinners: Overlooking View](https://www.aniplex.co.jp/lineup/karanokyoukai/) — 劇場版 空の境界
 - [The Garden of Sinners: Paradox Spiral](https://www.aniplex.co.jp/lineup/karanokyoukai5/) — 劇場版「空の境界」第五章 矛盾螺旋
 - [The Garden of Sinners: Remaining Sense of Pain](https://www.aniplex.co.jp/lineup/karanokyoukai3/) — 劇場版「空の境界」第三章 痛覚残留
@@ -74,19 +937,190 @@ Generated 2026-11-09 by build.py. Fill these in in catalog/data/curated/<company
 - [The Garden of Sinners: A Study in Murder (Part 1)](https://www.aniplex.co.jp/lineup/karanokyoukai2/) — 劇場版「空の境界」第二章 殺人考察（前）
 - [The Garden of Sinners: The Hollow Shrine](https://www.aniplex.co.jp/lineup/karanokyoukai4/) — 劇場版「空の境界」第四章 伽藍の洞
 - [The Garden of Sinners: Oblivion Recording](https://www.aniplex.co.jp/lineup/karanokyoukai6/) — 劇場版「空の境界」第六章 忘却録音
+- [Kannagi: Crazy Shrine Maidens](https://www.aniplex.co.jp/lineup/kannagi/) — かんなぎ
+- [Gakuen Alice](https://www.aniplex.co.jp/lineup/gakuenalice/) — 学園アリス
+- [Galilei Donna: Storia di tre sorelle a caccia di un mistero](https://www.aniplex.co.jp/lineup/galileidonna/) — ガリレイドンナ
+- [ソードアート・オンライン オルタナティブ ガンゲイル・オンライン](https://www.aniplex.co.jp/lineup/ggo/) — ソードアート・オンライン オルタナティブ ガンゲイル・オンライン
+- [ガールズワーク](https://www.aniplex.co.jp/lineup/girlswork/) — ガールズワーク
+- [傷物語](https://www.aniplex.co.jp/lineup/kizumonogatari/) — 傷物語
+- [牙](https://www.aniplex.co.jp/lineup/kiba/) — 牙
+- [You and Me.](https://www.aniplex.co.jp/lineup/kimitoboku/) — 君と僕。
+- [君と僕。２](https://www.aniplex.co.jp/lineup/kimitoboku2/) — 君と僕。２
+- [キョロちゃん](https://www.aniplex.co.jp/lineup/kyoro/) — キョロちゃん
+- [金色のコルダ〜secondo passo〜](https://www.aniplex.co.jp/lineup/cordasecondopasso/) — 金色のコルダ〜secondo passo〜
+- [La corda d'oro: primo passo](https://www.aniplex.co.jp/lineup/cordaprimopasso/) — 金色のコルダ〜primo passo〜
+- [逆転裁判](https://www.aniplex.co.jp/lineup/gyakuten/) — 逆転裁判
+- [ギャラリーフェイク](https://www.aniplex.co.jp/lineup/galleryfake/) — ギャラリーフェイク
+- [銀魂](https://www.aniplex.co.jp/lineup/gintama/) — 銀魂
+- [Gintama Season 2](https://www.aniplex.co.jp/lineup/gintama2/) — 銀魂'
+- [銀魂．](https://www.aniplex.co.jp/lineup/gintama3/) — 銀魂．
+- [銀の匙 Silver Spoon](https://www.aniplex.co.jp/lineup/ginsaji/) — 銀の匙 Silver Spoon
+- [銀盤カレイドスコープ](https://www.aniplex.co.jp/lineup/ginban/) — 銀盤カレイドスコープ
+- [Classroom☆Crisis](https://www.aniplex.co.jp/lineup/crc/) — Classroom☆Crisis
+- [Black Butler](https://www.aniplex.co.jp/lineup/kuroshitsuji/) — 黒執事
+- [Black Butler II](https://www.aniplex.co.jp/lineup/kuroshitsuji2/) — 黒執事Ⅱ
+- [グイン・サーガ](https://www.aniplex.co.jp/lineup/guinsaga/) — グイン・サーガ
+- [グラビテ−ション](https://www.aniplex.co.jp/lineup/gravitation/) — グラビテ−ション
+- [グラビテ−ション OVA](https://www.aniplex.co.jp/lineup/gravitation_ova/) — グラビテ−ション OVA
+- [Day Break Illusion](https://www.aniplex.co.jp/lineup/geneitaiyo/) — 幻影ヲ駆ケル太陽
+- [Le Portrait de Petit Cossette](https://www.aniplex.co.jp/lineup/cossette/) — コゼットの肖像
+- [Submarine 707R](https://www.aniplex.co.jp/lineup/submarine707r/) — サブマリン707R
+- [Samurai Flamenco](https://www.aniplex.co.jp/lineup/samumenco/) — サムライフラメンコ
+- [３月のライオン](https://www.aniplex.co.jp/lineup/3lion/) — ３月のライオン
+- [Servant x Service](https://www.aniplex.co.jp/lineup/servantservice/) — サーバント×サービス
+- [屍鬼](https://www.aniplex.co.jp/lineup/shiki/) — 屍鬼
+- [CITY HUNTER](https://www.aniplex.co.jp/lineup/cityhunter/) — CITY HUNTER
+- [Hell Girl](https://www.aniplex.co.jp/lineup/jigokushojo/) — 地獄少女
+- [Hell Girl: Two Mirrors](https://www.aniplex.co.jp/lineup/jigokushojo2/) — 地獄少女 二籠
+- [Hell Girl: Three Vessels](https://www.aniplex.co.jp/lineup/jigokushojo3/) — 地獄少女 三鼎
+- [じゃがいぬくん](https://www.aniplex.co.jp/lineup/jagainukun/) — じゃがいぬくん
+- [人造人間キカイダー](https://www.aniplex.co.jp/lineup/Kikaider/) — 人造人間キカイダー
+- [GTO](https://www.aniplex.co.jp/lineup/gto/) — GTO
+- [スウィート・ヴァレリアン](https://www.aniplex.co.jp/lineup/sweetvalerian/) — スウィート・ヴァレリアン
+- [スキマの国のポルタ](https://www.aniplex.co.jp/lineup/poruta/) — スキマの国のポルタ
+- [Star Driver](https://www.aniplex.co.jp/lineup/stardriver/) — STAR DRIVER 輝きのタクト
 - [Star Driver the Movie](https://www.aniplex.co.jp/lineup/stardriver-movie/) — スタードライバー THE MOVIE
+- [スノーマン](https://www.aniplex.co.jp/lineup/snowman/) — スノーマン
+- [Spiral: Bond of Reasoning](https://www.aniplex.co.jp/lineup/spiral/) — スパイラル-推理の絆-
+- [Occult Academy](https://www.aniplex.co.jp/lineup/occultgakuin/) — 世紀末 オカルト学院
+- [World Conquest Zvezda Plot](https://www.aniplex.co.jp/lineup/sekaiseifuku/) — 世界征服～謀略のズヴィズダー～
+- [Sekirei](https://www.aniplex.co.jp/lineup/sekirei/) — セキレイ
+- [Sekirei: Pure Engagement](https://www.aniplex.co.jp/lineup/sekirei2/) — セキレイ〜Pure Engagement〜
+- [Night Raid 1931](https://www.aniplex.co.jp/lineup/nightraid/) — 閃光のナイトレイド
+- [Valkyria Chronicles](https://www.aniplex.co.jp/lineup/valkyria/) — 戦場のヴァルキュリア
+- [戦場のヴァルキュリア3 誰がための銃瘡](https://www.aniplex.co.jp/lineup/valkyria3/) — 戦場のヴァルキュリア3 誰がための銃瘡
+- [ぜんまいざむらい](https://www.aniplex.co.jp/lineup/zenmaizamurai/) — ぜんまいざむらい
+- [Sword Art Online](https://www.aniplex.co.jp/lineup/swordartonline/) — ソードアート・オンライン
+- [Sword Art Online: Extra Edition](https://www.aniplex.co.jp/lineup/sao_ee/) — ソードアート・オンライン Extra Edition
+- [Dakaichi: I'm Being Harassed By the Sexiest Man of the Year](https://www.aniplex.co.jp/lineup/dakaretai-1st_tv/) — 抱かれたい男1位に脅されています。
+- [Darker than Black](https://www.aniplex.co.jp/lineup/darker/) — DARKER THAN BLACK -黒の契約者-
+- [Darker than Black: Gemini of the Meteor](https://www.aniplex.co.jp/lineup/darkerryusei/) — DARKER THAN BLACK 流星の双子
+- [Tsuritama](https://www.aniplex.co.jp/lineup/tsuritama/) — つり球
+- [Tekkonkinkreet](https://www.aniplex.co.jp/lineup/tekkon/) — 鉄コン筋クリート
+- [鉄腕バーディーDECODE](https://www.aniplex.co.jp/lineup/birdydecode/) — 鉄腕バーディーDECODE
+- [Birdy the Mighty: Decode 02](https://www.aniplex.co.jp/lineup/birdydecode2/) — 鉄腕バーディーDECODE 02
+- [Gurren Lagann](https://www.aniplex.co.jp/lineup/gurren/) — 天元突破グレンラガン
 - [Gurren Lagann the Movie: The Lights in the Sky Are Stars](https://www.aniplex.co.jp/lineup/gurrenraganhen/) — 劇場版 天元突破グレンラガン 螺巌篇
+- [Gurren Lagann: Kirameki★Yoko Box - Pieces of Sweet Stars](https://www.aniplex.co.jp/lineup/kirameki_yoko/) — 天元突破グレンラガン キラメキ☆ヨーコＢＯＸ～Pieces of sweet stars～
 - [Gurren Lagann the Movie: Childhood's End](https://www.aniplex.co.jp/lineup/gurrengurenhen/) — 劇場版 天元突破グレンラガン 紅蓮篇
+- [Ghost Slayers Ayashi](https://www.aniplex.co.jp/lineup/ayakashiayashi/) — 天保異聞 妖奇士
+- [Durarara!!](https://www.aniplex.co.jp/lineup/durarara/) — デュラララ!!
+- [Space Runaway Ideon](https://www.aniplex.co.jp/lineup/ideon/) — 伝説巨神イデオン
+- [My Little Monster](https://www.aniplex.co.jp/lineup/kaibutsukun/) — となりの怪物くん
+- [DOG DAYS](https://www.aniplex.co.jp/lineup/dogdays/) — DOG DAYS
+- [Natsume's Book of Friends](https://www.aniplex.co.jp/lineup/natsumeyujincho/) — 夏目友人帳
+- [Natsume's Book of Friends Season 5](https://www.aniplex.co.jp/lineup/natsumeyujinchgo/) — 夏目友人帳 伍
+- [Natsume's Book of Friends Season 3](https://www.aniplex.co.jp/lineup/natsumeyujincho3/) — 夏目友人帳 参
+- [Natsume's Book of Friends Season 4](https://www.aniplex.co.jp/lineup/natsumeyujinchoshi/) — 夏目友人帳 肆
+- [Natsume's Book of Friends Season 2](https://www.aniplex.co.jp/lineup/zokunatsumeyujincho/) — 続 夏目友人帳
+- [Naruto Shippuden the Movie 1](https://www.aniplex.co.jp/lineup/naruto/) — NARUTO-ナルト- 疾風伝
+- [Nisemonogatari](https://www.aniplex.co.jp/lineup/nisemonogatari/) — 偽物語
+- [ぬるめた](https://www.aniplex.co.jp/lineup/nlmt/) — ぬるめた
+- [ねこねこ日本史(第5期)](https://www.aniplex.co.jp/lineup/neconeconihonshi/) — ねこねこ日本史(第5期)
+- [Nekomonogatari Black](https://www.aniplex.co.jp/lineup/nekomonogatari-kuro/) — 猫物語(黒)
+- [Nerima Daikon Brothers](https://www.aniplex.co.jp/lineup/nerimadaikon/) — 練馬大根ブラザーズ
+- [Sadamitsu the Destroyer](https://www.aniplex.co.jp/lineup/sadamits/) — 破壊魔定光
 - [Fullmetal Alchemist the Movie: Conqueror of Shamballa](https://www.aniplex.co.jp/lineup/hagaren-movie-shamballa/) — 劇場版「鋼の錬金術師 シャンバラを征く者」
+- [Fullmetal Alchemist: The Sacred Star of Milos](https://www.aniplex.co.jp/lineup/hagaren-movie/) — 鋼の錬金術師 嘆きの丘(ミロス)の聖なる星
+- [ハクション大魔王２０２０](https://www.aniplex.co.jp/lineup/hakushon2020/) — ハクション大魔王２０２０
+- [HoneyWorks](https://www.aniplex.co.jp/lineup/honeyworks/) — HoneyWorks
+- [Tokyo Pig](https://www.aniplex.co.jp/lineup/harebuta/) — はれときどきぶた
+- [半妖の夜叉姫](https://www.aniplex.co.jp/lineup/hanyo-yashahime/) — 半妖の夜叉姫
+- [Bakemonogatari](https://www.aniplex.co.jp/lineup/bakemonogatari/) — 化物語
+- [パラッパラッパー](https://www.aniplex.co.jp/lineup/parapparapper/) — パラッパラッパー
+- [Powerpuff Girls Z](https://www.aniplex.co.jp/lineup/pawapafugirlsz/) — パワパフガールズZ
+- [Punch Line](https://www.aniplex.co.jp/lineup/punchline/) — パンチライン
+- [ヒゲぴよ](https://www.aniplex.co.jp/lineup/higepiyo/) — ヒゲぴよ
+- [Hidamari Sketch](https://www.aniplex.co.jp/lineup/hidamarisketch/) — ひだまりスケッチ
+- [ひだまりスケッチ×３６５](https://www.aniplex.co.jp/lineup/hidamarisketch365/) — ひだまりスケッチ×３６５
+- [ひだまりスケッチ×☆☆☆](https://www.aniplex.co.jp/lineup/hidamarisketchhoshimittsu/) — ひだまりスケッチ×☆☆☆
+- [Build Divide -#FFFFFF- Code White](https://www.aniplex.co.jp/lineup/build-divide-anime/) — ビルディバイド -#FFFFFF-(コードホワイト)
+- [TVアニメ「不滅のあなたへ」Season 2](https://www.aniplex.co.jp/lineup/fumetsu2/) — TVアニメ「不滅のあなたへ」Season2
+- [Black Rock Shooter](https://www.aniplex.co.jp/lineup/blackrockshooter/) — ブラック★ロックシューター
+- [TVアニメ「ペルソナ４」](https://www.aniplex.co.jp/lineup/p4a/) — TVアニメ「ペルソナ４」
+- [Wandering Son](https://www.aniplex.co.jp/lineup/houroumusuko/) — 放浪息子
+- [炎の蜃気楼 OVA](https://www.aniplex.co.jp/lineup/honoonomiraju_ova/) — 炎の蜃気楼 OVA
+- [炎の蜃気楼 TVシリーズ](https://www.aniplex.co.jp/lineup/honoonomiraju/) — 炎の蜃気楼 TVシリーズ
+- [Xam'd: Lost Memories](https://www.aniplex.co.jp/lineup/zamd/) — 亡念のザムド
+- [Paper Rabbit Rope x Boruto: Naruto Next Generations](https://www.aniplex.co.jp/lineup/boruto/) — BORUTO-ボルト-NARUTO NEXT GENERATIONS-
+- [Popolocrois Monogatari](https://www.aniplex.co.jp/lineup/popolo/) — ポポロクロイス物語
+- [マギ](https://www.aniplex.co.jp/lineup/magi/) — マギ
+- [魔道祖師 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs/) — 魔道祖師 日本語吹替版
+- [Puella Magi Madoka Magica](https://www.aniplex.co.jp/lineup/madokamagica/) — 魔法少女まどか☆マギカ
 - [Puella Magi Madoka Magica the Movie: Beginnings / Eternal](https://www.aniplex.co.jp/lineup/madoka-zenkouhen/) — 劇場版 魔法少女まどか☆マギカ [前編]始まりの物語 [後編]永遠の物語
 - [Magical Girl Lyrical Nanoha the Movie 1st](https://www.aniplex.co.jp/lineup/nanoha/) — 魔法少女リリカルなのは The MOVIE 1st
+- [Mitsudomoe](https://www.aniplex.co.jp/lineup/mitsudomoe/) — みつどもえ
+- [Miracle Train: Welcome to the Oedo Line](https://www.aniplex.co.jp/lineup/miracletrain/) — ミラクル☆トレイン〜大江戸線へようこそ〜
+- [Yakitate!! Japan](https://www.aniplex.co.jp/lineup/yakitatejapan/) — 焼きたて!!ジャぱん
+- [約束のネバーランド 2ndSEASON](https://www.aniplex.co.jp/lineup/neverland2/) — 約束のネバーランド 2ndSEASON
+- [ヨコハマ買い出し紀行](https://www.aniplex.co.jp/lineup/yokohama/) — ヨコハマ買い出し紀行
+- [Samurai Troopers](https://www.aniplex.co.jp/lineup/samurai/) — 鎧伝サムライトルーパー
+- [Level E](https://www.aniplex.co.jp/lineup/level-e/) — レベル E
+- [Robby & Kerobby](https://www.aniplex.co.jp/lineup/robikero/) — ロビーとケロビー
+- [ロード・エルメロイⅡ世の事件簿](https://www.aniplex.co.jp/lineup/elmelloi/) — ロード・エルメロイⅡ世の事件簿
+- [ワイルドアームズTV](https://www.aniplex.co.jp/lineup/watv/) — ワイルドアームズTV
+- [ワンダーベビルくん](https://www.aniplex.co.jp/lineup/wonderbevil/) — ワンダーベビルくん
+- [Haibara’s Teenage New Game+](https://www.tbscontents.com/en/program/haibarasteenagenewgame) — 灰原くんの強くて青春ニューゲーム
+- [THE RAMPARTS OF ICE](https://www.tbscontents.com/en/program/therampartsofice) — 氷の城壁
 - [Tomica Hyper Rescue Drive Head the Movie](https://www.tbscontents.com/en/program/drivehead_movie) — 映画ドライブヘッド～トミカハイパーレスキュー 機動救急警察～
+- [Unlimited Fafnir](https://www.tbscontents.com/en/program/unlimitedfafnir) — 銃皇無尽のファフニール
+- [My Teen Romantic Comedy ~ SNAFU](https://www.tbscontents.com/en/program/myteenromanticcomedy) — やはり俺の青春ラブコメはまちがっている。
+- [Mayo Chiki!](https://www.tbscontents.com/en/program/mayochiki) — まよチキ！
+- [Ground Control to Psychoelectric Girl](https://www.tbscontents.com/en/program/denpa_tbs) — 電波女と青春男
+- [And Yet the Town Moves](https://www.tbscontents.com/en/program/andyetthetownmoves) — それでも町は廻っている
+- [Maid Sama!](https://www.tbscontents.com/en/program/maidsama) — 会長はメイド様！
+- [Nyankoi!](https://www.tbscontents.com/en/program/nyankoi) — にゃんこい！
+- [Taisho Baseball Girls](https://www.tbscontents.com/en/program/taishobaseballgirls) — 大正野球娘。
+- [K-ON!](https://www.tbscontents.com/en/program/k-on) — けいおん！
 - [Professor Layton and the Eternal Diva](https://www.tbscontents.com/en/program/professorlayton) — レイトン教授と永遠の歌姫
+- [Yozakura Quartet](https://www.tbscontents.com/en/program/yozakuraqu) — 夜桜四重奏 ヨザクラカルテット
+- [You're Under Arrest Full Throttle](https://www.tbscontents.com/en/program/youreunderarrestfullthrottle) — 逮捕しちゃうぞ フルスロットル
+- [Polyphonica](https://www.tbscontents.com/en/program/polyphonica) — 神曲奏界ポリフォニカ
+- [Venus Versus Virus](https://www.tbscontents.com/en/program/venusversusvirus) — ヴィーナス･ヴァーサス･ヴァイアラス
+- [Winter Garden](https://www.tbscontents.com/en/program/wintergarden) — ウィンターガーデン
+- [Brighter Than the Dawning Blue](https://www.tbscontents.com/en/program/yoakena) — 夜明け前より瑠璃色な
+- [Kanon](https://www.tbscontents.com/en/program/kanon) — 卡農
+- [Living for the Day After Tomorrow](https://www.tbscontents.com/en/program/livingforthedayaftertomorrow) — あさっての方向。
+- [Binchotan](https://www.tbscontents.com/en/program/binchotan) — びんちょうタン
 - [One Stormy Night](https://www.tbscontents.com/en/program/stormynight) — あらしのよるに
+- [That's My Master](https://www.tbscontents.com/en/program/thatsmymaster) — これが私の御主人様
 - [Appleseed](https://www.tbscontents.com/en/program/appleseed) — アップルシード
+- [This Ugly Yet Beautiful World](https://www.tbscontents.com/en/program/thisuglyyetbeautifulworld) — この醜くも美しい世界
+- [Lunar Legend TSUKIHIME](https://www.tbscontents.com/en/program/lunarlegendtsukihime) — 真月譚 月姫
+- [POPOTAN](https://www.tbscontents.com/en/program/popotan) — ぽぽたん
+- [Detective School Q](https://www.tbscontents.com/en/program/detectiveschoolq) — 探偵学園Q
+- [Chobits](https://www.tbscontents.com/en/program/chobits) — ちょびっツ
+- [REC](https://www.tbscontents.com/en/program/rec) — REC
+- [Rave](https://www.tbscontents.com/en/program/rave) — 聖石小石
+- [Kintaro, the White-collar Worker](https://www.tbscontents.com/en/program/kintaroanime) — サラリーマン金太郎
+- [MahoRomatic Automatic Maiden](https://www.tbscontents.com/en/program/automaticmaiden) — まほろまてぃっく
+- [Invincible King Tri-Zenon](https://www.tbscontents.com/en/program/trizenon) — 無敵王トライゼノン
+- [Sakura Wars TV](https://www.tbscontents.com/en/program/sakurawars) — サクラ大戦
+- [Remember the Sun in the Heart](https://www.tbscontents.com/en/program/alwayswiththesuninmyheart) — いつも心に太陽を
+- [Miss Critical Moment](https://www.tbscontents.com/en/program/crisisgirl) — イッパツ危機娘
+- [Orphen Revenge](https://www.tbscontents.com/en/program/orphenrevenge) — 魔術士オーフェン リベンジ
+- [Colorful](https://www.tbscontents.com/en/program/colorful) — Colorful - カラフル
+- [Reign: The Conquevor](https://www.tbscontents.com/en/program/alexander) — アレクサンダー戦記
+- [Let’s Dance with Papa](https://www.tbscontents.com/en/program/letsdancewithpapa) — パパと踊ろう
 - [You're Under Arrest: The Movie](https://www.tbscontents.com/en/program/youreunderarrestmovie) — 逮捕しちゃうぞ the movie
+- [Pet Shop of Horrors](https://www.tbscontents.com/en/program/petshopofhorrors) — ペットショップ・オブ・ホラーズ
+- [Number One Male Spirit 1, 2](https://www.tbscontents.com/en/program/numberonemalespirit) — 日本一の男の魂1, 2
+- [Di Gi Charat](https://www.tbscontents.com/en/program/digicharat) — デ・ジ・キャラット
+- [That Girl !](https://www.tbscontents.com/en/program/thatgirl) — よいこ
+- [Let’s Nupu Nupu](https://www.tbscontents.com/en/program/letsnupunupu) — Let’s ぬぷぬぷっ
+- [PINK Sisters](https://www.tbscontents.com/en/program/momoirosisters) — ももいろシスターズ
+- [Cyber Team in Akihabara](https://www.tbscontents.com/en/program/cyberteaminakihabara) — アキハバラ電脳組
+- [Living Together](https://www.tbscontents.com/en/program/livingtogether) — ふたり暮らし
+- [If I See You in My Dreams](https://www.tbscontents.com/en/program/ifiseeyouinmydreams) — 夢で逢えたら
+- [Demon Hunter Kocho](https://www.tbscontents.com/en/program/demonhunterkocho) — 厄災仔寵
+- [You're Under Arrest / You're Under Arrest 2nd Season](https://www.tbscontents.com/en/program/youreunderarrest) — 逮捕しちゃうぞ / 逮捕しちゃうぞ 2nd Season
+- [Jewel Bem Hunter LIME](https://www.tbscontents.com/en/program/jewelbemhunterlime) — 宝魔ハンターライム
+- [The Ping Pong Club](https://www.tbscontents.com/en/program/pingpongclub) — 行け!稲中卓球部
+- [Cool Couple](https://www.tbscontents.com/en/program/groovycouple) — イケてる二人
+- [The Samurai](https://www.tbscontents.com/en/program/samurai) — ザ・サムライ
+- [Surf Side High School](https://www.tbscontents.com/en/program/surfsidehighschool) — サーフサイドハイスクール
 
-## No MyAnimeList match (set "mal_id": <id> or false) (28)
+## No MyAnimeList match (set "mal_id": <id> or false) (122)
 
 - [Junk Head](https://www.gaga.co.jp/intls/junk-head/) — JUNK HEAD
 - [Rakudai Majo: Fuka and the Dark Witch](https://www.production-ig.co.jp/works/rakumajo/) — らくだい魔女
@@ -105,14 +1139,108 @@ Generated 2026-11-09 by build.py. Fill these in in catalog/data/curated/<company
 - [Kami☆Voice: The Voice Makes a Miracle](https://www.production-ig.co.jp/works/kamivoice/) — 神☆ヴォイス
 - [Tachikomatic Days](https://www.production-ig.co.jp/works/tachikoma/) — タチコマな日々
 - [The King of Fighters: Another Day](https://www.production-ig.co.jp/works/the-kof-ad/) — The King of Fighters：Another Day
+- [Animatica “Elegy for the Henchmen: Fist of the North Star”](https://www.hakuhodody-map.jp/en/international-sales/map-9749) — 
+- [Easygoing Territory Defense by the Optimistic Lord](https://www.hakuhodody-map.jp/en/international-sales/map-9601) — お気楽領主の楽しい領地防衛 ～生産系魔術で名もなき村を最強の城塞都市に～
+- [The Holy Grail if Eris](https://www.hakuhodody-map.jp/en/international-sales/map-9604) — 
+- [ZENRYOKU RABBITS](https://www.hakuhodody-map.jp/en/international-sales/new-release/map-9324) — 
+- [I’ve Been Killing Slimes for 300 Years and Maxed Out My Level Season 2](https://www.hakuhodody-map.jp/en/international-sales/map-9126) — 
+- [The Vampire Dies in No Time 2](https://www.hakuhodody-map.jp/en/international-sales/map-8040) — 吸血鬼すぐ死ぬ２
+- [Is the order a rabbit? 3](https://www.hakuhodody-map.jp/en/international-sales/map-6880) — 
+- [ゴブリンスレイヤ―Ⅱ](https://www.hakuhodody-map.jp/lineup/map-8415) — ゴブリンスレイヤ―Ⅱ
+- [処刑少女の生きる道](https://www.hakuhodody-map.jp/lineup/map-8436) — 処刑少女の生きる道
+- [インフィニット・デンドログラム](https://www.hakuhodody-map.jp/lineup/animation/map-5316) — インフィニット・デンドログラム
 - [Girls und Panzer das Finale 4D: Parts 1 + 2](https://www.hakuhodody-map.jp/lineup/movie/map-3030) — ガールズ＆パンツァー 最終章 4D ～第1話＋第2話～
+- [コップクラフト](https://www.hakuhodody-map.jp/lineup/animation/map-3037) — コップクラフト
+- [W’z](https://www.hakuhodody-map.jp/lineup/animation/map-3052) — W’z
+- [B-Project II](https://www.hakuhodody-map.jp/lineup/animation/map-3054) — B-Project II
+- [メルクストーリア](https://www.hakuhodody-map.jp/lineup/animation/map-3067) — メルクストーリア
 - [Peace Maker Kurogane: Friendship](https://www.hakuhodody-map.jp/lineup/animation/map-3078) — PEACE MAKER 鐵 ～想道～
+- [天使の３P！](https://www.hakuhodody-map.jp/lineup/animation/map-3108) — 天使の３P！
+- [ゆゆ式 OVA](https://www.hakuhodody-map.jp/lineup/animation/map-3128) — ゆゆ式 OVA
+- [クジラの子ら砂上に歌う](https://www.hakuhodody-map.jp/lineup/animation/map-3133) — クジラの子ら砂上に歌う
+- [チェインクロニクル](https://www.hakuhodody-map.jp/lineup/animation/map-3135) — チェインクロニクル
+- [森の妖精キノコの娘](https://www.hakuhodody-map.jp/lineup/animation/map-3136) — 森の妖精キノコの娘
+- [コンクリート・レボルティオ ザ・ラストソング](https://www.hakuhodody-map.jp/lineup/animation/map-3166) — コンクリート・レボルティオ ザ・ラストソング
+- [ノルン+ノネット](https://www.hakuhodody-map.jp/lineup/animation/map-3172) — ノルン+ノネット
 - [selector destructed WIXOSS the Movie](https://www.hakuhodody-map.jp/lineup/animation/map-3169) — 劇場版『selector（セレクター） destructed WIXOSS』
 - [Code Geass: Akito the Exiled – Final: To Beloved Ones](https://www.hakuhodody-map.jp/lineup/movie/map-3170) — コードギアス 亡国のアキト 最終章 愛シキモノタチヘ
+- [ヘビーオブジェクト](https://www.hakuhodody-map.jp/lineup/animation/map-3190) — ヘビーオブジェクト
+- [神撃のバハムート](https://www.hakuhodody-map.jp/lineup/animation/map-3205) — 神撃のバハムート
+- [アニメ文庫](https://www.aniplex.co.jp/lineup/animebunko/) — アニメ文庫
+- [アラタなるセカイ](https://www.aniplex.co.jp/lineup/aratanarusekai/) — アラタなるセカイ
+- [R.O.D](https://www.aniplex.co.jp/lineup/rod/) — R.O.D
+- [王ドロボウＪＩＮＧ](https://www.aniplex.co.jp/lineup/jing/) — 王ドロボウＪＩＮＧ
+- [ヴァンパイア騎士 Guilty](https://www.aniplex.co.jp/lineup/vampireknight2/) — ヴァンパイア騎士 Guilty
+- [刀語](https://www.aniplex.co.jp/lineup/katanagatari/) — 刀語
+- [ガールズワーク](https://www.aniplex.co.jp/lineup/girlswork/) — ガールズワーク
+- [帰還者の魔法は特別です 第二期](https://www.aniplex.co.jp/lineup/kikansha_season2/) — 帰還者の魔法は特別です 第二期
+- [傷物語](https://www.aniplex.co.jp/lineup/kizumonogatari/) — 傷物語
+- [牙](https://www.aniplex.co.jp/lineup/kiba/) — 牙
+- [君と僕。２](https://www.aniplex.co.jp/lineup/kimitoboku2/) — 君と僕。２
+- [鬼滅シアター](https://www.aniplex.co.jp/lineup/kimetsutheater/) — 鬼滅シアター
 - [Demon Slayer: To the Hashira Training](https://www.aniplex.co.jp/lineup/kimetsu_worldtour2024/) — ワールドツアー上映「鬼滅の刃」絆の奇跡、そして柱稽古へ
 - [Demon Slayer: To the Swordsmith Village](https://www.aniplex.co.jp/lineup/kimetsu_worldtour/) — ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ
+- [キャプテン翼シーズン２ ジュニアユース編](https://www.aniplex.co.jp/lineup/captaintsubasa_jryouth/) — キャプテン翼シーズン２ ジュニアユース編
+- [金色のコルダ〜secondo passo〜](https://www.aniplex.co.jp/lineup/cordasecondopasso/) — 金色のコルダ〜secondo passo〜
+- [逆転裁判](https://www.aniplex.co.jp/lineup/gyakuten/) — 逆転裁判
+- [銀魂](https://www.aniplex.co.jp/lineup/gintama/) — 銀魂
+- [銀魂．](https://www.aniplex.co.jp/lineup/gintama3/) — 銀魂．
+- [銀の匙 Silver Spoon](https://www.aniplex.co.jp/lineup/ginsaji/) — 銀の匙 Silver Spoon
+- [クビキリサイクル](https://www.aniplex.co.jp/lineup/kubikiricycle/) — クビキリサイクル
+- [グラビテ−ション](https://www.aniplex.co.jp/lineup/gravitation/) — グラビテ−ション
+- [グラビテ−ション OVA](https://www.aniplex.co.jp/lineup/gravitation_ova/) — グラビテ−ション OVA
+- [冴えない彼女の育てかた♭](https://www.aniplex.co.jp/lineup/saenai/) — 冴えない彼女の育てかた♭
+- [３月のライオン](https://www.aniplex.co.jp/lineup/3lion/) — ３月のライオン
+- [Thunderbolt Fantasy 東離劍遊紀2](https://www.aniplex.co.jp/lineup/thunderboltfantasy2/) — Thunderbolt Fantasy 東離劍遊紀2
+- [屍鬼](https://www.aniplex.co.jp/lineup/shiki/) — 屍鬼
 - [City Hunter: Shinjuku Private Eyes](https://www.aniplex.co.jp/lineup/cityhunter-movie/) — 劇場版シティーハンター <新宿プライベート･アイズ>
+- [シャドーハウス 2ndSeason](https://www.aniplex.co.jp/lineup/shadowshouse2/) — シャドーハウス 2ndSeason
+- [シャングリラ・フロンティア](https://www.aniplex.co.jp/lineup/shangrilafrontier/) — シャングリラ・フロンティア
+- [時光代理人-LINK CLICK-](https://www.aniplex.co.jp/lineup/linkclick/) — 時光代理人-LINK CLICK-
+- [時光代理人-LINK CLICK- 英都篇](https://www.aniplex.co.jp/lineup/linkclick_eito/) — 時光代理人-LINK CLICK- 英都篇
+- [時光代理人-LINK CLICK-2](https://www.aniplex.co.jp/lineup/linkclick2/) — 時光代理人-LINK CLICK-2
+- [人造人間キカイダー](https://www.aniplex.co.jp/lineup/Kikaider/) — 人造人間キカイダー
+- [GTO](https://www.aniplex.co.jp/lineup/gto/) — GTO
+- [スノーマン](https://www.aniplex.co.jp/lineup/snowman/) — スノーマン
+- [すべてがＦになる THE PERFECT INSIDER](https://www.aniplex.co.jp/lineup/allf/) — すべてがＦになる THE PERFECT INSIDER
+- [青春ブタ野郎はサンタクロースの夢をみない](https://www.aniplex.co.jp/lineup/ao-buta-santa/) — 青春ブタ野郎はサンタクロースの夢をみない
 - [Ping Pong Girls: Beyond the Flash](https://www.aniplex.co.jp/lineup/pingpong-girls/) — 卓球少女 -閃光のかなたへ-
+- [鉄腕バーディーDECODE](https://www.aniplex.co.jp/lineup/birdydecode/) — 鉄腕バーディーDECODE
+- [地球へ・・・](https://www.aniplex.co.jp/lineup/terahe/) — 地球へ・・・
+- [天官賜福 貮](https://www.aniplex.co.jp/lineup/tgcf-anime2/) — 天官賜福 貮
+- [のりものまん](https://www.aniplex.co.jp/lineup/norimonoman/) — のりものまん
+- [ハクション大魔王２０２０](https://www.aniplex.co.jp/lineup/hakushon2020/) — ハクション大魔王２０２０
+- [HoneyWorks](https://www.aniplex.co.jp/lineup/honeyworks/) — HoneyWorks
+- [半妖の夜叉姫](https://www.aniplex.co.jp/lineup/hanyo-yashahime/) — 半妖の夜叉姫
+- [ヒゲぴよ](https://www.aniplex.co.jp/lineup/higepiyo/) — ヒゲぴよ
+- [ひだまりスケッチ×３６５](https://www.aniplex.co.jp/lineup/hidamarisketch365/) — ひだまりスケッチ×３６５
+- [ピンポン](https://www.aniplex.co.jp/lineup/pingpong/) — ピンポン
+- [TVアニメ「不滅のあなたへ」Season 2](https://www.aniplex.co.jp/lineup/fumetsu2/) — TVアニメ「不滅のあなたへ」Season2
 - [Persona 3 the Movie](https://www.aniplex.co.jp/lineup/p3m/) — 劇場版「ペルソナ３」
+- [TVアニメ「ペルソナ４」](https://www.aniplex.co.jp/lineup/p4a/) — TVアニメ「ペルソナ４」
+- [ペルソナ４ ザ・ゴールデン](https://www.aniplex.co.jp/lineup/p4ga/) — ペルソナ４ ザ・ゴールデン
+- [炎の蜃気楼 OVA](https://www.aniplex.co.jp/lineup/honoonomiraju_ova/) — 炎の蜃気楼 OVA
+- [炎の蜃気楼 TVシリーズ](https://www.aniplex.co.jp/lineup/honoonomiraju/) — 炎の蜃気楼 TVシリーズ
+- [マギ](https://www.aniplex.co.jp/lineup/magi/) — マギ
+- [マッシュル-MASHLE- 三魔対争神覚者最終試験編](https://www.aniplex.co.jp/lineup/mashle-3rd/) — マッシュル-MASHLE- 三魔対争神覚者最終試験編
+- [魔道祖師 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs/) — 魔道祖師 日本語吹替版
+- [魔道祖師 完結編 日本語吹替版](https://www.aniplex.co.jp/lineup/mdzs_final/) — 魔道祖師 完結編 日本語吹替版
 - [Puella Magi Madoka Magica the Movie: Beginnings / Eternal](https://www.aniplex.co.jp/lineup/madoka-zenkouhen/) — 劇場版 魔法少女まどか☆マギカ [前編]始まりの物語 [後編]永遠の物語
+- [「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition](https://www.aniplex.co.jp/lineup/madoka-zenkouhen-tv/) — 「魔法少女まどか☆マギカ 始まりの物語／永遠の物語」TV Edition
+- [蟲師](https://www.aniplex.co.jp/lineup/mushishi/) — 蟲師
+- [約束のネバーランド 2ndSEASON](https://www.aniplex.co.jp/lineup/neverland2/) — 約束のネバーランド 2ndSEASON
+- [LAZARUS ラザロ](https://www.aniplex.co.jp/lineup/lazarus/) — LAZARUS ラザロ
+- [龍族 -The Blazing Dawn-](https://www.aniplex.co.jp/lineup/ryuzoku/) — 龍族 -The Blazing Dawn-
+- [龍族Ⅱ -The Mourner's Eyes-](https://www.aniplex.co.jp/lineup/ryuzoku_2/) — 龍族Ⅱ -The Mourner's Eyes-
+- [羅小黒戦記](https://www.aniplex.co.jp/lineup/luoxiaohei-tv/) — 羅小黒戦記
+- [羅小黒戦記（ロシャオヘイセンキ） ぼくが選ぶ未来](https://www.aniplex.co.jp/lineup/luoxiaohei/) — 羅小黒戦記（ロシャオヘイセンキ） ぼくが選ぶ未来
+- [ロード・エルメロイⅡ世の事件簿](https://www.aniplex.co.jp/lineup/elmelloi/) — ロード・エルメロイⅡ世の事件簿
+- [ワイルドアームズTV](https://www.aniplex.co.jp/lineup/watv/) — ワイルドアームズTV
 - [Tomica Hyper Rescue Drive Head the Movie](https://www.tbscontents.com/en/program/drivehead_movie) — 映画ドライブヘッド～トミカハイパーレスキュー 機動救急警察～
+- [Shinkalion](https://www.tbscontents.com/en/program/shinkalion) — 新幹線変形ロボ シンカリオン
+- [REC](https://www.tbscontents.com/en/program/rec) — REC
+- [Orphen Revenge](https://www.tbscontents.com/en/program/orphenrevenge) — 魔術士オーフェン リベンジ
+- [Number One Male Spirit 1, 2](https://www.tbscontents.com/en/program/numberonemalespirit) — 日本一の男の魂1, 2
+- [Demon Hunter Kocho](https://www.tbscontents.com/en/program/demonhunterkocho) — 厄災仔寵
+- [You're Under Arrest / You're Under Arrest 2nd Season](https://www.tbscontents.com/en/program/youreunderarrest) — 逮捕しちゃうぞ / 逮捕しちゃうぞ 2nd Season
+- [CatChat](https://www.tbscontents.com/en/program/catchat) — 貓言貓語

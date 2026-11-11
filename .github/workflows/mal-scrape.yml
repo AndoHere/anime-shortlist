@@ -3,11 +3,16 @@
 #
 # Progress is kept in catalog/data/mal-progress.json on that branch (the run commits it every ~10 minutes and when
 # it ends, even if it fails or is cancelled), so starting the workflow again carries on where it stopped.
-# Afterwards, on the laptop: git pull, copy catalog/data/mal-progress.json to catalog/data/cache/mal.json, run build.py.
+# When it ends it also runs apply_mal.py and commits the updated animated-titles.html and titles.json to the branch,
+# so no laptop is needed: merge the branch into main to publish.
 name: MAL scrape
 on:
   workflow_dispatch:
     inputs:
+      retry_nomatch:
+        description: "Look up again the titles that found no match (uses the improved matcher)"
+        type: boolean
+        default: false
       limit:
         description: "Only look up this many titles (blank = all not yet looked up)"
         required: false
@@ -46,14 +51,18 @@ jobs:
           done) &
       - name: Scrape
         run: |
-          python catalog/mal_scrape.py ${{ github.event.inputs.limit && format('--limit {0}', github.event.inputs.limit) || '' }}
-      - name: Commit final progress
+          python catalog/mal_scrape.py ${{ github.event.inputs.retry_nomatch == 'true' && '--retry-nomatch' || '' }} ${{ github.event.inputs.limit && format('--limit {0}', github.event.inputs.limit) || '' }}
+      - name: Apply results to the page
+        if: always()
+        run: |
+          [ -f catalog/data/cache/mal.json ] && python catalog/apply_mal.py || true
+      - name: Commit final progress and the updated page
         if: always()
         run: |
           [ -f catalog/data/cache/mal.json ] || exit 0
           cp catalog/data/cache/mal.json catalog/data/mal-progress.json
           git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
-          git add catalog/data/mal-progress.json
+          git add catalog/data/mal-progress.json catalog/data/titles.json animated-titles.html
           git commit -qm "MAL scrape progress (final)" || exit 0
           git pull -q --rebase || true
           git push
