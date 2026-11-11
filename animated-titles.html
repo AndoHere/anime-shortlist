@@ -68,6 +68,7 @@ header a{color:inherit}
 .years{display:inline-flex;align-items:center;gap:10px;font-size:14px;padding:3px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
 .years.on{border-color:var(--ink)}
 .years .yl{white-space:nowrap;font-variant-numeric:tabular-nums;min-width:84px}
+.years .chip{padding:3px 10px;font-size:12.5px;white-space:nowrap}
 .dual{position:relative;width:150px;height:28px;flex:0 0 auto}
 .dual .track,.dual .fill{position:absolute;top:50%;height:4px;margin-top:-2px;border-radius:2px}
 .dual .track{left:0;right:0;background:var(--line)}
@@ -213,6 +214,7 @@ footer a{color:inherit}
           <input type="range" id="s0" aria-label="Lowest MAL score">
           <input type="range" id="s1" aria-label="Highest MAL score">
         </div>
+        <button type="button" class="chip" id="unscored" title="Show or hide titles without a MAL score">Unscored</button>
       </div>
       <select id="sort" aria-label="Sort">
         <option value="new">Newest first</option>
@@ -275,7 +277,7 @@ const RATES = [["up","Want to watch","var(--good)"],["maybe","Not sure","var(--m
 const ratings = store.get("animeCatalog.ratings", {});
 const savedFilters = store.get("animeCatalog.filters", {}) || {};
 if (savedFilters.v !== 2) delete savedFilters.type; // "Animated only" became the default
-const state = Object.assign({fmt:"all", co:"all", type:"anim", genres:[], sort:"new", q:"", y0:null, y1:null, s0:null, s1:null,
+const state = Object.assign({fmt:"all", co:"all", type:"anim", genres:[], sort:"new", q:"", y0:null, y1:null, s0:null, s1:null, unscored:true,
   show:{up:true, maybe:true, down:true, none:true}}, savedFilters, {q:""});
 if (!Array.isArray(state.genres)) state.genres = [];
 delete state.genre; // single-genre setting from older versions
@@ -283,7 +285,7 @@ const saveFilters = () => store.set("animeCatalog.filters", {v:2, fmt:state.fmt,
   genres:state.genres, sort:state.sort, show:state.show,
   // an end of the year range at its limit is saved as open, so titles from new years still show
   y0: state.y0 > YMIN ? state.y0 : null, y1: state.y1 < YMAX ? state.y1 : null,
-  s0: state.s0 > SMIN ? state.s0 : null, s1: state.s1 < SMAX ? state.s1 : null});
+  s0: state.s0 > SMIN ? state.s0 : null, s1: state.s1 < SMAX ? state.s1 : null, unscored:state.unscored});
 const rateOf = x => ratings[x.id] || "none";
 
 // light/dark toggle: follows the system until the viewer picks one, then remembers it
@@ -371,7 +373,8 @@ y0.addEventListener("input", () => { state.y0 = Math.min(+y0.value, state.y1); d
 y1.addEventListener("input", () => { state.y1 = Math.max(+y1.value, state.y0); drawYears(); render(); });
 drawYears();
 
-// MAL score range: the same two-slider control. Titles with no score show only while the range is fully open.
+// MAL score range: the same two-slider control, its ends taken from the scores in the data.
+// Titles with no score are shown or hidden by their own button, whatever the range.
 const SCORES = DATA.map(x => x.mal && x.mal.score).filter(Boolean);
 const SMIN = SCORES.length ? Math.floor(Math.min(...SCORES) * 10) / 10 : 0;
 const SMAX = SCORES.length ? Math.ceil(Math.max(...SCORES) * 10) / 10 : 10;
@@ -392,8 +395,12 @@ function drawScores(){
   fill.style.left = pct(state.s0) + "%"; fill.style.width = (pct(state.s1) - pct(state.s0)) + "%";
   s0.style.zIndex = state.s0 === state.s1 && state.s0 > (SMIN + SMAX) / 2 ? 3 : 1;
   s1.style.zIndex = 2;
-  scoreBox.classList.toggle("on", !scoresAll());
+  scoreBox.classList.toggle("on", !scoresAll() || !state.unscored);
+  unscoredBtn.setAttribute("aria-pressed", state.unscored);
 }
+const unscoredBtn = document.getElementById("unscored");
+state.unscored = state.unscored !== false;
+unscoredBtn.onclick = () => { state.unscored = !state.unscored; drawScores(); render(); };
 s0.addEventListener("input", () => { state.s0 = Math.min(clampS(+s0.value), state.s1); drawScores(); render(); });
 s1.addEventListener("input", () => { state.s1 = Math.max(clampS(+s1.value), state.s0); drawScores(); render(); });
 drawScores();
@@ -457,7 +464,7 @@ const matches = (x, skip) =>
   (state.fmt==="all" || group(x.fmt)===state.fmt) &&
   (skip==="co" || state.co==="all" || x.cos.includes(state.co)) &&
   (yearsAll() || (x.year >= state.y0 && x.year <= state.y1)) &&
-  (scoresAll() || (x.mal && x.mal.score >= state.s0 && x.mal.score <= state.s1)) &&
+  (x.mal && x.mal.score ? scoresAll() || (x.mal.score >= state.s0 && x.mal.score <= state.s1) : state.unscored) &&
   (state.type==="all" || (state.type==="live") === isLive(x)) &&
   (!state.genres.length || state.genres.some(g => x.g.includes(g))) &&
   state.show[rateOf(x)] &&
@@ -515,6 +522,7 @@ function showActiveFilters(){
   if (state.type !== "anim") on.push(state.type === "live" ? "live action / hybrid" : "animated + live action");
   if (!yearsAll()) on.push(yearText());
   if (!scoresAll()) on.push("MAL " + scoreText());
+  if (!state.unscored) on.push("hiding titles without a MAL score");
   if (state.genres.length) on.push(state.genres.join(" or "));
   const hiddenRates = RATES.filter(([k]) => !state.show[k]).map(([, label]) => label.toLowerCase());
   if (hiddenRates.length) on.push("hiding “" + hiddenRates.join("”, “") + "”");
@@ -525,7 +533,7 @@ function showActiveFilters(){
     `Showing ${shown.length} of ${DATA.length} titles` + (on.length ? ` · ${on.join(" · ")}` : "");
 }
 document.getElementById("resetFilters").onclick = () => {
-  Object.assign(state, DEFAULTS, {genres:[], q:"", y0:YMIN, y1:YMAX, s0:SMIN, s1:SMAX, show:{up:true, maybe:true, down:true, none:true}});
+  Object.assign(state, DEFAULTS, {genres:[], q:"", y0:YMIN, y1:YMAX, s0:SMIN, s1:SMAX, unscored:true, show:{up:true, maybe:true, down:true, none:true}});
   chipBox.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === "all"));
   for (const id of ["company","type"]) document.getElementById(id).value = DEFAULTS[id === "company" ? "co" : "type"];
   drawYears();
