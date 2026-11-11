@@ -1,0 +1,59 @@
+# Runs catalog/mal_scrape.py on GitHub instead of the laptop. Start it by hand: Actions > MAL scrape > Run workflow,
+# and pick the branch that holds the rebuilt catalog/data/titles.json. No schedule.
+#
+# Progress is kept in catalog/data/mal-progress.json on that branch (the run commits it every ~10 minutes and when
+# it ends, even if it fails or is cancelled), so starting the workflow again carries on where it stopped.
+# Afterwards, on the laptop: git pull, copy catalog/data/mal-progress.json to catalog/data/cache/mal.json, run build.py.
+name: MAL scrape
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Only look up this many titles (blank = all not yet looked up)"
+        required: false
+permissions:
+  contents: write
+concurrency: mal-scrape
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore progress and cached pages
+        run: |
+          mkdir -p catalog/data/cache
+          if [ -f catalog/data/mal-progress.json ]; then cp catalog/data/mal-progress.json catalog/data/cache/mal.json; fi
+      - uses: actions/cache@v4
+        with:
+          path: catalog/data/cache/http
+          key: mal-pages-${{ github.run_id }}
+          restore-keys: mal-pages-
+      - name: Save progress every 10 minutes
+        run: |
+          (while true; do
+            sleep 600
+            [ -f catalog/data/cache/mal.json ] || continue
+            cp catalog/data/cache/mal.json catalog/data/mal-progress.json
+            git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+            git add catalog/data/mal-progress.json
+            git commit -qm "MAL scrape progress" || continue
+            git pull -q --rebase || true
+            git push -q || true
+          done) &
+      - name: Scrape
+        run: |
+          python catalog/mal_scrape.py ${{ github.event.inputs.limit && format('--limit {0}', github.event.inputs.limit) || '' }}
+      - name: Commit final progress
+        if: always()
+        run: |
+          [ -f catalog/data/cache/mal.json ] || exit 0
+          cp catalog/data/cache/mal.json catalog/data/mal-progress.json
+          git config user.name "github-actions"; git config user.email "actions@users.noreply.github.com"
+          git add catalog/data/mal-progress.json
+          git commit -qm "MAL scrape progress (final)" || exit 0
+          git pull -q --rebase || true
+          git push
