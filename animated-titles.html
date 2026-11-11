@@ -609,16 +609,17 @@ stage.addEventListener("pointerup", e => {
 });
 stage.addEventListener("click", e => { if (e.target === stage) closeViewer(); });
 
-// Saving ratings to the repository. GitHub Pages can't write files, so the page commits
-// ratings.json through the GitHub API with a fine-grained token kept in this browser only.
-// Without a token the page still reads ratings.json, so everyone sees the saved ratings.
+// Saving ratings to the repository. GitHub Pages can't write files, so each rating is sent to a
+// small Cloudflare Worker (relay/worker.js) that holds the GitHub token and commits ratings.json.
+// With RELAY empty, the page falls back to a fine-grained token pasted into this browser.
 const sync = (() => {
+  const RELAY = "";
   const REPO = "AndoHere/anime-shortlist", BRANCH = "main", FILE = "ratings.json";
   const API = `https://api.github.com/repos/${REPO}/contents/${FILE}`;
   // changes not in the repo yet; on the first visit after this was added, every rating in this browser
   const pending = store.get("animeCatalog.pendingRatings", null) || Object.assign({}, ratings);
   store.set("animeCatalog.pendingRatings", pending);
-  let token = store.get("animeCatalog.githubToken", ""), timer = null, busy = false, again = false;
+  let token = store.get("animeCatalog.githubToken", ""), timer = null, busy = false, again = false, retryIn = 0;
 
   const box = document.createElement("span");
   box.className = "sync";
@@ -626,9 +627,14 @@ const sync = (() => {
   rf.appendChild(box);
   const dot = box.querySelector(".dot"), msg = box.querySelector(".msg"), btn = box.querySelector("button");
   function status(text, color){ msg.textContent = text; dot.style.background = color; }
-  function drawButton(){ btn.textContent = token ? "Disconnect" : "Save ratings to GitHub"; }
+  const canSave = () => !!(RELAY || token);
+  function drawButton(){
+    if (RELAY) { btn.textContent = "Retry"; btn.hidden = true; return; } // shown only after a failed save
+    btn.textContent = token ? "Disconnect" : "Save ratings to GitHub";
+  }
   const nPending = () => Object.keys(pending).length;
   function idle(){
+    if (RELAY) { btn.hidden = true; status(nPending() ? "Not saved yet" : "Ratings saved", nPending() ? "var(--maybe)" : "var(--good)"); return; }
     if (!token) status(nPending() ? `${nPending()} rating change(s) only in this browser` : "Ratings load from the repository", "var(--idle)");
     else status(nPending() ? "Not saved yet" : "Saved to the repository", nPending() ? "var(--maybe)" : "var(--good)");
   }
@@ -638,7 +644,12 @@ const sync = (() => {
   const headers = () => ({Accept: "application/vnd.github+json", Authorization: `Bearer ${token}`});
 
   async function readRepo(){ // returns {data, sha}; sha is null when the file doesn't exist yet
-    if (token) {
+    if (RELAY) {
+      try {
+        const r = await fetch(RELAY, {cache: "no-store"});
+        if (r.ok) return {data: await r.json(), sha: null};
+      } catch (e) {}
+    } else if (token) {
       const r = await fetch(`${API}?ref=${BRANCH}&t=${Date.now()}`, {headers: headers(), cache: "no-store"});
       if (r.status === 404) return {data: {}, sha: null};
       if (!r.ok) throw Object.assign(new Error("read " + r.status), {status: r.status});
@@ -658,11 +669,17 @@ const sync = (() => {
   }
 
   async function push(){
-    if (!token || !nPending()) { idle(); return; }
+    if (!canSave() || !nPending()) { idle(); return; }
     if (busy) { again = true; return; }
     busy = true; status("Saving…", "var(--maybe)");
     try {
-      for (let attempt = 0; ; attempt++) {
+      if (RELAY) {
+        const sent = Object.assign({}, pending);
+        const r = await fetch(RELAY, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({changes: sent})});
+        if (!r.ok) throw Object.assign(new Error("relay " + r.status), {status: 0});
+        for (const [id, v] of Object.entries(sent)) if (pending[id] === v) delete pending[id];
+        store.set("animeCatalog.pendingRatings", pending);
+      } else for (let attempt = 0; ; attempt++) {
         const {data, sha} = await readRepo();
         const sent = Object.assign({}, pending);
         for (const [id, v] of Object.entries(sent)) { if (v === "none") delete data[id]; else data[id] = v; }
@@ -677,10 +694,16 @@ const sync = (() => {
         store.set("animeCatalog.pendingRatings", pending);
         break;
       }
-      idle();
+      retryIn = 0; idle();
     } catch (e) {
-      status(e.status === 401 || e.status === 403 || e.status === 404
-        ? "GitHub refused the token. Disconnect and connect again." : "Couldn't save. Will retry on the next rating.", "var(--bad)");
+      if (e.status === 401 || e.status === 403 || e.status === 404) {
+        status("GitHub refused the token. Disconnect and connect again.", "var(--bad)");
+      } else { // network hiccup: try again on our own, waiting a bit longer each time
+        retryIn = Math.min(retryIn ? retryIn * 2 : 5, 120);
+        status(`Couldn't save. Retrying in ${retryIn}s…`, "var(--bad)");
+        if (RELAY) btn.hidden = false;
+        clearTimeout(timer); timer = setTimeout(push, retryIn * 1000);
+      }
     } finally {
       busy = false;
       if (again) { again = false; push(); }
@@ -688,6 +711,7 @@ const sync = (() => {
   }
 
   btn.onclick = async () => {
+    if (RELAY) { retryIn = 0; clearTimeout(timer); push(); return; }
     if (token) {
       if (!confirm("Stop saving ratings to GitHub from this browser? The token is removed from this browser.")) return;
       token = ""; store.set("animeCatalog.githubToken", ""); drawButton(); idle(); return;
@@ -703,15 +727,16 @@ const sync = (() => {
     push();
   };
 
+  window.addEventListener("online", () => { if (canSave() && nPending()) push(); });
   drawButton(); idle();
   readRepo().then(({data}) => { apply(data); idle(); push(); }).catch(() => idle());
 
   return {
     changed(id, v){
       pending[id] = v; store.set("animeCatalog.pendingRatings", pending);
-      if (!token) { idle(); return; }
+      if (!canSave()) { idle(); return; }
       status("Not saved yet", "var(--maybe)");
-      clearTimeout(timer); timer = setTimeout(push, 1500); // one commit for a burst of ratings
+      retryIn = 0; clearTimeout(timer); timer = setTimeout(push, 600); // one commit for a quick burst of ratings
     }
   };
 })();
