@@ -135,7 +135,20 @@
   "score": 7.2,
   "trailer": "Py1W0uZvpDw"
  },
- "https://www.production-ig.co.jp/works/kokaku-a": {},
+ "https://www.production-ig.co.jp/works/kokaku-a": {
+  "mal_id": 19193,
+  "url": "https://myanimelist.net/anime/19193",
+  "romaji": "Koukaku Kidoutai Arise: Ghost in the Shell - Border:3 Ghost Tears",
+  "ja": "攻殻機動隊ARISE -GHOST IN THE SHELL- border:3 Ghost Tears",
+  "en": "Ghost in the Shell: Arise - Border 3: Ghost Tears",
+  "syn": [
+   "Ghost in the Shell: Arise - Border:3 Ghost Tears"
+  ],
+  "type": "Movie",
+  "year": 2014,
+  "score": 7.32,
+  "trailer": "x6W_WAmc1E4"
+ },
  "https://www.production-ig.co.jp/works/haikyu-movie-03/": {
   "mal_id": 52742,
   "url": "https://myanimelist.net/anime/52742",
@@ -201,7 +214,22 @@
   "score": 8.22,
   "trailer": "PcyUJ8DhPpk"
  },
- "https://www.production-ig.co.jp/works/haikyu-movie/": {},
+ "https://www.production-ig.co.jp/works/haikyu-movie/": {
+  "mal_id": 35111,
+  "url": "https://myanimelist.net/anime/35111",
+  "romaji": "Haikyuu!! Movie 4: Concept no Tatakai",
+  "ja": "ハイキュー!! コンセプトの戦い",
+  "en": "Haikyu!! The Movie: Battle of Concepts",
+  "syn": [
+   "High Kyuu!! Movie 4: Haikyuu!! Movie 4: Battle of Concepts",
+   "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou Recap",
+   "Haikyuu!! Recap 4"
+  ],
+  "type": "Movie",
+  "year": 2017,
+  "score": 8.28,
+  "trailer": "dkElc3YdfgU"
+ },
  "https://www.production-ig.co.jp/works/haikyu-3rd/": {
   "mal_id": 32935,
   "url": "https://myanimelist.net/anime/32935",
@@ -588,8 +616,34 @@
   "score": 7.54,
   "trailer": "Ru1D5BFU6j4"
  },
- "https://www.production-ig.co.jp/works/rakumajo/": {},
- "https://www.production-ig.co.jp/works/fafner-behind-the-line/": {},
+ "https://www.production-ig.co.jp/works/rakumajo/": {
+  "mal_id": 51404,
+  "url": "https://myanimelist.net/anime/51404",
+  "romaji": "Rakudai Majo: Fuuka to Yami no Majo",
+  "ja": "らくだい魔女 フウカと闇の魔女",
+  "en": "The Klutzy Witch: Fuuka and the Witch of Darkness",
+  "syn": [
+   "The Klutzy Witch: Fuuka and the Dark Witch",
+   "Failure Witch",
+   "Rakumajo"
+  ],
+  "type": "Movie",
+  "year": 2023,
+  "score": 6.26,
+  "trailer": "Z86VNbi6QM4"
+ },
+ "https://www.production-ig.co.jp/works/fafner-behind-the-line/": {
+  "mal_id": 50675,
+  "url": "https://myanimelist.net/anime/50675",
+  "romaji": "Soukyuu no Fafner: Dead Aggressor - Behind the Line",
+  "ja": "蒼穹のファフナー Dead Aggressor BEHIND THE LINE",
+  "en": "",
+  "syn": [],
+  "type": "Movie",
+  "year": 2023,
+  "score": 6.83,
+  "trailer": "8XaOxYCw3xA"
+ },
  "https://www.production-ig.co.jp/works/tdm/": {
   "mal_id": 53393,
   "url": "https://myanimelist.net/anime/53393",
@@ -701,7 +755,18 @@
   "score": 6.81,
   "trailer": "nqBT4lRiXdA"
  },
- "https://www.production-ig.co.jp/works/fafner-beyond/": {},
+ "https://www.production-ig.co.jp/works/fafner-beyond/": {
+  "mal_id": 41714,
+  "url": "https://myanimelist.net/anime/41714",
+  "romaji": "Soukyuu no Fafner: Dead Aggressor - The Beyond Part 3",
+  "ja": "蒼穹のファフナー Dead Aggressor THE BEYOND",
+  "en": "",
+  "syn": [],
+  "type": "Movie",
+  "year": 2020,
+  "score": 7.39,
+  "trailer": "ouzXzediqbU"
+ },
  "https://www.production-ig.co.jp/works/moriarty/": {
   "mal_id": 40911,
   "url": "https://myanimelist.net/anime/40911",
@@ -924,7 +989,20 @@
   "score": 6.32,
   "trailer": "21N5BFyLDbc"
  },
- "https://www.production-ig.co.jp/works/kurobas-movie-1st": {},
+ "https://www.production-ig.co.jp/works/kurobas-movie-1st": {
+  "mal_id": 31051,
+  "url": "https://myanimelist.net/anime/31051",
+  "romaji": "Kuroko no Basket: Saikou no Present desu",
+  "ja": "黒子のバスケ〜最高のプレゼントです〜",
+  "en": "Kuroko’s Basketball: It is the Best Present",
+  "syn": [
+   "Kuroko no Basket Episode 75.5"
+  ],
+  "type": "Special",
+  "year": 2015,
+  "score": 8.09,
+  "trailer": "h9WOHL4N0e4"
+ },
  "https://www.production-ig.co.jp/works/ace-of-diamond/": {
   "mal_id": 18689,
   "url": "https://myanimelist.net/anime/18689",
@@ -2484,7 +2562,20 @@
   "score": 7.54,
   "trailer": "re0okA0NAEc"
  },
- "https://www.hakuhodody-map.jp/lineup/movie/map-3030": {},
+ "https://www.hakuhodody-map.jp/lineup/movie/map-3030": {
+  "mal_id": 39429,
+  "url": "https://myanimelist.net/anime/39429",
+  "romaji": "Girls & Panzer: Saishuushou Part 1 - Fushou Akiyama Yukari no Sensha Kouza",
+  "ja": "ガールズ＆パンツァー 最終章 第1話 不肖・秋山優花里の戦車講座",
+  "en": "",
+  "syn": [
+   "Girls und Panzer: Saishuushou Part 1 - Fushou Akiyama Yukari no Sensha Kouza"
+  ],
+  "type": "Special",
+  "year": 2018,
+  "score": 6.84,
+  "trailer": null
+ },
  "https://www.hakuhodody-map.jp/lineup/movie/map-3039": {
   "mal_id": 38081,
   "url": "https://myanimelist.net/anime/38081",
@@ -4142,7 +4233,21 @@
   "score": 8.66,
   "trailer": "ODxfIvSgWuo"
  },
- "https://www.hakuhodody-map.jp/en/international-sales/map-9601": {},
+ "https://www.hakuhodody-map.jp/en/international-sales/map-9601": {
+  "mal_id": 61549,
+  "url": "https://myanimelist.net/anime/61549",
+  "romaji": "Okiraku Ryoushu no Tanoshii Ryouchi Bouei: Seisankei Majutsu de Na mo Naki Mura wo Saikyou no Jousai Toshi ni",
+  "ja": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～",
+  "en": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
+  "syn": [
+   "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
+   "Fun Territory Defense by the Optimistic Lord"
+  ],
+  "type": "TV",
+  "year": 2026,
+  "score": 6.79,
+  "trailer": "xMe2-1qySqI"
+ },
  "https://www.hakuhodody-map.jp/en/international-sales/map-9604": {},
  "https://www.hakuhodody-map.jp/en/international-sales/map-9608": {
   "mal_id": 61207,
@@ -4378,7 +4483,20 @@
   "score": 7.17,
   "trailer": "qrq7sPJYAT4"
  },
- "https://www.hakuhodody-map.jp/en/international-sales/map-8040": {},
+ "https://www.hakuhodody-map.jp/en/international-sales/map-8040": {
+  "mal_id": 50287,
+  "url": "https://myanimelist.net/anime/50287",
+  "romaji": "Kyuuketsuki Sugu Shinu 2",
+  "ja": "吸血鬼すぐ死ぬ2",
+  "en": "The Vampire Dies in No Time Season 2",
+  "syn": [
+   "KyuuShi"
+  ],
+  "type": "TV",
+  "year": 2023,
+  "score": 7.46,
+  "trailer": "1wSz9-yjtMQ"
+ },
  "https://www.hakuhodody-map.jp/en/lineup/movie/map-8033": {
   "mal_id": 51678,
   "url": "https://myanimelist.net/anime/51678",
