@@ -45,7 +45,7 @@ header a{color:inherit}
 .stats{display:flex;gap:24px;flex-wrap:wrap;margin:20px 0 24px}
 .stat b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
 .stat span{color:var(--muted);font-size:13px}
-.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:24px;display:flex;flex-direction:column;gap:10px}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);box-shadow:0 0 0 100vmax var(--bg);clip-path:inset(0 -100vmax);padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:24px;display:flex;flex-direction:column;gap:10px}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chip{border:0;background:var(--chip);color:var(--ink);padding:6px 12px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
@@ -134,9 +134,6 @@ dd a{color:inherit}
 .genres{display:flex;flex-wrap:wrap;gap:4px}
 .genres span{font-size:11.5px;background:var(--chip);padding:2px 8px;border-radius:999px}
 .sum{margin:0;font-size:13.5px}
-.srcs{margin-top:auto;display:flex;flex-direction:column;gap:2px;padding-top:4px}
-.src{font-size:12.5px;color:var(--accent);text-decoration:none}
-.src:hover{text-decoration:underline}
 .empty{color:var(--muted);text-align:center;padding:48px 0}
 footer{margin-top:40px;color:var(--muted);font-size:12.5px}
 footer a{color:inherit}
@@ -468,7 +465,6 @@ function card(x, i){
       </dl>
       <div class="genres">${x.g.map(g => `<span>${esc(g)}</span>`).join("")}</div>
       ${x.s ? `<p class="sum">${esc(x.s)}</p>` : ""}
-      <div class="srcs">${x.links.map(l => `<a class="src" href="${esc(l.u)}" target="_blank" rel="noopener">Title page on ${esc(l.site)} →</a>`).join("")}</div>
     </div>
   </article>`;
 }
