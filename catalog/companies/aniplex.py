@@ -1,7 +1,9 @@
-"""Aniplex: theatrical films from the full anime lineup (TV series, streaming and OVAs are skipped).
+"""Aniplex: the full anime lineup — films, TV series, streaming series and OVAs.
 
-A title counts as a film when its page is labelled 劇場上映 (theatrical release), or its name says it is one
-(劇場版, 劇場アニメーション, 映画, "the Movie") — unreleased films are labelled only "アニメ".
+The format comes from the page label: 劇場上映 (theatrical release) is a movie, TVアニメ a TV series,
+OVA / ＯＶＡ an OVA, 配信 / WEB a streaming series. Unreleased films are labelled only "アニメ", so a name that
+says it is a film (劇場版, 劇場アニメーション, 映画, "the Movie") is also a movie; other plain "アニメ"
+pages are taken as TV series. Anything wrong can be fixed with "fmt" in data/curated/aniplex.json.
 """
 import re
 import urllib.parse
@@ -23,6 +25,16 @@ def _label(html):
     return text(m.group(1)) if m else ""
 
 
+def _format(label, name):
+    if "劇場" in label or FILM_NAME.search(name):
+        return "Movie"
+    if re.search(r"OVA|ＯＶＡ", label, re.I):
+        return "OVA"
+    if re.search(r"配信|WEB|ウェブ|ネット", label, re.I):
+        return "Streaming series"
+    return "TV series"
+
+
 def list_titles(refresh=False):
     titles, seen = [], set()
     for row in ROWS:
@@ -36,10 +48,8 @@ def list_titles(refresh=False):
             name = re.sub(r"\s+\d{4}\.\d{1,2}$", "", text(name)).strip()
             page = fetch(url, refresh=refresh) or ""
             label = _label(page)  # e.g. "劇場上映 (2017.8)", "TVアニメ (2024.10)", "アニメ"
-            if "劇場" not in label and not FILM_NAME.search(name):
-                continue
             year = re.findall(r"((?:19|20)\d\d)\.\d", label)
-            titles.append({"url": url, "ja": name, "label": "Movie", "year": int(year[0]) if year else None,
+            titles.append({"url": url, "ja": name, "label": _format(label, name), "year": int(year[0]) if year else None,
                            "slug": href.strip("/").split("/")[-1]})
     return titles
 

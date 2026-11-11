@@ -70,7 +70,7 @@ def build_company(co, refresh):
             "key": item["url"],
             "co": company, "cos": [company], "role": co.ROLE, "site": co.SITE,
             "links": [{"co": company, "site": co.SITE, "u": url}],
-            "t": e.get("en") or item.get("en") or det.get("romaji") or ja,
+            "t": clean_title(e.get("en") or item.get("en") or det.get("romaji") or ja),
             "ja": ja,
             "romaji": e.get("romaji") or det.get("romaji") or "",
             "poster": e.get("poster") or det.get("poster") or item.get("poster") or (imgs[0] if imgs else ""),
@@ -88,12 +88,23 @@ def build_company(co, refresh):
             "live_action": bool(re.match(r"live action", e.get("type", ""), re.I)),
             "curated": bool(e),
         })
+        extra = item.get("extra_co")  # the same title also listed by this company on the same site (Hakuhodo JP)
+        if extra and extra["co"] != company:
+            rows[-1]["cos"].append(extra["co"])
+            rows[-1]["links"].append({"co": extra["co"], "site": co.SITE, "u": extra["u"]})
         if n % 25 == 0:
             log(f"  {co.NAME}: {n}/{len(items)} pages read")
     unused = set(curated) - {i["url"] for i in items}
     if unused:
         log(f"  note: {len(unused)} curated {co.NAME} entries no longer listed on the site: {sorted(unused)[:5]}")
     return rows
+
+
+def clean_title(t):
+    """Drops zero-width characters and adds the missing space before a trailing numeral ("Dungeon?Ⅳ", "Time2")."""
+    t = re.sub(r"[\u200b\u200c\u200d\ufeff]", "", t or "")
+    t = re.sub(r"(?<=[?!])(?=[Ⅰ-Ⅻ])", " ", t)
+    return re.sub(r"(?<=[a-z])(?=\d$)", " ", t)
 
 
 def title_key(r):

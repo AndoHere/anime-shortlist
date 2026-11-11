@@ -1,9 +1,10 @@
-"""TBS Program Catalog, Anime category: theatrical films only.
+"""TBS Program Catalog, Anime category: films, TV series and specials.
 
 The list mixes TV series, specials and films, and gives each card a running time. Series show
 "30 min. x 12 eps." and specials "45 min. x 1 ep."; films show a single runtime ("110 min."). A card
-with one runtime of 40 minutes or more counts as a film. Cards with no runtime or "TBD" are decided
-from the title page: a "Japan Release" date or 劇場版/映画/Movie in the title means a film.
+with one runtime of 40 minutes or more counts as a film; one shorter runtime is a TV special. Cards with
+no runtime or "TBD" are decided from the title page: a "Japan Release" date or 劇場版/映画/Movie in the
+title means a film, anything else is a TV series.
 """
 import html as htmllib
 import re
@@ -41,6 +42,13 @@ def _runtime(card_time):
         return None
     m = re.fullmatch(r"\s*(\d+)\s*min\.?\s*", t)
     return int(m.group(1)) if m else None
+
+
+def _episodes(card_time):
+    """(minutes per episode, episode count) from "30 min. x 12 eps.", else None."""
+    t = htmllib.unescape(card_time or "")
+    m = re.search(r"(\d+)\s*min\.?\s*[x×]\s*(\d+)\s*ep", t, re.I)
+    return (int(m.group(1)), int(m.group(2))) if m else None
 
 
 def _ja(sub_subject):
@@ -83,11 +91,16 @@ def list_titles(refresh=False):
             time_m = re.search(r'class="program-time">\s*<p>(.*?)</p>', card, re.S)
             card_time = time_m.group(1).strip() if time_m else ""
             minutes = _runtime(card_time)
+            eps = _episodes(card_time)
             if minutes is not None:
-                if minutes < MIN_FILM_MINUTES:
-                    continue
-            elif re.search(r"\bep", card_time, re.I) or not _is_film_page(url, refresh):
-                continue
+                label = "Movie" if minutes >= MIN_FILM_MINUTES else "TV special"
+                dur = f"{minutes} min"
+            elif eps:
+                label = "TV special" if eps[1] == 1 else "TV series"
+                dur = f"{eps[0]} min × {eps[1]} eps" if eps[1] > 1 else f"{eps[0]} min"
+            else:  # no runtime or "TBD": decide from the title page
+                label = "Movie" if _is_film_page(url, refresh) else "TV series"
+                dur = ""
             name = re.search(r"<h4[^>]*>\s*<a[^>]*>(.*?)</a>", card, re.S)
             sub = re.search(r'class="sub-subject[^"]*">(.*?)</p>', card, re.S)
             tid = re.search(r"tid=(\d+)", card)
@@ -98,8 +111,8 @@ def list_titles(refresh=False):
                 "ja": _ja(sub.group(1)) if sub else "",
                 "tags": [t for t in tags if t != "For Children"] or tags,
                 "poster": f"{BASE}/tbs-eng-ps/open/open-tv-program!image?tid={tid.group(1)}&imageNumber=1" if tid else "",
-                "label": "Movie",
-                "dur": f"{minutes} min" if minutes else "",
+                "label": label,
+                "dur": dur,
             })
     return titles
 
