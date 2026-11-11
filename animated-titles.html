@@ -613,7 +613,7 @@ stage.addEventListener("click", e => { if (e.target === stage) closeViewer(); })
 // small Cloudflare Worker (relay/worker.js) that holds the GitHub token and commits ratings.json.
 // With RELAY empty, the page falls back to a fine-grained token pasted into this browser.
 const sync = (() => {
-  const RELAY = "";
+  const RELAY = "https://anime-ratings.ahbezem.workers.dev/";
   const REPO = "AndoHere/anime-shortlist", BRANCH = "main", FILE = "ratings.json";
   const API = `https://api.github.com/repos/${REPO}/contents/${FILE}`;
   // changes not in the repo yet; on the first visit after this was added, every rating in this browser
