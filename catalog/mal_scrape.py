@@ -4,6 +4,7 @@
     python catalog/mal_scrape.py --limit 5       only the first 5 (quick test)
     python catalog/mal_scrape.py --only haikyu   titles whose name contains "haikyu"
     python catalog/mal_scrape.py --redo          look up again, ignoring earlier results
+    python catalog/mal_scrape.py --retry-nomatch look up again only the titles that found no match
 
 Reads the title list from data/titles.json (run build.py first) and writes data/cache/mal.json, which
 build.py uses for the MAL row, the "MAL score" sort and, where a title has none, a trailer.
@@ -84,6 +85,11 @@ def parse_page(html, mal_id):
             "trailer": trailer.group(1) if trailer else None}
 
 
+def _head(name):
+    """The part of a title before a subtitle separator."""
+    return re.split(r"\s*[:：–—―]\s*|\s+-\s+", name or "")[0]
+
+
 def strength(cand, row):
     """2 = a title matches exactly (year within 1), 1 = partial title match in the same year, 0 = no match.
     Partial matches need the exact year so franchise siblings (a recut film vs. its TV season) aren't confused."""
@@ -97,7 +103,17 @@ def strength(cand, row):
         return 2
     partial = any(similar(mine_ja, n) for n in names_ja if n) or any(
         similar(m, n) for m in mine_lat for n in names_lat if n)
-    return 1 if partial and dy == 0 else 0
+    if partial and dy == 0:
+        return 1
+    # the site's year is often a re-release or announcement year: accept an exact name up to 3 years off,
+    # or the same title before a subtitle ("Name: Subtitle" vs "Name") up to 1 year off
+    if exact and dy <= 3:
+        return 1
+    mine_heads = {norm(_head(x)) for x in [mine_ja] + mine_lat if x}
+    cand_heads = {norm(_head(x)) for x in names_ja + names_lat if x}
+    if any(len(h) >= 4 for h in mine_heads & cand_heads) and dy <= 1:
+        return 1
+    return 0
 
 
 # which MyAnimeList types fit each of our formats
@@ -182,6 +198,7 @@ def main():
     ap.add_argument("--limit", type=int)
     ap.add_argument("--only")
     ap.add_argument("--redo", action="store_true")
+    ap.add_argument("--retry-nomatch", action="store_true", help="look up again only the titles that found no match")
     a = ap.parse_args()
 
     rows = load_json(os.path.join(DATA, "titles.json"), [])
@@ -200,6 +217,9 @@ def main():
             cache.pop(r["id"], None)
             continue
         if a.only and a.only.lower() not in (r["t"] + " " + r["romaji"]).lower():
+            continue
+        if a.retry_nomatch and r["id"] in cache and not cache[r["id"]] and not forced:
+            todo.append((r, forced))
             continue
         if r["id"] in cache and not a.redo and (not forced or cache[r["id"]].get("mal_id") == forced):
             continue
