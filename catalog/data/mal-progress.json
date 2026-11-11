@@ -2701,7 +2701,18 @@
   "score": 7.24,
   "trailer": "L7hsRkpWRj0"
  },
- "https://www.hakuhodody-map.jp/lineup/animation/map-3078": {},
+ "https://www.hakuhodody-map.jp/lineup/animation/map-3078": {
+  "mal_id": 33185,
+  "url": "https://myanimelist.net/anime/33185",
+  "romaji": "Peace Maker Kurogane Movie 1: Omou Michi",
+  "ja": "PEACE MAKER 鐵 前編～想道〈オモウミチ〉～",
+  "en": "PEACE MAKER KUROGANE – Belief & Friend",
+  "syn": [],
+  "type": "Movie",
+  "year": 2018,
+  "score": 6.65,
+  "trailer": "iBl0MrtC20Q"
+ },
  "https://www.hakuhodody-map.jp/lineup/movie/map-3079": {
   "mal_id": 34440,
   "url": "https://myanimelist.net/anime/34440",
@@ -3360,8 +3371,34 @@
   "score": 8.64,
   "trailer": "ZfIXXgqxVn8"
  },
- "https://www.aniplex.co.jp/lineup/kimetsu_worldtour2024/": {},
- "https://www.aniplex.co.jp/lineup/kimetsu_worldtour/": {},
+ "https://www.aniplex.co.jp/lineup/kimetsu_worldtour2024/": {
+  "mal_id": 62547,
+  "url": "https://myanimelist.net/anime/62547",
+  "romaji": "Kimetsu no Yaiba Movie 3: Mugenjou-hen",
+  "ja": "劇場版 鬼滅の刃 無限城編",
+  "en": "Demon Slayer: Kimetsu no Yaiba Infinity Castle III",
+  "syn": [
+   "Demon Slayer: Kimetsu no Yaiba - The Movie: Infinity Castle - Part 3"
+  ],
+  "type": "Movie",
+  "year": null,
+  "score": null,
+  "trailer": null
+ },
+ "https://www.aniplex.co.jp/lineup/kimetsu_worldtour/": {
+  "mal_id": 62547,
+  "url": "https://myanimelist.net/anime/62547",
+  "romaji": "Kimetsu no Yaiba Movie 3: Mugenjou-hen",
+  "ja": "劇場版 鬼滅の刃 無限城編",
+  "en": "Demon Slayer: Kimetsu no Yaiba Infinity Castle III",
+  "syn": [
+   "Demon Slayer: Kimetsu no Yaiba - The Movie: Infinity Castle - Part 3"
+  ],
+  "type": "Movie",
+  "year": null,
+  "score": null,
+  "trailer": null
+ },
  "https://www.aniplex.co.jp/lineup/onyx/": {
   "mal_id": 33082,
   "url": "https://myanimelist.net/anime/33082",
@@ -3794,7 +3831,21 @@
   "score": 6.82,
   "trailer": "fZTz5TzEPWI"
  },
- "https://www.aniplex.co.jp/lineup/p3m/": {},
+ "https://www.aniplex.co.jp/lineup/p3m/": {
+  "mal_id": 14407,
+  "url": "https://myanimelist.net/anime/14407",
+  "romaji": "Persona 3 the Movie 1: Spring of Birth",
+  "ja": "PERSONA3 THE MOVIE —#1 Spring of Birth—",
+  "en": "Persona 3 the Movie: #1 Spring of Birth",
+  "syn": [
+   "Shin Megami Tensei: Persona 3",
+   "P3M"
+  ],
+  "type": "Movie",
+  "year": 2013,
+  "score": 7.52,
+  "trailer": "TFcKYRgwsMo"
+ },
  "https://www.aniplex.co.jp/lineup/bocchi_re/": {
   "mal_id": 55357,
   "url": "https://myanimelist.net/anime/55357",
@@ -6133,7 +6184,25 @@
   "score": 6.56,
   "trailer": null
  },
- "https://www.aniplex.co.jp/lineup/rod/": {},
+ "https://www.aniplex.co.jp/lineup/rod/": {
+  "mal_id": 209,
+  "url": "https://myanimelist.net/anime/209",
+  "romaji": "R.O.D: The TV",
+  "ja": "アール・オー・ディー ザ・ティーヴィー",
+  "en": "R.O.D -The TV-",
+  "syn": [
+   "Read or Die TV",
+   "Read or Die",
+   "ROD",
+   "Read or Die: the TV",
+   "Read or Dream",
+   "R.O.D. TV"
+  ],
+  "type": "TV",
+  "year": 2003,
+  "score": 7.53,
+  "trailer": null
+ },
  "https://www.aniplex.co.jp/lineup/rodthetv/": {
   "mal_id": 209,
   "url": "https://myanimelist.net/anime/209",
@@ -7132,7 +7201,20 @@
   "score": 9.02,
   "trailer": null
  },
- "https://www.aniplex.co.jp/lineup/gintama3/": {},
+ "https://www.aniplex.co.jp/lineup/gintama3/": {
+  "mal_id": 28977,
+  "url": "https://myanimelist.net/anime/28977",
+  "romaji": "Gintama°",
+  "ja": "銀魂°",
+  "en": "Gintama Season 4",
+  "syn": [
+   "Gintama' (2015)"
+  ],
+  "type": "TV",
+  "year": 2015,
+  "score": 9.05,
+  "trailer": null
+ },
  "https://www.aniplex.co.jp/lineup/ginsaji/": {},
  "https://www.aniplex.co.jp/lineup/ginban/": {
   "mal_id": 476,
@@ -8572,7 +8654,20 @@
   "score": 7.94,
   "trailer": "W2ku5toXWFc"
  },
- "https://www.aniplex.co.jp/lineup/birdydecode/": {},
+ "https://www.aniplex.co.jp/lineup/birdydecode/": {
+  "mal_id": 5074,
+  "url": "https://myanimelist.net/anime/5074",
+  "romaji": "Tetsuwan Birdy Decode:02",
+  "ja": "鉄腕バーディー DECODE:02",
+  "en": "Birdy the Mighty: Decode 02",
+  "syn": [
+   "Tetsuwan Birdy Decode 2nd Season"
+  ],
+  "type": "TV",
+  "year": 2009,
+  "score": 7.72,
+  "trailer": "fX1a3fWQ_D4"
+ },
  "https://www.aniplex.co.jp/lineup/birdydecode2/": {
   "mal_id": 5074,
   "url": "https://myanimelist.net/anime/5074",
@@ -9416,7 +9511,20 @@
   "score": 7.52,
   "trailer": "TlAOb50n3w0"
  },
- "https://www.aniplex.co.jp/lineup/honeyworks/": {},
+ "https://www.aniplex.co.jp/lineup/honeyworks/": {
+  "mal_id": 33036,
+  "url": "https://myanimelist.net/anime/33036",
+  "romaji": "Suki ni Naru Sono Shunkan wo. Kokuhaku Jikkou Iinkai",
+  "ja": "好きになるその瞬間を。～告白実行委員会～",
+  "en": "The Moment You Fall in Love",
+  "syn": [
+   "HoneyWorks: Kokuhaku Jikkou Iinkai"
+  ],
+  "type": "Movie",
+  "year": 2016,
+  "score": 7.04,
+  "trailer": "lA-T5l5LVl4"
+ },
  "https://www.aniplex.co.jp/lineup/harebuta/": {
   "mal_id": 2280,
   "url": "https://myanimelist.net/anime/2280",
