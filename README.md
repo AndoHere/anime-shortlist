@@ -20,8 +20,14 @@ Every push to `main` republishes it.
 ## Saving ratings to the repository
 
 Ratings (Want to watch, Not sure, Not for me) are kept in `ratings.json` in this repository, so they show
-up on every device and for anyone who opens the site. The page reads that file on load. Writing to it needs
-a GitHub token, which you enter once per browser:
+up on every device and for anyone who opens the site. The page reads that file on load, and each rating click
+is saved to it within a second through a small Cloudflare Worker that holds the GitHub token, so no browser
+needs a token. Setup is in [`relay/README.md`](relay/README.md). Each burst of ratings becomes one commit to
+`main` named "Update ratings". If a save fails the page retries on its own, and shows a **Retry** button.
+
+### Fallback: a token per browser
+
+While `RELAY` in `catalog/template.html` is empty, writing needs a GitHub token, which you enter once per browser:
 
 1. Go to <https://github.com/settings/personal-access-tokens/new> (fine-grained token).
 2. Give it a name such as "anime-shortlist ratings" and an expiration date you're happy with.
