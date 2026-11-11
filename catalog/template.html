@@ -206,6 +206,14 @@ footer a{color:inherit}
           <input type="range" id="y1" aria-label="To year">
         </div>
       </div>
+      <div class="years" id="scoreBox" role="group" aria-label="MyAnimeList score range">
+        <span class="yl" id="scoreLabel"></span>
+        <div class="dual">
+          <span class="track"></span><span class="fill" id="scoreFill"></span>
+          <input type="range" id="s0" aria-label="Lowest MAL score">
+          <input type="range" id="s1" aria-label="Highest MAL score">
+        </div>
+      </div>
       <select id="sort" aria-label="Sort">
         <option value="new">Newest first</option>
         <option value="old">Oldest first</option>
@@ -267,14 +275,15 @@ const RATES = [["up","Want to watch","var(--good)"],["maybe","Not sure","var(--m
 const ratings = store.get("animeCatalog.ratings", {});
 const savedFilters = store.get("animeCatalog.filters", {}) || {};
 if (savedFilters.v !== 2) delete savedFilters.type; // "Animated only" became the default
-const state = Object.assign({fmt:"all", co:"all", type:"anim", genres:[], sort:"new", q:"", y0:null, y1:null,
+const state = Object.assign({fmt:"all", co:"all", type:"anim", genres:[], sort:"new", q:"", y0:null, y1:null, s0:null, s1:null,
   show:{up:true, maybe:true, down:true, none:true}}, savedFilters, {q:""});
 if (!Array.isArray(state.genres)) state.genres = [];
 delete state.genre; // single-genre setting from older versions
 const saveFilters = () => store.set("animeCatalog.filters", {v:2, fmt:state.fmt, co:state.co, type:state.type,
   genres:state.genres, sort:state.sort, show:state.show,
   // an end of the year range at its limit is saved as open, so titles from new years still show
-  y0: state.y0 > YMIN ? state.y0 : null, y1: state.y1 < YMAX ? state.y1 : null});
+  y0: state.y0 > YMIN ? state.y0 : null, y1: state.y1 < YMAX ? state.y1 : null,
+  s0: state.s0 > SMIN ? state.s0 : null, s1: state.s1 < SMAX ? state.s1 : null});
 const rateOf = x => ratings[x.id] || "none";
 
 // light/dark toggle: follows the system until the viewer picks one, then remembers it
@@ -361,6 +370,33 @@ function drawYears(){
 y0.addEventListener("input", () => { state.y0 = Math.min(+y0.value, state.y1); drawYears(); render(); });
 y1.addEventListener("input", () => { state.y1 = Math.max(+y1.value, state.y0); drawYears(); render(); });
 drawYears();
+
+// MAL score range: the same two-slider control. Titles with no score show only while the range is fully open.
+const SCORES = DATA.map(x => x.mal && x.mal.score).filter(Boolean);
+const SMIN = SCORES.length ? Math.floor(Math.min(...SCORES) * 10) / 10 : 0;
+const SMAX = SCORES.length ? Math.ceil(Math.max(...SCORES) * 10) / 10 : 10;
+const scoreBox = document.getElementById("scoreBox"), s0 = document.getElementById("s0"), s1 = document.getElementById("s1");
+if (!HAS_SCORES) scoreBox.style.display = "none";
+for (const el of [s0, s1]) { el.min = SMIN; el.max = SMAX; el.step = 0.1; }
+const clampS = v => Math.min(SMAX, Math.max(SMIN, Math.round(v * 10) / 10));
+state.s0 = state.s0 == null ? SMIN : clampS(+state.s0);
+state.s1 = state.s1 == null ? SMAX : clampS(+state.s1);
+if (state.s0 > state.s1) [state.s0, state.s1] = [state.s1, state.s0];
+const scoresAll = () => state.s0 <= SMIN && state.s1 >= SMAX;
+const scoreText = () => "★ " + (state.s0 === state.s1 ? state.s0.toFixed(1) : `${state.s0.toFixed(1)} – ${state.s1.toFixed(1)}`);
+function drawScores(){
+  s0.value = state.s0; s1.value = state.s1;
+  document.getElementById("scoreLabel").textContent = scoresAll() ? "Any MAL score" : scoreText();
+  const pct = v => (v - SMIN) / (SMAX - SMIN || 1) * 100;
+  const fill = document.getElementById("scoreFill");
+  fill.style.left = pct(state.s0) + "%"; fill.style.width = (pct(state.s1) - pct(state.s0)) + "%";
+  s0.style.zIndex = state.s0 === state.s1 && state.s0 > (SMIN + SMAX) / 2 ? 3 : 1;
+  s1.style.zIndex = 2;
+  scoreBox.classList.toggle("on", !scoresAll());
+}
+s0.addEventListener("input", () => { state.s0 = Math.min(clampS(+s0.value), state.s1); drawScores(); render(); });
+s1.addEventListener("input", () => { state.s1 = Math.max(clampS(+s1.value), state.s0); drawScores(); render(); });
+drawScores();
 // genres: multiple choice, a title shows if it has any of the ticked genres
 const ALL_GENRES = [...new Set(DATA.flatMap(x => x.g))].sort();
 state.genres = state.genres.filter(g => ALL_GENRES.includes(g));
@@ -421,6 +457,7 @@ const matches = (x, skip) =>
   (state.fmt==="all" || group(x.fmt)===state.fmt) &&
   (skip==="co" || state.co==="all" || x.cos.includes(state.co)) &&
   (yearsAll() || (x.year >= state.y0 && x.year <= state.y1)) &&
+  (scoresAll() || (x.mal && x.mal.score >= state.s0 && x.mal.score <= state.s1)) &&
   (state.type==="all" || (state.type==="live") === isLive(x)) &&
   (!state.genres.length || state.genres.some(g => x.g.includes(g))) &&
   state.show[rateOf(x)] &&
@@ -477,6 +514,7 @@ function showActiveFilters(){
   if (state.co !== "all") on.push(state.co);
   if (state.type !== "anim") on.push(state.type === "live" ? "live action / hybrid" : "animated + live action");
   if (!yearsAll()) on.push(yearText());
+  if (!scoresAll()) on.push("MAL " + scoreText());
   if (state.genres.length) on.push(state.genres.join(" or "));
   const hiddenRates = RATES.filter(([k]) => !state.show[k]).map(([, label]) => label.toLowerCase());
   if (hiddenRates.length) on.push("hiding “" + hiddenRates.join("”, “") + "”");
@@ -487,10 +525,11 @@ function showActiveFilters(){
     `Showing ${shown.length} of ${DATA.length} titles` + (on.length ? ` · ${on.join(" · ")}` : "");
 }
 document.getElementById("resetFilters").onclick = () => {
-  Object.assign(state, DEFAULTS, {genres:[], q:"", y0:YMIN, y1:YMAX, show:{up:true, maybe:true, down:true, none:true}});
+  Object.assign(state, DEFAULTS, {genres:[], q:"", y0:YMIN, y1:YMAX, s0:SMIN, s1:SMAX, show:{up:true, maybe:true, down:true, none:true}});
   chipBox.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === "all"));
   for (const id of ["company","type"]) document.getElementById(id).value = DEFAULTS[id === "company" ? "co" : "type"];
   drawYears();
+  drawScores();
   genreOpts.querySelectorAll("input").forEach(i => i.checked = false);
   drawGenreSummary();
   document.getElementById("q").value = "";
